@@ -1,0 +1,200 @@
+                          base,     502,       stat,      random_load_test_u64,          1896,    f8,        100
+                          base,     502,       stat,     random_store_test_u64,          3348,    97,        100
+                          base,     630,       stat,      random_load_test_u64,          3118,    7c,        100
+                          base,     630,       stat,     random_store_test_u64,          5636,    2f,        100
+                          base,     758,       stat,      random_load_test_u64,          2456,    76,        100
+                          base,     758,       stat,     random_store_test_u64,          4562,    4a,        100
+                          base,     886,       stat,      random_load_test_u64,          1910,    46,        100
+                          base,     886,       stat,     random_store_test_u64,          3446,    32,        100
+                          base,    1014,       stat,      random_load_test_u64,          3128,    12,        100
+                          base,    1014,       stat,     random_store_test_u64,          5452,    4c,        100
+                          base,    1270,       stat,      random_load_test_u64,          1912,     7,        100
+                          base,    1270,       stat,     random_store_test_u64,          3352,    25,        100
+                          base,    1526,       stat,      random_load_test_u64,          3074,    63,        100
+                          base,    1526,       stat,     random_store_test_u64,          5650,    b2,        100
+                          base,    1782,       stat,      random_load_test_u64,          2516,    df,        100
+                          base,    1782,       stat,     random_store_test_u64,          4568,    54,        100
+                          base,    2038,       stat,      random_load_test_u64,          1888,    79,        100
+                          base,    2038,       stat,     random_store_test_u64,          3406,    96,        100
+                          base,    2550,       stat,      random_load_test_u64,          3074,    95,        100
+                          base,    2550,       stat,     random_store_test_u64,          5562,    9f,        100
+                          base,    3062,       stat,      random_load_test_u64,          1890,    e2,        100
+                          base,    3062,       stat,     random_store_test_u64,          3472,    fa,        100
+                          base,    3574,       stat,      random_load_test_u64,          3084,    35,        100
+                          base,    3574,       stat,     random_store_test_u64,          5582,    65,        100
+                          base,    4086,       stat,      random_load_test_u64,          2750,    32,        100
+                          base,    4086,       stat,     random_store_test_u64,          4900,    6d,        100
+                          base,    5110,       stat,      random_load_test_u64,          1922,    5e,        100
+                          base,    5110,       stat,     random_store_test_u64,          3474,    74,        100
+                          base,    6134,       stat,      random_load_test_u64,          3150,    bd,        100
+                          base,    6134,       stat,     random_store_test_u64,          5628,    23,        100
+                          base,    7158,       stat,      random_load_test_u64,          2246,    88,        100
+                          base,    7158,       stat,     random_store_test_u64,          3958,    e3,        100
+                          base,    8182,       stat,      random_load_test_u64,          1902,    a7,        100
+                          base,    8182,       stat,     random_store_test_u64,          3486,    7c,        100
+                          base,   10230,       stat,      random_load_test_u64,          2768,    4d,        100
+                          base,   10230,       stat,     random_store_test_u64,          5096,    ce,        100
+                          base,   12278,       stat,      random_load_test_u64,          1906,    af,        100
+                          base,   12278,       stat,     random_store_test_u64,          3516,    59,        100
+                          base,   14326,       stat,      random_load_test_u64,          3166,     3,        100
+                          base,   14326,       stat,     random_store_test_u64,          5536,    74,        100
+             page6_oramB64Z4L1,     502,       stat,      random_load_test_u64,          3474,    f8,        100
+             page6_oramB64Z4L1,     502,       stat,     random_store_test_u64,          8330,    97,        100
+             page6_oramB64Z4L1,     630,       stat,      random_load_test_u64,          4174,    7c,        100
+             page6_oramB64Z4L1,     630,       stat,     random_store_test_u64,          9624,    2f,        100
+             page6_oramB64Z4L1,     758,       stat,      random_load_test_u64,          4454,    76,        100
+             page6_oramB64Z4L1,     758,       stat,     random_store_test_u64,         10204,    4a,        100
+             page6_oramB64Z4L1,     886,       stat,      random_load_test_u64,          3526,    46,        100
+             page6_oramB64Z4L1,     886,       stat,     random_store_test_u64,          8282,    32,        100
+             page6_oramB64Z4L2,    1014,       stat,      random_load_test_u64,          4196,    12,        100
+             page6_oramB64Z4L2,    1014,       stat,     random_store_test_u64,          9572,    4c,        100
+             page6_oramB64Z4L2,    1270,       stat,      random_load_test_u64,          4182,     7,        100
+             page6_oramB64Z4L2,    1270,       stat,     random_store_test_u64,         10268,    25,        100
+             page6_oramB64Z4L2,    1526,       stat,      random_load_test_u64,          3458,    63,        100
+             page6_oramB64Z4L2,    1526,       stat,     random_store_test_u64,          8334,    b2,        100
+             page6_oramB64Z4L2,    1782,       stat,      random_load_test_u64,          3474,    df,        100
+             page6_oramB64Z4L2,    1782,       stat,     random_store_test_u64,          8354,    54,        100
+             page6_oramB64Z4L3,    2038,       stat,      random_load_test_u64,        311896,    79,        100
+             page6_oramB64Z4L3,    2038,       stat,     random_store_test_u64,        320444,    96,        100
+             page6_oramB64Z4L3,    2550,       stat,      random_load_test_u64,        750198,    95,        100
+             page6_oramB64Z4L3,    2550,       stat,     random_store_test_u64,       1275308,    9f,        100
+             page6_oramB64Z4L3,    3062,       stat,      random_load_test_u64,       1175516,    e2,        100
+             page6_oramB64Z4L3,    3062,       stat,     random_store_test_u64,        860910,    fa,        100
+             page6_oramB64Z4L3,    3574,       stat,      random_load_test_u64,       1682736,    35,        100
+             page6_oramB64Z4L3,    3574,       stat,     random_store_test_u64,       1379846,    65,        100
+             page6_oramB64Z4L4,    4086,       stat,      random_load_test_u64,       1782274,    32,        100
+             page6_oramB64Z4L4,    4086,       stat,     random_store_test_u64,       2184934,    6d,        100
+             page6_oramB64Z4L4,    5110,       stat,      random_load_test_u64,       2078602,    5e,        100
+             page6_oramB64Z4L4,    5110,       stat,     random_store_test_u64,       2003164,    74,        100
+             page6_oramB64Z4L4,    6134,       stat,      random_load_test_u64,       2288668,    bd,        100
+             page6_oramB64Z4L4,    6134,       stat,     random_store_test_u64,       1964320,    23,        100
+             page6_oramB64Z4L4,    7158,       stat,      random_load_test_u64,       2141700,    88,        100
+             page6_oramB64Z4L4,    7158,       stat,     random_store_test_u64,       2010250,    e3,        100
+             page6_oramB64Z4L5,    8182,       stat,      random_load_test_u64,       2499574,    a7,        100
+             page6_oramB64Z4L5,    8182,       stat,     random_store_test_u64,       2441632,    7c,        100
+             page6_oramB64Z4L5,   10230,       stat,      random_load_test_u64,       2658212,    4d,        100
+             page6_oramB64Z4L5,   10230,       stat,     random_store_test_u64,       2521008,    ce,        100
+             page6_oramB64Z4L5,   12278,       stat,      random_load_test_u64,       2543112,    af,        100
+             page6_oramB64Z4L5,   12278,       stat,     random_store_test_u64,       2646350,    59,        100
+             page6_oramB64Z4L5,   14326,       stat,      random_load_test_u64,       2787778,     3,        100
+             page6_oramB64Z4L5,   14326,       stat,     random_store_test_u64,       2761044,    74,        100
+       page6_stats_oramB64Z4L1,     502,       stat,  cnt_trans,   cnt_rasm, cnt_swap_in, cnt_swap_out, time_trans,  time_rasm, time_swap_in, time_swap_out
+       page6_stats_oramB64Z4L1,     502,       stat,        100,        100,          0,          0,       3266,      12742,          0,          0
+       page6_stats_oramB64Z4L1,     502,       stat,      random_load_test_u64,         19310,    f8,        100
+       page6_stats_oramB64Z4L1,     502,       stat,     random_store_test_u64,         20776,    97,        100
+       page6_stats_oramB64Z4L1,     502,       stat,  cnt_trans,   cnt_rasm, cnt_swap_in, cnt_swap_out, time_trans,  time_rasm, time_swap_in, time_swap_out
+       page6_stats_oramB64Z4L1,     502,       stat,        602,        602,          0,          0,      19312,      77646,          0,          0
+       page6_stats_oramB64Z4L1,     630,       stat,  cnt_trans,   cnt_rasm, cnt_swap_in, cnt_swap_out, time_trans,  time_rasm, time_swap_in, time_swap_out
+       page6_stats_oramB64Z4L1,     630,       stat,        100,        100,          0,          0,       3232,      12740,          0,          0
+       page6_stats_oramB64Z4L1,     630,       stat,      random_load_test_u64,         19332,    7c,        100
+       page6_stats_oramB64Z4L1,     630,       stat,     random_store_test_u64,         20972,    2f,        100
+       page6_stats_oramB64Z4L1,     630,       stat,  cnt_trans,   cnt_rasm, cnt_swap_in, cnt_swap_out, time_trans,  time_rasm, time_swap_in, time_swap_out
+       page6_stats_oramB64Z4L1,     630,       stat,        730,        730,          0,          0,      23238,      94144,          0,          0
+       page6_stats_oramB64Z4L1,     758,       stat,  cnt_trans,   cnt_rasm, cnt_swap_in, cnt_swap_out, time_trans,  time_rasm, time_swap_in, time_swap_out
+       page6_stats_oramB64Z4L1,     758,       stat,        100,        100,          0,          0,       3258,      12746,          0,          0
+       page6_stats_oramB64Z4L1,     758,       stat,      random_load_test_u64,         19310,    76,        100
+       page6_stats_oramB64Z4L1,     758,       stat,     random_store_test_u64,         21176,    4a,        100
+       page6_stats_oramB64Z4L1,     758,       stat,  cnt_trans,   cnt_rasm, cnt_swap_in, cnt_swap_out, time_trans,  time_rasm, time_swap_in, time_swap_out
+       page6_stats_oramB64Z4L1,     758,       stat,        858,        858,          0,          0,      27436,     110338,          0,          0
+       page6_stats_oramB64Z4L1,     886,       stat,  cnt_trans,   cnt_rasm, cnt_swap_in, cnt_swap_out, time_trans,  time_rasm, time_swap_in, time_swap_out
+       page6_stats_oramB64Z4L1,     886,       stat,        100,        100,          0,          0,       3264,      16900,          0,          0
+       page6_stats_oramB64Z4L1,     886,       stat,      random_load_test_u64,         23462,    46,        100
+       page6_stats_oramB64Z4L1,     886,       stat,     random_store_test_u64,         20998,    32,        100
+       page6_stats_oramB64Z4L1,     886,       stat,  cnt_trans,   cnt_rasm, cnt_swap_in, cnt_swap_out, time_trans,  time_rasm, time_swap_in, time_swap_out
+       page6_stats_oramB64Z4L1,     886,       stat,        986,        986,          0,          0,      31516,     126362,          0,          0
+       page6_stats_oramB64Z4L2,    1014,       stat,  cnt_trans,   cnt_rasm, cnt_swap_in, cnt_swap_out, time_trans,  time_rasm, time_swap_in, time_swap_out
+       page6_stats_oramB64Z4L2,    1014,       stat,        100,        100,          0,          0,       3242,      12486,          0,          0
+       page6_stats_oramB64Z4L2,    1014,       stat,      random_load_test_u64,         19070,    12,        100
+       page6_stats_oramB64Z4L2,    1014,       stat,     random_store_test_u64,         20986,    4c,        100
+       page6_stats_oramB64Z4L2,    1014,       stat,  cnt_trans,   cnt_rasm, cnt_swap_in, cnt_swap_out, time_trans,  time_rasm, time_swap_in, time_swap_out
+       page6_stats_oramB64Z4L2,    1014,       stat,       1114,       1114,          0,          0,      35604,     142514,          0,          0
+       page6_stats_oramB64Z4L2,    1270,       stat,  cnt_trans,   cnt_rasm, cnt_swap_in, cnt_swap_out, time_trans,  time_rasm, time_swap_in, time_swap_out
+       page6_stats_oramB64Z4L2,    1270,       stat,        100,        100,          0,          0,       3196,      12486,          0,          0
+       page6_stats_oramB64Z4L2,    1270,       stat,      random_load_test_u64,         19096,     7,        100
+       page6_stats_oramB64Z4L2,    1270,       stat,     random_store_test_u64,         20822,    25,        100
+       page6_stats_oramB64Z4L2,    1270,       stat,  cnt_trans,   cnt_rasm, cnt_swap_in, cnt_swap_out, time_trans,  time_rasm, time_swap_in, time_swap_out
+       page6_stats_oramB64Z4L2,    1270,       stat,       1370,       1370,          0,          0,      42642,     175348,          0,          0
+       page6_stats_oramB64Z4L2,    1526,       stat,  cnt_trans,   cnt_rasm, cnt_swap_in, cnt_swap_out, time_trans,  time_rasm, time_swap_in, time_swap_out
+       page6_stats_oramB64Z4L2,    1526,       stat,        100,        100,          0,          0,       3292,      12814,          0,          0
+       page6_stats_oramB64Z4L2,    1526,       stat,      random_load_test_u64,         19384,    63,        100
+       page6_stats_oramB64Z4L2,    1526,       stat,     random_store_test_u64,         21050,    b2,        100
+       page6_stats_oramB64Z4L2,    1526,       stat,  cnt_trans,   cnt_rasm, cnt_swap_in, cnt_swap_out, time_trans,  time_rasm, time_swap_in, time_swap_out
+       page6_stats_oramB64Z4L2,    1526,       stat,       1626,       1626,          0,          0,      52000,     207304,          0,          0
+       page6_stats_oramB64Z4L2,    1782,       stat,  cnt_trans,   cnt_rasm, cnt_swap_in, cnt_swap_out, time_trans,  time_rasm, time_swap_in, time_swap_out
+       page6_stats_oramB64Z4L2,    1782,       stat,        100,        100,          0,          0,       3206,      12504,          0,          0
+       page6_stats_oramB64Z4L2,    1782,       stat,      random_load_test_u64,         19096,    df,        100
+       page6_stats_oramB64Z4L2,    1782,       stat,     random_store_test_u64,         20902,    54,        100
+       page6_stats_oramB64Z4L2,    1782,       stat,  cnt_trans,   cnt_rasm, cnt_swap_in, cnt_swap_out, time_trans,  time_rasm, time_swap_in, time_swap_out
+       page6_stats_oramB64Z4L2,    1782,       stat,       1882,       1882,          0,          0,      60072,     239576,          0,          0
+       page6_stats_oramB64Z4L3,    2038,       stat,  cnt_trans,   cnt_rasm, cnt_swap_in, cnt_swap_out, time_trans,  time_rasm, time_swap_in, time_swap_out
+       page6_stats_oramB64Z4L3,    2038,       stat,        100,        100,         12,         12,       3172,     321586,     154966,     152582
+       page6_stats_oramB64Z4L3,    2038,       stat,      random_load_test_u64,        328152,    79,        100
+       page6_stats_oramB64Z4L3,    2038,       stat,     random_store_test_u64,        333934,    96,        100
+       page6_stats_oramB64Z4L3,    2038,       stat,  cnt_trans,   cnt_rasm, cnt_swap_in, cnt_swap_out, time_trans,  time_rasm, time_swap_in, time_swap_out
+       page6_stats_oramB64Z4L3,    2038,       stat,       2138,       2138,         17,         17,      68344,     715940,     220586,     221692
+       page6_stats_oramB64Z4L3,    2550,       stat,  cnt_trans,   cnt_rasm, cnt_swap_in, cnt_swap_out, time_trans,  time_rasm, time_swap_in, time_swap_out
+       page6_stats_oramB64Z4L3,    2550,       stat,        100,        100,         24,         24,       3256,     631398,     308180,     307428
+       page6_stats_oramB64Z4L3,    2550,       stat,      random_load_test_u64,        637984,    95,        100
+       page6_stats_oramB64Z4L3,    2550,       stat,     random_store_test_u64,       1064402,    9f,        100
+       page6_stats_oramB64Z4L3,    2550,       stat,  cnt_trans,   cnt_rasm, cnt_swap_in, cnt_swap_out, time_trans,  time_rasm, time_swap_in, time_swap_out
+       page6_stats_oramB64Z4L3,    2550,       stat,       2650,       2650,         79,         79,      85826,    2382754,    1021130,    1013868
+       page6_stats_oramB64Z4L3,    3062,       stat,  cnt_trans,   cnt_rasm, cnt_swap_in, cnt_swap_out, time_trans,  time_rasm, time_swap_in, time_swap_out
+       page6_stats_oramB64Z4L3,    3062,       stat,        100,        100,         43,         43,       3286,    1130802,     556534,     556318
+       page6_stats_oramB64Z4L3,    3062,       stat,      random_load_test_u64,       1137390,    e2,        100
+       page6_stats_oramB64Z4L3,    3062,       stat,     random_store_test_u64,        841870,    fa,        100
+       page6_stats_oramB64Z4L3,    3062,       stat,  cnt_trans,   cnt_rasm, cnt_swap_in, cnt_swap_out, time_trans,  time_rasm, time_swap_in, time_swap_out
+       page6_stats_oramB64Z4L3,    3062,       stat,       3162,       3162,         78,         78,     101732,    2412128,    1006056,     994702
+       page6_stats_oramB64Z4L3,    3574,       stat,  cnt_trans,   cnt_rasm, cnt_swap_in, cnt_swap_out, time_trans,  time_rasm, time_swap_in, time_swap_out
+       page6_stats_oramB64Z4L3,    3574,       stat,        100,        100,         56,         56,       3204,    1466286,     725014,     721336
+       page6_stats_oramB64Z4L3,    3574,       stat,      random_load_test_u64,       1472994,    35,        100
+       page6_stats_oramB64Z4L3,    3574,       stat,     random_store_test_u64,       1368312,    65,        100
+       page6_stats_oramB64Z4L3,    3574,       stat,  cnt_trans,   cnt_rasm, cnt_swap_in, cnt_swap_out, time_trans,  time_rasm, time_swap_in, time_swap_out
+       page6_stats_oramB64Z4L3,    3574,       stat,       3674,       3674,        107,        107,     117454,    3234198,    1387346,    1367610
+       page6_stats_oramB64Z4L4,    4086,       stat,  cnt_trans,   cnt_rasm, cnt_swap_in, cnt_swap_out, time_trans,  time_rasm, time_swap_in, time_swap_out
+       page6_stats_oramB64Z4L4,    4086,       stat,        100,        100,         57,         57,       3230,    1571546,     772098,     779590
+       page6_stats_oramB64Z4L4,    4086,       stat,      random_load_test_u64,       1578214,    32,        100
+       page6_stats_oramB64Z4L4,    4086,       stat,     random_store_test_u64,       1920052,    6d,        100
+       page6_stats_oramB64Z4L4,    4086,       stat,  cnt_trans,   cnt_rasm, cnt_swap_in, cnt_swap_out, time_trans,  time_rasm, time_swap_in, time_swap_out
+       page6_stats_oramB64Z4L4,    4086,       stat,       4186,       4186,        130,        130,     133796,    4064528,    1773772,    1744138
+       page6_stats_oramB64Z4L4,    5110,       stat,  cnt_trans,   cnt_rasm, cnt_swap_in, cnt_swap_out, time_trans,  time_rasm, time_swap_in, time_swap_out
+       page6_stats_oramB64Z4L4,    5110,       stat,        100,        100,         67,         67,       3206,    1827720,     900772,     904914
+       page6_stats_oramB64Z4L4,    5110,       stat,      random_load_test_u64,       1834308,    5e,        100
+       page6_stats_oramB64Z4L4,    5110,       stat,     random_store_test_u64,       1871764,    74,        100
+       page6_stats_oramB64Z4L4,    5110,       stat,  cnt_trans,   cnt_rasm, cnt_swap_in, cnt_swap_out, time_trans,  time_rasm, time_swap_in, time_swap_out
+       page6_stats_oramB64Z4L4,    5110,       stat,       5210,       5210,        143,        143,     166474,    4570510,    1972938,    1918006
+       page6_stats_oramB64Z4L4,    6134,       stat,  cnt_trans,   cnt_rasm, cnt_swap_in, cnt_swap_out, time_trans,  time_rasm, time_swap_in, time_swap_out
+       page6_stats_oramB64Z4L4,    6134,       stat,        100,        100,         78,         78,       3268,    2129732,    1052406,    1054068
+       page6_stats_oramB64Z4L4,    6134,       stat,      random_load_test_u64,       2136312,    bd,        100
+       page6_stats_oramB64Z4L4,    6134,       stat,     random_store_test_u64,       1991064,    23,        100
+       page6_stats_oramB64Z4L4,    6134,       stat,  cnt_trans,   cnt_rasm, cnt_swap_in, cnt_swap_out, time_trans,  time_rasm, time_swap_in, time_swap_out
+       page6_stats_oramB64Z4L4,    6134,       stat,       6234,       6234,        158,        158,     200810,    5104776,    2178106,    2114116
+       page6_stats_oramB64Z4L4,    7158,       stat,  cnt_trans,   cnt_rasm, cnt_swap_in, cnt_swap_out, time_trans,  time_rasm, time_swap_in, time_swap_out
+       page6_stats_oramB64Z4L4,    7158,       stat,        100,        100,         79,         79,       3230,    2169062,    1079148,    1066258
+       page6_stats_oramB64Z4L4,    7158,       stat,      random_load_test_u64,       2175684,    88,        100
+       page6_stats_oramB64Z4L4,    7158,       stat,     random_store_test_u64,       2040996,    e3,        100
+       page6_stats_oramB64Z4L4,    7158,       stat,  cnt_trans,   cnt_rasm, cnt_swap_in, cnt_swap_out, time_trans,  time_rasm, time_swap_in, time_swap_out
+       page6_stats_oramB64Z4L4,    7158,       stat,       7258,       7258,        179,        179,     234652,    5818024,    2469660,    2400738
+       page6_stats_oramB64Z4L5,    8182,       stat,  cnt_trans,   cnt_rasm, cnt_swap_in, cnt_swap_out, time_trans,  time_rasm, time_swap_in, time_swap_out
+       page6_stats_oramB64Z4L5,    8182,       stat,        100,        100,         80,         80,       3202,    2524474,    1254428,    1245158
+       page6_stats_oramB64Z4L5,    8182,       stat,      random_load_test_u64,       2531168,    a7,        100
+       page6_stats_oramB64Z4L5,    8182,       stat,     random_store_test_u64,       2468918,    7c,        100
+       page6_stats_oramB64Z4L5,    8182,       stat,  cnt_trans,   cnt_rasm, cnt_swap_in, cnt_swap_out, time_trans,  time_rasm, time_swap_in, time_swap_out
+       page6_stats_oramB64Z4L5,    8182,       stat,       8282,       8282,        189,        189,     264688,    6985562,    2961818,    2942518
+       page6_stats_oramB64Z4L5,   10230,       stat,  cnt_trans,   cnt_rasm, cnt_swap_in, cnt_swap_out, time_trans,  time_rasm, time_swap_in, time_swap_out
+       page6_stats_oramB64Z4L5,   10230,       stat,        100,        100,         85,         85,       3202,    2687546,    1338912,    1322778
+       page6_stats_oramB64Z4L5,   10230,       stat,      random_load_test_u64,       2694280,    4d,        100
+       page6_stats_oramB64Z4L5,   10230,       stat,     random_store_test_u64,       2536146,    ce,        100
+       page6_stats_oramB64Z4L5,   10230,       stat,  cnt_trans,   cnt_rasm, cnt_swap_in, cnt_swap_out, time_trans,  time_rasm, time_swap_in, time_swap_out
+       page6_stats_oramB64Z4L5,   10230,       stat,      10330,      10330,        218,        218,     330162,    8158258,    3416218,    3403840
+       page6_stats_oramB64Z4L5,   12278,       stat,  cnt_trans,   cnt_rasm, cnt_swap_in, cnt_swap_out, time_trans,  time_rasm, time_swap_in, time_swap_out
+       page6_stats_oramB64Z4L5,   12278,       stat,        100,        100,         81,         81,       3216,    2557684,    1269596,    1260380
+       page6_stats_oramB64Z4L5,   12278,       stat,      random_load_test_u64,       2564574,    af,        100
+       page6_stats_oramB64Z4L5,   12278,       stat,     random_store_test_u64,       2637226,    59,        100
+       page6_stats_oramB64Z4L5,   12278,       stat,  cnt_trans,   cnt_rasm, cnt_swap_in, cnt_swap_out, time_trans,  time_rasm, time_swap_in, time_swap_out
+       page6_stats_oramB64Z4L5,   12278,       stat,      12378,      12378,        273,        273,     395578,   10156952,    4288296,    4251258
+       page6_stats_oramB64Z4L5,   14326,       stat,  cnt_trans,   cnt_rasm, cnt_swap_in, cnt_swap_out, time_trans,  time_rasm, time_swap_in, time_swap_out
+       page6_stats_oramB64Z4L5,   14326,       stat,        100,        100,         89,         89,       3190,    2812424,    1396076,    1386564
+       page6_stats_oramB64Z4L5,   14326,       stat,      random_load_test_u64,       2819018,     3,        100
+       page6_stats_oramB64Z4L5,   14326,       stat,     random_store_test_u64,       2796032,    74,        100
+       page6_stats_oramB64Z4L5,   14326,       stat,  cnt_trans,   cnt_rasm, cnt_swap_in, cnt_swap_out, time_trans,  time_rasm, time_swap_in, time_swap_out
+       page6_stats_oramB64Z4L5,   14326,       stat,      14426,      14426,        310,        310,     461152,   11578634,    4865830,    4835900

@@ -1,0 +1,41 @@
+   1000 aes                qsort_u32      62666816
+ 1000 page6                qsort_u32      26735150
+   2000 aes                qsort_u32     145501230
+ 2000 page6                qsort_u32      72066250
+   3000 aes                qsort_u32     231297900
+ 3000 page6                qsort_u32     118982840
+   4000 aes                qsort_u32     323842028
+ 4000 page6                qsort_u32     170831672
+   5000 aes                qsort_u32     419788328
+ 5000 page6                qsort_u32     226601940
+   6000 aes                qsort_u32     522783834
+ 6000 page6                qsort_u32     284851664
+   7000 aes                qsort_u32     612078540
+ 7000 page6                qsort_u32     338672424
+   8000 aes                qsort_u32     694400420
+ 8000 page6                qsort_u32     387815606
+   9000 aes                qsort_u32     826521668
+ 9000 page6                qsort_u32     467942136
+  10000 aes                qsort_u32     927668754
+10000 page6                qsort_u32     529801348
+  11000 aes                qsort_u32    1027115188
+11000 page6                qsort_u32     591290794
+  12000 aes                qsort_u32    1129353526
+12000 page6                qsort_u32     654518926
+  13000 aes                qsort_u32    1245529994
+13000 page6                qsort_u32     722854984
+  14000 aes                qsort_u32    1367963798
+14000 page6                qsort_u32     800577368
+  15000 aes                qsort_u32    1465957822
+15000 page6                qsort_u32     867814458
+  16000 aes                qsort_u32    1569486952
+16000 page6                qsort_u32     932147858
+  17000 aes                qsort_u32    1680458360
+17000 page6                qsort_u32    1213221694
+  18000 aes                qsort_u32    1822828482
+18000 page6                qsort_u32    2857009342
+  19000 aes                qsort_u32    1916085490
+19000 page6                qsort_u32    6583569738
+  20000 aes                qsort_u32    2024050798
+20000 page6                qsort_u32   12259687704
+  21000 aes                qsort_u32    2143989762

@@ -1,0 +1,10 @@
+sprintf(buffer,"**System used for compilation:\n");
+output_string(buffer);
+sprintf(buffer,"**Linux ssone 5.15.0-102-generic #112-Ubuntu SMP Tue Mar 5 16:50:32 UTC 2024 x86\n");
+output_string(buffer);
+sprintf(buffer,"**C compiler: gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) \n");
+output_string(buffer);
+sprintf(buffer,"**libc: /lib/x86_64-linux-gnu/libc.so.6\n");
+output_string(buffer);
+sprintf(buffer,"**Date of compilation: Thu Apr 25 08:00:30 PM KST 2024\n");
+output_string(buffer);

@@ -1,0 +1,22 @@
+--------- LEN=2000 CNT=2000000 ---------
+base: 
+                     TEST          TICK       HASH
+     random_swap_test_u64     125540740   945e5858
+      random_swap_test_u8      94723560   945e5858
+      linear_swap_test_u8      44734794   45218b80
+xor2: 
+                     TEST          TICK       HASH
+     random_swap_test_u64     137456322   945e5858
+      random_swap_test_u8     111532280   945e5858
+      linear_swap_test_u8      68858370   45218b80
+aes: 
+__cmi_malloc: ret=0x42e1e0 size=7d0
+                     TEST          TICK       HASH
+     random_swap_test_u64     590193898   945e5858
+      random_swap_test_u8     786569574   945e5858
+      linear_swap_test_u8     743907066   45218b80
+vmi_page_aes: 
+                     TEST          TICK       HASH
+     random_swap_test_u64    1316079090   945e5858
+      random_swap_test_u8    1422977226   945e5858
+      linear_swap_test_u8     295302000   45218b80

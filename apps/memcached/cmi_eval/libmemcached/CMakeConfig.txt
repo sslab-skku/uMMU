@@ -1,0 +1,93 @@
+if(NOT CMAKE_BUILD_TYPE AND NOT CMAKE_CONFIGURATION_TYPES)
+    if(NOT DEFINED ENV{CMAKE_BUILD_TYPE})
+        set(ENV{CMAKE_BUILD_TYPE} Release)
+    endif()
+    set(CMAKE_BUILD_TYPE $ENV{CMAKE_BUILD_TYPE}
+        CACHE STRING "build type (Release, Debug, ...)" FORCE)
+endif()
+set(CMAKE_INSTALL_PREFIX /usr/local
+    CACHE PATH "install prefix")
+
+if(APPLE)
+    set(CMAKE_INSTALL_RPATH @loader_path
+        CACHE STRING "set relative rpath")
+elseif(UNIX)
+    # FIXME
+    set(CMAKE_INSTALL_RPATH "\$ORIGIN"
+        CACHE STRING "set relative rpath")
+endif()
+
+if(${CMAKE_VERSION} VERSION_LESS "3.12")
+    set(TARGET_NAMELINK_COMPONENT "")
+else()
+    set(TARGET_NAMELINK_COMPONENT NAMELINK_COMPONENT dev DESTINATION ${CMAKE_INSTALL_LIBDIR})
+endif()
+
+option(BUILD_TESTING        "whether to enable build of the test suite"
+        $ENV{BUILD_TESTING})
+option(BUILD_DOCSONLY       "build *only* documentation"
+        $ENV{BUILD_DOCSONLY})
+option(BUILD_DOCS           "build documentation"
+        ${BUILD_DOCSONLY})
+option(BUILD_DOCS_HTML      "build HTML docs"
+        ${BUILD_DOCS})
+option(BUILD_DOCS_MAN       "build manpages"
+        ${BUILD_DOCS})
+option(BUILD_DOCS_MANGZ     "gzip manpages"
+        ${BUILD_DOCS_MAN})
+if(BUILD_DOCS_MANGZ)
+    set(BUILD_DOCS_MAN ON CACHE BOOL "forced by BUILD_DOCS_MANGZ" FORCE)
+endif()
+if(BUILD_DOCS_MAN OR BUILD_DOCS_HTML)
+    set(BUILD_DOCS ON CACHE BOOL "forced by BUILD_DOCS_MAN OR BUILD_DOCS_HTML" FORCE)
+endif()
+
+set(ENABLE_SANITIZERS "$ENV{ENABLE_SANITIZERS}"
+        CACHE STRING "sanitizers to enable (e.g. address;undefined ...)")
+option(ENABLE_SASL          "enable SASL support"
+        $ENV{ENABLE_SASL})
+option(ENABLE_DTRACE        "enable dtrace support"
+        $ENV{ENABLE_DTRACE})
+option(ENABLE_HASH_HSIEH    "enable hsieh hash support"
+        $ENV{ENABLE_HASH_HSIEH})
+if(NOT DEFINED ENV{ENABLE_HASH_FNV64})
+    set(ENV{ENABLE_HASH_FNV64} ON)
+endif()
+option(ENABLE_HASH_FNV64    "enable fnv64 hash support"
+        $ENV{ENABLE_HASH_FNV64})
+if(NOT DEFINED ENV{ENABLE_HASH_MURMUR})
+    set(ENV{ENABLE_HASH_MURMUR} ON)
+endif()
+option(ENABLE_HASH_MURMUR   "enable murmur hash support"
+        $ENV{ENABLE_HASH_MURMUR})
+if(NOT DEFINED ENV{ENABLE_MEMASLAP})
+    set(ENV{ENABLE_MEMASLAP} ON)
+endif()
+option(ENABLE_MEMASLAP      "enable memaslap client"
+       $ENV{ENABLE_MEMASLAP})
+
+if(BUILD_TESTING)
+    set(MEMCACHED_BINARY "$ENV{MEMCACHED_BINARY}"
+            CACHE STRING "memcached binary")
+    set(CMAKE_CTEST_ARGUMENTS "--output-on-failure")
+    if(CMAKE_VERSION VERSION_GREATER_EQUAL 3.17)
+        # available since CMake 3.17
+        list(APPEND CMAKE_CTEST_ARGUMENTS --repeat until-pass:2)
+        if(NOT "$ENV{CIRRUS_CI}")
+            list(APPEND CMAKE_CTEST_ARGUMENTS -j2)
+        endif()
+    endif()
+endif()
+
+if(BUILD_DOCS)
+    set(SPHINX_OPTIONS ""
+        CACHE STRING "additional sphinx-build command line options")
+    set(SPHINX_THEME "sphinx_rtd_theme"
+        CACHE STRING "sphinx HTML theme")
+    set(SPHINX_THEME_OPTIONS ""
+        CACHE STRING "sphinx HTML theme options")
+    set(SPHINX_EXTENSIONS ""
+        CACHE STRING "comma separated list of quoted sphinx extensions")
+    set(SPHINX_CONF_APPEND ""
+        CACHE STRING "append verbatim code to sphinx' conf.py")
+endif()

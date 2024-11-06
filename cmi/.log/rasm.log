@@ -1,0 +1,221 @@
+               dummy,    1700,                      TEST,          TICK,       HASH
+               dummy,    1700,      random_load_test_u64,      10545864,          0
+               dummy,    1700,      linear_load_test_u64,       7215976,          0
+               dummy,    1700,     random_store_test_u64,       6476488,         81
+               dummy,    1700,     linear_store_test_u64,       6473628,         81
+               dummy,    1700,    random_load_test_u64x8,       5228804,          0
+               dummy,    1700,      random_swap_test_u64,       4200076,         81
+               dummy,    1700,       random_swap_test_u8,       4209322,         81
+               dummy,    1700,       linear_swap_test_u8,            34,         81
+               dummy,    1700,             binsearch_u64,         58154,         81
+               dummy,    1700,                 qsort_u32,           362,         d1
+               dummy,    1700,                 qsort_u64,           354,         d1
+               dummy,    1700,                 radixsort,       1373274,         51
+                base,    1700,                      TEST,          TICK,       HASH
+                base,    1700,      random_load_test_u64,      17801258,         7a
+                base,    1700,      linear_load_test_u64,      12991716,          4
+                base,    1700,     random_store_test_u64,      15320008,         e5
+                base,    1700,     linear_store_test_u64,      15067818,          6
+                base,    1700,    random_load_test_u64x8,      36411268,         a3
+                base,    1700,      random_swap_test_u64,      23149782,          6
+                base,    1700,       random_swap_test_u8,      23251418,         26
+                base,    1700,       linear_swap_test_u8,      22354880,         d0
+                base,    1700,             binsearch_u64,         67178,         81
+                base,    1700,                 qsort_u32,        881584,         51
+                base,    1700,                 qsort_u64,        392630,         d1
+                base,    1700,                 radixsort,        947932,         51
+         rasm_indjmp,    1700,                      TEST,          TICK,       HASH
+         rasm_indjmp,    1700,      random_load_test_u64,      68145570,         7a
+         rasm_indjmp,    1700,      linear_load_test_u64,      22429520,          4
+         rasm_indjmp,    1700,     random_store_test_u64,      64717186,         e5
+         rasm_indjmp,    1700,     linear_store_test_u64,      28228366,          6
+         rasm_indjmp,    1700,    random_load_test_u64x8,     149605466,         a3
+         rasm_indjmp,    1700,      random_swap_test_u64,     151235358,          6
+         rasm_indjmp,    1700,       random_swap_test_u8,     195133018,         26
+         rasm_indjmp,    1700,       linear_swap_test_u8,      81774146,         d0
+         rasm_indjmp,    1700,             binsearch_u64,        117108,         81
+         rasm_indjmp,    1700,                 qsort_u32,       3294222,         51
+         rasm_indjmp,    1700,                 qsort_u64,       1226512,         d1
+         rasm_indjmp,    1700,                 radixsort,       2962846,         51
+     rasm_indjmp_sse,    1700,                      TEST,          TICK,       HASH
+     rasm_indjmp_sse,    1700,      random_load_test_u64,      73617310,         7a
+     rasm_indjmp_sse,    1700,      linear_load_test_u64,      41501950,          4
+     rasm_indjmp_sse,    1700,     random_store_test_u64,      70491466,         e5
+     rasm_indjmp_sse,    1700,     linear_store_test_u64,      35463048,          6
+     rasm_indjmp_sse,    1700,    random_load_test_u64x8,     275352880,         a3
+     rasm_indjmp_sse,    1700,      random_swap_test_u64,     196636994,          6
+     rasm_indjmp_sse,    1700,       random_swap_test_u8,     248704832,         26
+     rasm_indjmp_sse,    1700,       linear_swap_test_u8,     151028514,         d0
+     rasm_indjmp_sse,    1700,             binsearch_u64,        220762,         81
+     rasm_indjmp_sse,    1700,                 qsort_u32,       5106300,         51
+     rasm_indjmp_sse,    1700,                 qsort_u64,       1841636,         d1
+     rasm_indjmp_sse,    1700,                 radixsort,       5041326,         51
+    rasm_indjmp_sse2,    1700,                      TEST,          TICK,       HASH
+    rasm_indjmp_sse2,    1700,      random_load_test_u64,      75675180,         7a
+    rasm_indjmp_sse2,    1700,      linear_load_test_u64,      51171198,          4
+    rasm_indjmp_sse2,    1700,     random_store_test_u64,      71159744,         e5
+    rasm_indjmp_sse2,    1700,     linear_store_test_u64,      49233792,          6
+    rasm_indjmp_sse2,    1700,    random_load_test_u64x8,     347740432,         a3
+    rasm_indjmp_sse2,    1700,      random_swap_test_u64,     209565392,          6
+    rasm_indjmp_sse2,    1700,       random_swap_test_u8,     287843840,         26
+    rasm_indjmp_sse2,    1700,       linear_swap_test_u8,     237644488,         d0
+    rasm_indjmp_sse2,    1700,             binsearch_u64,        303774,         81
+    rasm_indjmp_sse2,    1700,                 qsort_u32,       7525438,         51
+    rasm_indjmp_sse2,    1700,                 qsort_u64,       2483146,         d1
+    rasm_indjmp_sse2,    1700,                 radixsort,       7148518,         51
+         rasm_dirjmp,    1700,                      TEST,          TICK,       HASH
+         rasm_dirjmp,    1700,      random_load_test_u64,      78780144,         7a
+         rasm_dirjmp,    1700,      linear_load_test_u64,      36024024,          4
+         rasm_dirjmp,    1700,     random_store_test_u64,      76243460,         e5
+         rasm_dirjmp,    1700,     linear_store_test_u64,      39060038,          6
+         rasm_dirjmp,    1700,    random_load_test_u64x8,     245966456,         a3
+         rasm_dirjmp,    1700,      random_swap_test_u64,     205947106,          6
+         rasm_dirjmp,    1700,       random_swap_test_u8,     266984872,         26
+         rasm_dirjmp,    1700,       linear_swap_test_u8,     170926574,         d0
+         rasm_dirjmp,    1700,             binsearch_u64,        133670,         81
+         rasm_dirjmp,    1700,                 qsort_u32,       6075632,         51
+         rasm_dirjmp,    1700,                 qsort_u64,       2133536,         d1
+         rasm_dirjmp,    1700,                 radixsort,       5396060,         51
+     rasm_dirjmp_sse,    1700,                      TEST,          TICK,       HASH
+     rasm_dirjmp_sse,    1700,      random_load_test_u64,      83448888,         7a
+     rasm_dirjmp_sse,    1700,      linear_load_test_u64,      47575338,          4
+     rasm_dirjmp_sse,    1700,     random_store_test_u64,      80843254,         e5
+     rasm_dirjmp_sse,    1700,     linear_store_test_u64,      49014510,          6
+     rasm_dirjmp_sse,    1700,    random_load_test_u64x8,     334052364,         a3
+     rasm_dirjmp_sse,    1700,      random_swap_test_u64,     246414544,          6
+     rasm_dirjmp_sse,    1700,       random_swap_test_u8,     326294628,         26
+     rasm_dirjmp_sse,    1700,       linear_swap_test_u8,     231506006,         d0
+     rasm_dirjmp_sse,    1700,             binsearch_u64,        215980,         81
+     rasm_dirjmp_sse,    1700,                 qsort_u32,       7885494,         51
+     rasm_dirjmp_sse,    1700,                 qsort_u64,       2751466,         d1
+     rasm_dirjmp_sse,    1700,                 radixsort,       7115568,         51
+    rasm_dirjmp_sse2,    1700,                      TEST,          TICK,       HASH
+    rasm_dirjmp_sse2,    1700,      random_load_test_u64,      84603918,         7a
+    rasm_dirjmp_sse2,    1700,      linear_load_test_u64,      53124404,          4
+    rasm_dirjmp_sse2,    1700,     random_store_test_u64,      82281902,         e5
+    rasm_dirjmp_sse2,    1700,     linear_store_test_u64,      55445856,          6
+    rasm_dirjmp_sse2,    1700,    random_load_test_u64x8,     392883934,         a3
+    rasm_dirjmp_sse2,    1700,      random_swap_test_u64,     260275178,          6
+    rasm_dirjmp_sse2,    1700,       random_swap_test_u8,     357335088,         26
+    rasm_dirjmp_sse2,    1700,       linear_swap_test_u8,     277802098,         d0
+    rasm_dirjmp_sse2,    1700,             binsearch_u64,        301636,         81
+    rasm_dirjmp_sse2,    1700,                 qsort_u32,       9129280,         51
+    rasm_dirjmp_sse2,    1700,                 qsort_u64,       3078818,         d1
+    rasm_dirjmp_sse2,    1700,                 radixsort,       8316764,         51
+           rasm_cmov,    1700,                      TEST,          TICK,       HASH
+           rasm_cmov,    1700,      random_load_test_u64,      70609688,         7a
+           rasm_cmov,    1700,      linear_load_test_u64,      69083130,          4
+           rasm_cmov,    1700,     random_store_test_u64,      70742138,         e5
+           rasm_cmov,    1700,     linear_store_test_u64,      71412314,          6
+           rasm_cmov,    1700,    random_load_test_u64x8,     330867576,         a3
+           rasm_cmov,    1700,      random_swap_test_u64,     185606998,          6
+           rasm_cmov,    1700,       random_swap_test_u8,     262602160,         26
+           rasm_cmov,    1700,       linear_swap_test_u8,     266015156,         d0
+           rasm_cmov,    1700,             binsearch_u64,        323976,         81
+           rasm_cmov,    1700,                 qsort_u32,       7773804,         51
+           rasm_cmov,    1700,                 qsort_u64,       2408992,         d1
+           rasm_cmov,    1700,                 radixsort,       7830682,         51
+       rasm_cmov_sse,    1700,                      TEST,          TICK,       HASH
+       rasm_cmov_sse,    1700,      random_load_test_u64,      73002238,         7a
+       rasm_cmov_sse,    1700,      linear_load_test_u64,      72181148,          4
+       rasm_cmov_sse,    1700,     random_store_test_u64,      75667712,         e5
+       rasm_cmov_sse,    1700,     linear_store_test_u64,      75299264,          6
+       rasm_cmov_sse,    1700,    random_load_test_u64x8,     406132768,         a3
+       rasm_cmov_sse,    1700,      random_swap_test_u64,     219766008,          6
+       rasm_cmov_sse,    1700,       random_swap_test_u8,     344422190,         26
+       rasm_cmov_sse,    1700,       linear_swap_test_u8,     315983608,         d0
+       rasm_cmov_sse,    1700,             binsearch_u64,        421968,         81
+       rasm_cmov_sse,    1700,                 qsort_u32,       9423248,         51
+       rasm_cmov_sse,    1700,                 qsort_u64,       3003728,         d1
+       rasm_cmov_sse,    1700,                 radixsort,       9416006,         51
+      rasm_cmov_sse2,    1700,                      TEST,          TICK,       HASH
+      rasm_cmov_sse2,    1700,      random_load_test_u64,      81320184,         7a
+      rasm_cmov_sse2,    1700,      linear_load_test_u64,      80305734,          4
+      rasm_cmov_sse2,    1700,     random_store_test_u64,      80808662,         e5
+      rasm_cmov_sse2,    1700,     linear_store_test_u64,      80637276,          6
+      rasm_cmov_sse2,    1700,    random_load_test_u64x8,     532720064,         a3
+      rasm_cmov_sse2,    1700,      random_swap_test_u64,     275311528,          6
+      rasm_cmov_sse2,    1700,       random_swap_test_u8,     408164528,         26
+      rasm_cmov_sse2,    1700,       linear_swap_test_u8,     407380776,         d0
+      rasm_cmov_sse2,    1700,             binsearch_u64,        494912,         81
+      rasm_cmov_sse2,    1700,                 qsort_u32,      12155792,         51
+      rasm_cmov_sse2,    1700,                 qsort_u64,       3849896,         d1
+      rasm_cmov_sse2,    1700,                 radixsort,      11816000,         51
+      rasm_perm_cmov,    1700,                      TEST,          TICK,       HASH
+      rasm_perm_cmov,    1700,      random_load_test_u64,      28588060,         7a
+      rasm_perm_cmov,    1700,      linear_load_test_u64,      28170380,          4
+      rasm_perm_cmov,    1700,     random_store_test_u64,      70656408,         e5
+      rasm_perm_cmov,    1700,     linear_store_test_u64,      71379372,          6
+      rasm_perm_cmov,    1700,    random_load_test_u64x8,     199731718,         a3
+      rasm_perm_cmov,    1700,      random_swap_test_u64,     126707770,          6
+      rasm_perm_cmov,    1700,       random_swap_test_u8,     176973890,         26
+      rasm_perm_cmov,    1700,       linear_swap_test_u8,     176101496,         d0
+      rasm_perm_cmov,    1700,             binsearch_u64,        209696,         81
+      rasm_perm_cmov,    1700,                 qsort_u32,       5313732,         51
+      rasm_perm_cmov,    1700,                 qsort_u64,       1800888,         d1
+      rasm_perm_cmov,    1700,                 radixsort,       4898898,         51
+  rasm_perm_cmov_sse,    1700,                      TEST,          TICK,       HASH
+  rasm_perm_cmov_sse,    1700,      random_load_test_u64,      43902952,         7a
+  rasm_perm_cmov_sse,    1700,      linear_load_test_u64,      43893356,          4
+  rasm_perm_cmov_sse,    1700,     random_store_test_u64,      75626886,         e5
+  rasm_perm_cmov_sse,    1700,     linear_store_test_u64,      75355612,          6
+  rasm_perm_cmov_sse,    1700,    random_load_test_u64x8,     325282650,         a3
+  rasm_perm_cmov_sse,    1700,      random_swap_test_u64,     178853278,          6
+  rasm_perm_cmov_sse,    1700,       random_swap_test_u8,     261003362,         26
+  rasm_perm_cmov_sse,    1700,       linear_swap_test_u8,     261112044,         d0
+  rasm_perm_cmov_sse,    1700,             binsearch_u64,        327028,         81
+  rasm_perm_cmov_sse,    1700,                 qsort_u32,       8091688,         51
+  rasm_perm_cmov_sse,    1700,                 qsort_u64,       2639246,         d1
+  rasm_perm_cmov_sse,    1700,                 radixsort,       7802356,         51
+ rasm_perm_cmov_sse2,    1700,                      TEST,          TICK,       HASH
+ rasm_perm_cmov_sse2,    1700,      random_load_test_u64,      63117676,         7a
+ rasm_perm_cmov_sse2,    1700,      linear_load_test_u64,      63054960,          4
+ rasm_perm_cmov_sse2,    1700,     random_store_test_u64,      80740382,         e5
+ rasm_perm_cmov_sse2,    1700,     linear_store_test_u64,      80640350,          6
+ rasm_perm_cmov_sse2,    1700,    random_load_test_u64x8,     478907688,         a3
+ rasm_perm_cmov_sse2,    1700,      random_swap_test_u64,     252010506,          6
+ rasm_perm_cmov_sse2,    1700,       random_swap_test_u8,     370438570,         26
+ rasm_perm_cmov_sse2,    1700,       linear_swap_test_u8,     370613700,         d0
+ rasm_perm_cmov_sse2,    1700,             binsearch_u64,        457812,         81
+ rasm_perm_cmov_sse2,    1700,                 qsort_u32,      11415230,         51
+ rasm_perm_cmov_sse2,    1700,                 qsort_u64,       3672526,         d1
+ rasm_perm_cmov_sse2,    1700,                 radixsort,      10767802,         51
+    rasm_perm_indjmp,    1700,                      TEST,          TICK,       HASH
+    rasm_perm_indjmp,    1700,      random_load_test_u64,      28435864,         7a
+    rasm_perm_indjmp,    1700,      linear_load_test_u64,      28174570,          4
+    rasm_perm_indjmp,    1700,     random_store_test_u64,      64661414,         e5
+    rasm_perm_indjmp,    1700,     linear_store_test_u64,      28134230,          6
+    rasm_perm_indjmp,    1700,    random_load_test_u64x8,     199800622,         a3
+    rasm_perm_indjmp,    1700,      random_swap_test_u64,     102268966,          6
+    rasm_perm_indjmp,    1700,       random_swap_test_u8,     150065180,         26
+    rasm_perm_indjmp,    1700,       linear_swap_test_u8,     111421012,         d0
+    rasm_perm_indjmp,    1700,             binsearch_u64,        208806,         81
+    rasm_perm_indjmp,    1700,                 qsort_u32,       4254036,         51
+    rasm_perm_indjmp,    1700,                 qsort_u64,       1357452,         d1
+    rasm_perm_indjmp,    1700,                 radixsort,       3693640,         51
+rasm_perm_indjmp_sse,    1700,                      TEST,          TICK,       HASH
+rasm_perm_indjmp_sse,    1700,      random_load_test_u64,      43869862,         7a
+rasm_perm_indjmp_sse,    1700,      linear_load_test_u64,      43873294,          4
+rasm_perm_indjmp_sse,    1700,     random_store_test_u64,      70485686,         e5
+rasm_perm_indjmp_sse,    1700,     linear_store_test_u64,      35552200,          6
+rasm_perm_indjmp_sse,    1700,    random_load_test_u64x8,     325283056,         a3
+rasm_perm_indjmp_sse,    1700,      random_swap_test_u64,     152346576,          6
+rasm_perm_indjmp_sse,    1700,       random_swap_test_u8,     219121616,         26
+rasm_perm_indjmp_sse,    1700,       linear_swap_test_u8,     208325080,         d0
+rasm_perm_indjmp_sse,    1700,             binsearch_u64,        325134,         81
+rasm_perm_indjmp_sse,    1700,                 qsort_u32,       7030462,         51
+rasm_perm_indjmp_sse,    1700,                 qsort_u64,       2217774,         d1
+rasm_perm_indjmp_sse,    1700,                 radixsort,       6716840,         51
+rasm_perm_indjmp_sse2,    1700,                      TEST,          TICK,       HASH
+rasm_perm_indjmp_sse2,    1700,      random_load_test_u64,      63060276,         7a
+rasm_perm_indjmp_sse2,    1700,      linear_load_test_u64,      63049022,          4
+rasm_perm_indjmp_sse2,    1700,     random_store_test_u64,      71236284,         e5
+rasm_perm_indjmp_sse2,    1700,     linear_store_test_u64,      49212082,          6
+rasm_perm_indjmp_sse2,    1700,    random_load_test_u64x8,     478811850,         a3
+rasm_perm_indjmp_sse2,    1700,      random_swap_test_u64,     203169912,          6
+rasm_perm_indjmp_sse2,    1700,       random_swap_test_u8,     321882324,         26
+rasm_perm_indjmp_sse2,    1700,       linear_swap_test_u8,     319877932,         d0
+rasm_perm_indjmp_sse2,    1700,             binsearch_u64,        456604,         81
+rasm_perm_indjmp_sse2,    1700,                 qsort_u32,      10340874,         51
+rasm_perm_indjmp_sse2,    1700,                 qsort_u64,       3194650,         d1
+rasm_perm_indjmp_sse2,    1700,                 radixsort,       9695162,         51

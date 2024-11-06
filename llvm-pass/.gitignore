@@ -1,0 +1,9 @@
+/compile_commands.json
+/debug/
+/release/
+/.cache/
+/.ccls-cache/
+*.o
+*.a
+*.bc
+*.ll

@@ -1,0 +1,124 @@
+Determining if the htonll exist failed with the following output:
+Change Dir: /home/hjoll6/Workspace/CMI-project/apps/memcached/cmi_eval/build-libmemcached/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_90d8e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_90d8e.dir/build.make CMakeFiles/cmTC_90d8e.dir/build
+gmake[1]: Entering directory '/home/hjoll6/Workspace/CMI-project/apps/memcached/cmi_eval/build-libmemcached/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_90d8e.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_90d8e.dir/CheckSymbolExists.c.o -c /home/hjoll6/Workspace/CMI-project/apps/memcached/cmi_eval/build-libmemcached/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/hjoll6/Workspace/CMI-project/apps/memcached/cmi_eval/build-libmemcached/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/hjoll6/Workspace/CMI-project/apps/memcached/cmi_eval/build-libmemcached/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘htonll’ undeclared (first use in this function); did you mean ‘htonl’?
+    8 |   return ((int*)(&htonll))[argc];
+      |                   ^~~~~~
+      |                   htonl
+/home/hjoll6/Workspace/CMI-project/apps/memcached/cmi_eval/build-libmemcached/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_90d8e.dir/build.make:78: CMakeFiles/cmTC_90d8e.dir/CheckSymbolExists.c.o] Error 1
+gmake[1]: Leaving directory '/home/hjoll6/Workspace/CMI-project/apps/memcached/cmi_eval/build-libmemcached/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_90d8e/fast] Error 2
+
+
+File /home/hjoll6/Workspace/CMI-project/apps/memcached/cmi_eval/build-libmemcached/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <arpa/inet.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef htonll
+  return ((int*)(&htonll))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C SOURCE FILE Test HAVE_STRERROR_R_CHAR_P failed with the following output:
+Change Dir: /home/hjoll6/Workspace/CMI-project/apps/memcached/cmi_eval/build-libmemcached/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3aa9d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3aa9d.dir/build.make CMakeFiles/cmTC_3aa9d.dir/build
+gmake[1]: Entering directory '/home/hjoll6/Workspace/CMI-project/apps/memcached/cmi_eval/build-libmemcached/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3aa9d.dir/src.c.o
+/usr/bin/cc -DHAVE_STRERROR_R_CHAR_P  -fPIE -o CMakeFiles/cmTC_3aa9d.dir/src.c.o -c /home/hjoll6/Workspace/CMI-project/apps/memcached/cmi_eval/build-libmemcached/CMakeFiles/CMakeTmp/src.c
+/home/hjoll6/Workspace/CMI-project/apps/memcached/cmi_eval/build-libmemcached/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/hjoll6/Workspace/CMI-project/apps/memcached/cmi_eval/build-libmemcached/CMakeFiles/CMakeTmp/src.c:5:20: error: invalid type argument of unary ‘*’ (have ‘int’)
+    5 |             return *strerror_r(0, &x, 1);
+      |                    ^~~~~~~~~~~~~~~~~~~~~
+gmake[1]: *** [CMakeFiles/cmTC_3aa9d.dir/build.make:78: CMakeFiles/cmTC_3aa9d.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/home/hjoll6/Workspace/CMI-project/apps/memcached/cmi_eval/build-libmemcached/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_3aa9d/fast] Error 2
+
+
+Source file was:
+
+        #include <string.h>
+        int main() {
+            char x;
+            return *strerror_r(0, &x, 1);
+        }
+Determining if the include file umem.h exists failed with the following output:
+Change Dir: /home/hjoll6/Workspace/CMI-project/apps/memcached/cmi_eval/build-libmemcached/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f59e9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f59e9.dir/build.make CMakeFiles/cmTC_f59e9.dir/build
+gmake[1]: Entering directory '/home/hjoll6/Workspace/CMI-project/apps/memcached/cmi_eval/build-libmemcached/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f59e9.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_f59e9.dir/CheckIncludeFile.c.o -c /home/hjoll6/Workspace/CMI-project/apps/memcached/cmi_eval/build-libmemcached/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/hjoll6/Workspace/CMI-project/apps/memcached/cmi_eval/build-libmemcached/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: umem.h: No such file or directory
+    1 | #include <umem.h>
+      |          ^~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_f59e9.dir/build.make:78: CMakeFiles/cmTC_f59e9.dir/CheckIncludeFile.c.o] Error 1
+gmake[1]: Leaving directory '/home/hjoll6/Workspace/CMI-project/apps/memcached/cmi_eval/build-libmemcached/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_f59e9/fast] Error 2
+
+
+
+Performing C SOURCE FILE Test HAVE_BUILTIN_ATOMIC__c11 failed with the following output:
+Change Dir: /home/hjoll6/Workspace/CMI-project/apps/memcached/cmi_eval/build-libmemcached/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9bf8b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9bf8b.dir/build.make CMakeFiles/cmTC_9bf8b.dir/build
+gmake[1]: Entering directory '/home/hjoll6/Workspace/CMI-project/apps/memcached/cmi_eval/build-libmemcached/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9bf8b.dir/src.c.o
+/usr/bin/cc -DHAVE_BUILTIN_ATOMIC__c11  -fPIE -o CMakeFiles/cmTC_9bf8b.dir/src.c.o -c /home/hjoll6/Workspace/CMI-project/apps/memcached/cmi_eval/build-libmemcached/CMakeFiles/CMakeTmp/src.c
+/home/hjoll6/Workspace/CMI-project/apps/memcached/cmi_eval/build-libmemcached/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/hjoll6/Workspace/CMI-project/apps/memcached/cmi_eval/build-libmemcached/CMakeFiles/CMakeTmp/src.c:4:24: warning: implicit declaration of function ‘__c11_atomic_add_fetch’; did you mean ‘__atomic_add_fetch’? [-Wimplicit-function-declaration]
+    4 |                 return __c11_atomic_add_fetch(&l,1,__ATOMIC_RELAXED);
+      |                        ^~~~~~~~~~~~~~~~~~~~~~
+      |                        __atomic_add_fetch
+Linking C executable cmTC_9bf8b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9bf8b.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_9bf8b.dir/src.c.o -o cmTC_9bf8b 
+/usr/local/bin/ld: CMakeFiles/cmTC_9bf8b.dir/src.c.o: in function `main':
+src.c:(.text+0x3a): undefined reference to `__c11_atomic_add_fetch'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_9bf8b.dir/build.make:99: cmTC_9bf8b] Error 1
+gmake[1]: Leaving directory '/home/hjoll6/Workspace/CMI-project/apps/memcached/cmi_eval/build-libmemcached/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_9bf8b/fast] Error 2
+
+
+Source file was:
+
+            int main() {
+                long l = -1;
+                return __c11_atomic_add_fetch(&l,1,__ATOMIC_RELAXED);
+            }
+Performing C SOURCE FILE Test HAVE_ATOMIC_ADD_NV failed with the following output:
+Change Dir: /home/hjoll6/Workspace/CMI-project/apps/memcached/cmi_eval/build-libmemcached/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5aef8/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5aef8.dir/build.make CMakeFiles/cmTC_5aef8.dir/build
+gmake[1]: Entering directory '/home/hjoll6/Workspace/CMI-project/apps/memcached/cmi_eval/build-libmemcached/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5aef8.dir/src.c.o
+/usr/bin/cc -DHAVE_ATOMIC_ADD_NV  -fPIE -o CMakeFiles/cmTC_5aef8.dir/src.c.o -c /home/hjoll6/Workspace/CMI-project/apps/memcached/cmi_eval/build-libmemcached/CMakeFiles/CMakeTmp/src.c
+/home/hjoll6/Workspace/CMI-project/apps/memcached/cmi_eval/build-libmemcached/CMakeFiles/CMakeTmp/src.c:2:18: fatal error: atomic.h: No such file or directory
+    2 |         #include <atomic.h>
+      |                  ^~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_5aef8.dir/build.make:78: CMakeFiles/cmTC_5aef8.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/home/hjoll6/Workspace/CMI-project/apps/memcached/cmi_eval/build-libmemcached/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_5aef8/fast] Error 2
+
+
+Source file was:
+
+        #include <atomic.h>
+        int main() {
+            volatile uint_t i = 0;
+            return atomic_add_int_nv(&i, 1) == 1 ? 0 : -1;
+        }

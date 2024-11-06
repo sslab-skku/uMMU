@@ -1,0 +1,522 @@
+Time to generate        500 test keys:                0.001 seconds.
+Time to set             500 keys:                     0.063 seconds.
+Time to start             1 threads:                  0.000 seconds.
+--------------------------------------------------------------------
+Time to mget            500 keys by    1 threads:     0.005 seconds.
+--------------------------------------------------------------------
+Time total:                                           0.069 seconds.
+./cmi_eval/eval-memaslap.sh: line 76: 3916545 Killed                  "$@"
+Time to generate        500 test keys:                0.004 seconds.
+Time to set             500 keys:                     0.064 seconds.
+Time to start             1 threads:                  0.000 seconds.
+--------------------------------------------------------------------
+Time to get             500 keys by    1 threads:     0.045 seconds.
+--------------------------------------------------------------------
+Time total:                                           0.113 seconds.
+./cmi_eval/eval-memaslap.sh: line 76: 3916560 Killed                  "$@"
+Time to generate        500 test keys:                0.004 seconds.
+Time to start             1 threads:                  0.000 seconds.
+--------------------------------------------------------------------
+Time to set             500 keys by    1 threads:     0.063 seconds.
+--------------------------------------------------------------------
+Time total:                                           0.067 seconds.
+./cmi_eval/eval-memaslap.sh: line 76: 3916575 Killed                  "$@"
+Time to generate        500 test keys:                0.004 seconds.
+Time to set             500 keys:                     0.064 seconds.
+Time to start             2 threads:                  0.000 seconds.
+--------------------------------------------------------------------
+Time to mget           1000 keys by    2 threads:     0.008 seconds.
+--------------------------------------------------------------------
+Time total:                                           0.076 seconds.
+./cmi_eval/eval-memaslap.sh: line 76: 3916590 Killed                  "$@"
+Time to generate        500 test keys:                0.004 seconds.
+Time to set             500 keys:                     0.062 seconds.
+Time to start             2 threads:                  0.000 seconds.
+--------------------------------------------------------------------
+Time to get            1000 keys by    2 threads:     0.036 seconds.
+--------------------------------------------------------------------
+Time total:                                           0.102 seconds.
+./cmi_eval/eval-memaslap.sh: line 76: 3916606 Killed                  "$@"
+Time to generate        500 test keys:                0.004 seconds.
+Time to start             2 threads:                  0.000 seconds.
+--------------------------------------------------------------------
+Time to set            1000 keys by    2 threads:     0.055 seconds.
+--------------------------------------------------------------------
+Time total:                                           0.059 seconds.
+./cmi_eval/eval-memaslap.sh: line 76: 3916622 Killed                  "$@"
+Time to generate        500 test keys:                0.005 seconds.
+Time to set             500 keys:                     0.061 seconds.
+Time to start             4 threads:                  0.000 seconds.
+--------------------------------------------------------------------
+Time to mget           2000 keys by    4 threads:     0.012 seconds.
+--------------------------------------------------------------------
+Time total:                                           0.079 seconds.
+./cmi_eval/eval-memaslap.sh: line 76: 3916638 Killed                  "$@"
+Time to generate        500 test keys:                0.005 seconds.
+Time to set             500 keys:                     0.061 seconds.
+Time to start             4 threads:                  0.000 seconds.
+--------------------------------------------------------------------
+Time to get            2000 keys by    4 threads:     0.045 seconds.
+--------------------------------------------------------------------
+Time total:                                           0.112 seconds.
+./cmi_eval/eval-memaslap.sh: line 76: 3916656 Killed                  "$@"
+Time to generate        500 test keys:                0.005 seconds.
+Time to start             4 threads:                  0.000 seconds.
+Fatal error for key 'PmEASJQ9uXw5yE4EkJrOq06Qqe6NwQY718bKt32Z9dDg': (0x55efab2dbb00) A TIMEOUT OCCURRED, time out,  host: 127.0.0.1:12345 -> /home/hjoll6/Workspace/CMI-project/apps/memcached/cmi_eval/libmemcached/src/libmemcached/io.cc:220Fatal error for key 'NGevOqqyOMBmEFXOFyg0cT5tpDemPNJlledLCMqvykHW': Fatal error for key '
+Fatal error for key 'N2Jwle8WAf4iOqXWpCoGFP': (0x55efab2db6c0) A TIMEOUT OCCURRED, time out,  host: 127.0.0.1:12345 -> /home/hjoll6/Workspace/CMI-project/apps/memcached/cmi_eval/libmemcached/src/libmemcached/io.cc:220
+Q9HJNMje5mj6RxZ9Sr416RKh0l1uDnsPRJsPPGYSo3NKGXYZ2': (0x55efab2dc380) A TIMEOUT OCCURRED, time out,  host: 127.0.0.1:12345 -> /home/hjoll6/Workspace/CMI-project/apps/memcached/cmi_eval/libmemcached/src/libmemcached/io.cc:220
+(0x55efab2dbf40) A TIMEOUT OCCURRED, time out,  host: 127.0.0.1:12345 -> /home/hjoll6/Workspace/CMI-project/apps/memcached/cmi_eval/libmemcached/src/libmemcached/io.cc:220
+--------------------------------------------------------------------
+Time to set             492 keys by    4 threads:     5.040 seconds.
+--------------------------------------------------------------------
+Time total:                                           5.046 seconds.
+./cmi_eval/eval-memaslap.sh: line 76: 3916674 Killed                  "$@"
+Time to generate        500 test keys:                0.004 seconds.
+Time to set             500 keys:                     0.064 seconds.
+Time to start             8 threads:                  0.001 seconds.
+--------------------------------------------------------------------
+Time to mget           4000 keys by    8 threads:     0.021 seconds.
+--------------------------------------------------------------------
+Time total:                                           0.090 seconds.
+./cmi_eval/eval-memaslap.sh: line 76: 3916692 Killed                  "$@"
+Time to generate        500 test keys:                0.004 seconds.
+Time to set             500 keys:                     0.059 seconds.
+Time to start             8 threads:                  0.001 seconds.
+--------------------------------------------------------------------
+Time to get            4000 keys by    8 threads:     0.079 seconds.
+--------------------------------------------------------------------
+Time total:                                           0.142 seconds.
+./cmi_eval/eval-memaslap.sh: line 76: 3916714 Killed                  "$@"
+Time to generate        500 test keys:                0.004 seconds.
+Time to start             8 threads:                  0.001 seconds.
+Fatal error for key 'COlro40tXL7l7HhcXXsa3OEPFatal error for key 'Fatal error for key 'Fatal error for key 'Fatal error for key 'XbQPHeI40TqTTqO4iBoyP1rKyx1X': (0x5599dcc3f6c0) A TIMEOUT OCCURRED, time out,  host: 127.0.0.1:12345 -> /home/hjoll6/Workspace/CMI-project/apps/memcached/cmi_eval/libmemcached/src/libmemcached/io.cc:220Fatal error for key '5wpBiEZxRSgHKb9yNaBR84YOy9SFT82dPlQlDGruJ7cQ3d': (0x5599dcc3ee40) A TIMEOUT OCCURRED, time out,  host: 127.0.0.1:12345 -> /home/hjoll6/Workspace/CMI-project/apps/memcached/cmi_eval/libmemcached/src/libmemcached/io.cc:220
+Fatal error for key 'xwuuDAqpoEjBIAn7GX6XbAB7gFtfF5bHAjKqI8Pc007QbQSv9ZNNRMml': (0x5599dcc3ea00) A TIMEOUT OCCURRED, time out,  host: 127.0.0.1:12345 -> /home/hjoll6/Workspace/CMI-project/apps/memcached/cmi_eval/libmemcached/src/libmemcached/io.cc:220
+3fpQOHsvE0bA1lDGebTmR6KChLjDJ': (0x5599dcc3e5c0) A TIMEOUT OCCURRED, time out,  host: 127.0.0.1:12345 -> /home/hjoll6/Workspace/CMI-project/apps/memcached/cmi_eval/libmemcached/src/libmemcached/io.cc:220
+XbQPHeI40TqTTqO4iBoyP1rKyx1X
+Fatal error for key '5wpBiEZxRSgHKb9yNaBR84YOy9SFT82dPlQlDGruJ7cQ3d': (0x5599dcc3f280) A TIMEOUT OCCURRED, time out,  host: 127.0.0.1:12345 -> /home/hjoll6/Workspace/CMI-project/apps/memcached/cmi_eval/libmemcached/src/libmemcached/io.cc:220
+': (0x5599dcc3e180) A TIMEOUT OCCURRED, time out,  host: 127.0.0.1:12345 -> /home/hjoll6/Workspace/CMI-project/apps/memcached/cmi_eval/libmemcached/src/libmemcached/io.cc:220
+': (0x5599dcc3dd40) A TIMEOUT OCCURRED, time out,  host: 127.0.0.1:12345 -> /home/hjoll6/Workspace/CMI-project/apps/memcached/cmi_eval/libmemcached/src/libmemcached/io.cc:220
+In1rDbOy5qumeg1hvID2s4Abvk3FHkWtA7ML51Rk48Ypcqf55': (0x5599dcc3fb00) A TIMEOUT OCCURRED, time out,  host: 127.0.0.1:12345 -> /home/hjoll6/Workspace/CMI-project/apps/memcached/cmi_eval/libmemcached/src/libmemcached/io.cc:220
+--------------------------------------------------------------------
+Time to set            1736 keys by    8 threads:     5.060 seconds.
+--------------------------------------------------------------------
+Time total:                                           5.065 seconds.
+./cmi_eval/eval-memaslap.sh: line 76: 3916736 Killed                  "$@"
+Time to generate       1000 test keys:                0.008 seconds.
+Time to set            1000 keys:                     0.103 seconds.
+Time to start             1 threads:                  0.000 seconds.
+--------------------------------------------------------------------
+Time to mget           1000 keys by    1 threads:     0.009 seconds.
+--------------------------------------------------------------------
+Time total:                                           0.120 seconds.
+./cmi_eval/eval-memaslap.sh: line 76: 3916760 Killed                  "$@"
+Time to generate       1000 test keys:                0.007 seconds.
+Time to set            1000 keys:                     0.100 seconds.
+Time to start             1 threads:                  0.000 seconds.
+--------------------------------------------------------------------
+Time to get            1000 keys by    1 threads:     0.089 seconds.
+--------------------------------------------------------------------
+Time total:                                           0.197 seconds.
+./cmi_eval/eval-memaslap.sh: line 76: 3916775 Killed                  "$@"
+Time to generate       1000 test keys:                0.007 seconds.
+Time to start             1 threads:                  0.000 seconds.
+--------------------------------------------------------------------
+Time to set            1000 keys by    1 threads:     0.103 seconds.
+--------------------------------------------------------------------
+Time total:                                           0.111 seconds.
+./cmi_eval/eval-memaslap.sh: line 76: 3916790 Killed                  "$@"
+Time to generate       1000 test keys:                0.007 seconds.
+Time to set            1000 keys:                     0.098 seconds.
+Time to start             2 threads:                  0.000 seconds.
+--------------------------------------------------------------------
+Time to mget           2000 keys by    2 threads:     0.014 seconds.
+--------------------------------------------------------------------
+Time total:                                           0.120 seconds.
+./cmi_eval/eval-memaslap.sh: line 76: 3916805 Killed                  "$@"
+Time to generate       1000 test keys:                0.007 seconds.
+Time to set            1000 keys:                     0.104 seconds.
+Time to start             2 threads:                  0.000 seconds.
+--------------------------------------------------------------------
+Time to get            2000 keys by    2 threads:     0.065 seconds.
+--------------------------------------------------------------------
+Time total:                                           0.176 seconds.
+./cmi_eval/eval-memaslap.sh: line 76: 3916821 Killed                  "$@"
+Time to generate       1000 test keys:                0.007 seconds.
+Time to start             2 threads:                  0.000 seconds.
+--------------------------------------------------------------------
+Time to set            2000 keys by    2 threads:     0.078 seconds.
+--------------------------------------------------------------------
+Time total:                                           0.086 seconds.
+./cmi_eval/eval-memaslap.sh: line 76: 3916837 Killed                  "$@"
+Time to generate       1000 test keys:                0.008 seconds.
+Time to set            1000 keys:                     0.100 seconds.
+Time to start             4 threads:                  0.000 seconds.
+--------------------------------------------------------------------
+Time to mget           4000 keys by    4 threads:     0.022 seconds.
+--------------------------------------------------------------------
+Time total:                                           0.130 seconds.
+./cmi_eval/eval-memaslap.sh: line 76: 3916854 Killed                  "$@"
+Time to generate       1000 test keys:                0.008 seconds.
+Time to set            1000 keys:                     0.104 seconds.
+Time to start             4 threads:                  0.001 seconds.
+--------------------------------------------------------------------
+Time to get            4000 keys by    4 threads:     0.079 seconds.
+--------------------------------------------------------------------
+Time total:                                           0.192 seconds.
+./cmi_eval/eval-memaslap.sh: line 76: 3916872 Killed                  "$@"
+Time to generate       1000 test keys:                0.008 seconds.
+Time to start             4 threads:                  0.000 seconds.
+Fatal error for key 'M8mPKRkLWPmPoM3DIEQulr0akoilC7bFatal error for key 'M8mPKRkLWPmPoM3DIEQulr0akoilC7b': (0x562eb4f55f00) A TIMEOUT OCCURRED, time out,  host: 127.0.0.1:12345 -> /home/hjoll6/Workspace/CMI-project/apps/memcached/cmi_eval/libmemcached/src/libmemcached/io.cc:220
+Fatal error for key 'rWRdJvCbZJbmri2jOL1XLy9NhJX': (0x562eb4f56340) A TIMEOUT OCCURRED, time out,  host: 127.0.0.1:12345 -> /home/hjoll6/Workspace/CMI-project/apps/memcached/cmi_eval/libmemcached/src/libmemcached/io.cc:220
+Fatal error for key 'rWRdJvCbZJbmri2jOL1XLy9NhJX': ': (0x562eb4f56780) A TIMEOUT OCCURRED, time out,  host: 127.0.0.1:12345 -> /home/hjoll6/Workspace/CMI-project/apps/memcached/cmi_eval/libmemcached/src/libmemcached/io.cc:220
+(0x562eb4f56bc0) A TIMEOUT OCCURRED, time out,  host: 127.0.0.1:12345 -> /home/hjoll6/Workspace/CMI-project/apps/memcached/cmi_eval/libmemcached/src/libmemcached/io.cc:220
+--------------------------------------------------------------------
+Time to set            1504 keys by    4 threads:     5.057 seconds.
+--------------------------------------------------------------------
+Time total:                                           5.066 seconds.
+./cmi_eval/eval-memaslap.sh: line 76: 3916890 Killed                  "$@"
+Time to generate       1000 test keys:                0.007 seconds.
+Time to set            1000 keys:                     0.100 seconds.
+Time to start             8 threads:                  0.001 seconds.
+--------------------------------------------------------------------
+Time to mget           8000 keys by    8 threads:     0.034 seconds.
+--------------------------------------------------------------------
+Time total:                                           0.143 seconds.
+./cmi_eval/eval-memaslap.sh: line 76: 3916908 Killed                  "$@"
+Time to generate       1000 test keys:                0.008 seconds.
+Time to set            1000 keys:                     0.115 seconds.
+Time to start             8 threads:                  0.001 seconds.
+--------------------------------------------------------------------
+Time to get            8000 keys by    8 threads:     0.155 seconds.
+--------------------------------------------------------------------
+Time total:                                           0.279 seconds.
+./cmi_eval/eval-memaslap.sh: line 76: 3916930 Killed                  "$@"
+Time to generate       1000 test keys:                0.008 seconds.
+Time to start             8 threads:                  0.001 seconds.
+Fatal error for key 'Fatal error for key 'Fatal error for key 'MEgqxCulFskqstsJ1ZMCApLxFk4T4wZ3wOCFaENXyRlFatal error for key 'py2kvB5Mx2TEX9qgu5r5kE745yZgF6T': Fatal error for key 'Fatal error for key 'cYM5R3Rjocscsf6wBMk8KcRXG': Fatal error for key 'bCPrh8o2G6PmscyXGTeYkSIaALSppH9is0bQr1bklgKnRiHq': (0x563ca158eca0) A TIMEOUT OCCURRED, time out,  host: 127.0.0.1:12345 -> /home/hjoll6/Workspace/CMI-project/apps/memcached/cmi_eval/libmemcached/src/libmemcached/io.cc:220
+': (0x563ca158e860) A TIMEOUT OCCURRED, time out,  host: 127.0.0.1:12345 -> /home/hjoll6/Workspace/CMI-project/apps/memcached/cmi_eval/libmemcached/src/libmemcached/io.cc:220
+Fatal error for key 'cYM5R3Rjocscsf6wBMk8KcRXG': (0x563ca158fda0) A TIMEOUT OCCURRED, time out,  host: 127.0.0.1:12345 -> /home/hjoll6/Workspace/CMI-project/apps/memcached/cmi_eval/libmemcached/src/libmemcached/io.cc:220
+eAeAoKndH4135yNhddu2Osv7M': (0x563ca1590620) A TIMEOUT OCCURRED, time out,  host: 127.0.0.1:12345 -> /home/hjoll6/Workspace/CMI-project/apps/memcached/cmi_eval/libmemcached/src/libmemcached/io.cc:220
+cYM5R3Rjocscsf6wBMk8KcRXG': (0x563ca15901e0) A TIMEOUT OCCURRED, time out,  host: 127.0.0.1:12345 -> /home/hjoll6/Workspace/CMI-project/apps/memcached/cmi_eval/libmemcached/src/libmemcached/io.cc:220
+(0x563ca158f520) A TIMEOUT OCCURRED, time out,  host: 127.0.0.1:12345 -> /home/hjoll6/Workspace/CMI-project/apps/memcached/cmi_eval/libmemcached/src/libmemcached/io.cc:220
+(0x563ca158f0e0) A TIMEOUT OCCURRED, time out,  host: 127.0.0.1:12345 -> /home/hjoll6/Workspace/CMI-project/apps/memcached/cmi_eval/libmemcached/src/libmemcached/io.cc:220
+fc4lpsp8enY1jTsfrh3hge6NnoXLN6': (0x563ca158f960) A TIMEOUT OCCURRED, time out,  host: 127.0.0.1:12345 -> /home/hjoll6/Workspace/CMI-project/apps/memcached/cmi_eval/libmemcached/src/libmemcached/io.cc:220
+--------------------------------------------------------------------
+Time to set            1714 keys by    8 threads:     5.060 seconds.
+--------------------------------------------------------------------
+Time total:                                           5.069 seconds.
+./cmi_eval/eval-memaslap.sh: line 76: 3916952 Killed                  "$@"
+Time to generate       2000 test keys:                0.014 seconds.
+Time to set            2000 keys:                     0.191 seconds.
+Time to start             1 threads:                  0.000 seconds.
+--------------------------------------------------------------------
+Time to mget           2000 keys by    1 threads:     0.061 seconds.
+--------------------------------------------------------------------
+Time total:                                           0.266 seconds.
+./cmi_eval/eval-memaslap.sh: line 76: 3916975 Killed                  "$@"
+Time to generate       2000 test keys:                0.014 seconds.
+Time to set            2000 keys:                     0.179 seconds.
+Time to start             1 threads:                  0.000 seconds.
+--------------------------------------------------------------------
+Time to get            2000 keys by    1 threads:     0.178 seconds.
+--------------------------------------------------------------------
+Time total:                                           0.372 seconds.
+./cmi_eval/eval-memaslap.sh: line 76: 3916990 Killed                  "$@"
+Time to generate       2000 test keys:                0.014 seconds.
+Time to start             1 threads:                  0.000 seconds.
+--------------------------------------------------------------------
+Time to set            2000 keys by    1 threads:     0.193 seconds.
+--------------------------------------------------------------------
+Time total:                                           0.208 seconds.
+./cmi_eval/eval-memaslap.sh: line 76: 3917005 Killed                  "$@"
+Time to generate       2000 test keys:                0.014 seconds.
+Time to set            2000 keys:                     0.205 seconds.
+Time to start             2 threads:                  0.000 seconds.
+--------------------------------------------------------------------
+Time to mget           4000 keys by    2 threads:     0.059 seconds.
+--------------------------------------------------------------------
+Time total:                                           0.278 seconds.
+./cmi_eval/eval-memaslap.sh: line 76: 3917020 Killed                  "$@"
+Time to generate       2000 test keys:                0.014 seconds.
+Time to set            2000 keys:                     0.179 seconds.
+Time to start             2 threads:                  0.000 seconds.
+--------------------------------------------------------------------
+Time to get            4000 keys by    2 threads:     0.098 seconds.
+--------------------------------------------------------------------
+Time total:                                           0.291 seconds.
+./cmi_eval/eval-memaslap.sh: line 76: 3917036 Killed                  "$@"
+Time to generate       2000 test keys:                0.013 seconds.
+Time to start             2 threads:                  0.000 seconds.
+--------------------------------------------------------------------
+Time to set            4000 keys by    2 threads:     0.123 seconds.
+--------------------------------------------------------------------
+Time total:                                           0.136 seconds.
+./cmi_eval/eval-memaslap.sh: line 76: 3917052 Killed                  "$@"
+Time to generate       2000 test keys:                0.013 seconds.
+Time to set            2000 keys:                     0.182 seconds.
+Time to start             4 threads:                  0.000 seconds.
+--------------------------------------------------------------------
+Time to mget           8000 keys by    4 threads:     0.034 seconds.
+--------------------------------------------------------------------
+Time total:                                           0.230 seconds.
+./cmi_eval/eval-memaslap.sh: line 76: 3917068 Killed                  "$@"
+Time to generate       2000 test keys:                0.014 seconds.
+Time to set            2000 keys:                     0.202 seconds.
+Time to start             4 threads:                  0.001 seconds.
+--------------------------------------------------------------------
+Time to get            8000 keys by    4 threads:     0.146 seconds.
+--------------------------------------------------------------------
+Time total:                                           0.362 seconds.
+./cmi_eval/eval-memaslap.sh: line 76: 3917086 Killed                  "$@"
+Time to generate       2000 test keys:                0.014 seconds.
+Time to start             4 threads:                  0.000 seconds.
+Fatal error for key 'Fatal error for key 'P0kLGSJkoFs99ipvGkBteGZNRF': (0x55b296f443a0) A TIMEOUT OCCURRED, time out,  host: 127.0.0.1:12345 -> /home/hjoll6/Workspace/CMI-project/apps/memcached/cmi_eval/libmemcached/src/libmemcached/io.cc:220
+WfSBLBJBZGFrLJwnXhaSscf551E1jnp5twqIx04Fatal error for key 'WfSBLBJBZGFrLJwnXhaSscf551E1jnp5twqIx04': (0x55b296f44c20) A TIMEOUT OCCURRED, time out,  host: 127.0.0.1:12345 -> /home/hjoll6/Workspace/CMI-project/apps/memcached/cmi_eval/libmemcached/src/libmemcached/io.cc:220
+': Fatal error for key 'l20u1CaNXxWfXO8d8u0nCh7fAiZ7qnR(0x55b296f43f60) A TIMEOUT OCCURRED, time out,  host: 127.0.0.1:12345 -> /home/hjoll6/Workspace/CMI-project/apps/memcached/cmi_eval/libmemcached/src/libmemcached/io.cc:220
+': (0x55b296f447e0) A TIMEOUT OCCURRED, time out,  host: 127.0.0.1:12345 -> /home/hjoll6/Workspace/CMI-project/apps/memcached/cmi_eval/libmemcached/src/libmemcached/io.cc:220
+--------------------------------------------------------------------
+Time to set            1266 keys by    4 threads:     5.056 seconds.
+--------------------------------------------------------------------
+Time total:                                           5.070 seconds.
+./cmi_eval/eval-memaslap.sh: line 76: 3917104 Killed                  "$@"
+Time to generate       2000 test keys:                0.015 seconds.
+Time to set            2000 keys:                     0.192 seconds.
+Time to start             8 threads:                  0.001 seconds.
+--------------------------------------------------------------------
+Time to mget          16000 keys by    8 threads:     0.058 seconds.
+--------------------------------------------------------------------
+Time total:                                           0.266 seconds.
+./cmi_eval/eval-memaslap.sh: line 76: 3917123 Killed                  "$@"
+Time to generate       2000 test keys:                0.014 seconds.
+Time to set            2000 keys:                     0.175 seconds.
+Time to start             8 threads:                  0.001 seconds.
+--------------------------------------------------------------------
+Time to get           16000 keys by    8 threads:     0.289 seconds.
+--------------------------------------------------------------------
+Time total:                                           0.479 seconds.
+./cmi_eval/eval-memaslap.sh: line 76: 3917145 Killed                  "$@"
+Time to generate       2000 test keys:                0.013 seconds.
+Time to start             8 threads:                  0.001 seconds.
+Fatal error for key 'Fatal error for key 'Fatal error for key 'xql5C115mvsThZxR2LLRueYa9JlLActPGo6M7bgwQrXBmElS3Fatal error for key 'Fatal error for key 'Fatal error for key '0MnGLb2IGtZdvNtN6qE835sjg8EAZFAa014GM5veYfaY7ERSIPMl3A': Fatal error for key 'sRWlFyQy0px58MjOJOYC68tsi8awu4DpvihFatal error for key 'wXgbPKuWLEnig22tnenHBd9wBHPoO5OOQXBgo5DTZRkCJYx': (0x55df1f059340) A TIMEOUT OCCURRED, time out,  host: 127.0.0.1:12345 -> /home/hjoll6/Workspace/CMI-project/apps/memcached/cmi_eval/libmemcached/src/libmemcached/io.cc:220
+O3tBaq3LkcgmfbDwlnv2mmgYdRrv2QvyAiOyjn5p5': (0x55df1f058ac0) A TIMEOUT OCCURRED, time out,  host: 127.0.0.1:12345 -> /home/hjoll6/Workspace/CMI-project/apps/memcached/cmi_eval/libmemcached/src/libmemcached/io.cc:220
+': (0x55df1f058680) A TIMEOUT OCCURRED, time out,  host: 127.0.0.1:12345 -> /home/hjoll6/Workspace/CMI-project/apps/memcached/cmi_eval/libmemcached/src/libmemcached/io.cc:220
+iXswTxCvCDjDcjs6scHj9gHbwHaiGeuiTE59JR': (0x55df1f05a000) A TIMEOUT OCCURRED, time out,  host: 127.0.0.1:12345 -> /home/hjoll6/Workspace/CMI-project/apps/memcached/cmi_eval/libmemcached/src/libmemcached/io.cc:220
+(0x55df1f05a440) A TIMEOUT OCCURRED, time out,  host: 127.0.0.1:12345 -> /home/hjoll6/Workspace/CMI-project/apps/memcached/cmi_eval/libmemcached/src/libmemcached/io.cc:220
+kkEfjf4c9lmuQwpEh7g6Wrrw8GW7MsRaqJ4x3gu2gE3NSn0ov5Xbk76E4O7': (0x55df1f058f00) A TIMEOUT OCCURRED, time out,  host: 127.0.0.1:12345 -> /home/hjoll6/Workspace/CMI-project/apps/memcached/cmi_eval/libmemcached/src/libmemcached/io.cc:220
+tYLqL8Iffq21K1PS0Q971mnc5r0f9K49iwgbsg6ysFXwjSgxsTE5L8': ': (0x55df1f059780) A TIMEOUT OCCURRED, time out,  host: 127.0.0.1:12345 -> /home/hjoll6/Workspace/CMI-project/apps/memcached/cmi_eval/libmemcached/src/libmemcached/io.cc:220
+(0x55df1f059bc0) A TIMEOUT OCCURRED, time out,  host: 127.0.0.1:12345 -> /home/hjoll6/Workspace/CMI-project/apps/memcached/cmi_eval/libmemcached/src/libmemcached/io.cc:220
+--------------------------------------------------------------------
+Time to set            1751 keys by    8 threads:     5.064 seconds.
+--------------------------------------------------------------------
+Time total:                                           5.078 seconds.
+./cmi_eval/eval-memaslap.sh: line 76: 3917167 Killed                  "$@"
+Time to generate       4000 test keys:                0.019 seconds.
+Time to set            4000 keys:                     0.374 seconds.
+Time to start             1 threads:                  0.000 seconds.
+--------------------------------------------------------------------
+Time to mget           4000 keys by    1 threads:     0.035 seconds.
+--------------------------------------------------------------------
+Time total:                                           0.428 seconds.
+./cmi_eval/eval-memaslap.sh: line 76: 3917189 Killed                  "$@"
+Time to generate       4000 test keys:                0.020 seconds.
+Time to set            4000 keys:                     0.375 seconds.
+Time to start             1 threads:                  0.000 seconds.
+--------------------------------------------------------------------
+Time to get            4000 keys by    1 threads:     0.360 seconds.
+--------------------------------------------------------------------
+Time total:                                           0.755 seconds.
+./cmi_eval/eval-memaslap.sh: line 76: 3917206 Killed                  "$@"
+Time to generate       4000 test keys:                0.020 seconds.
+Time to start             1 threads:                  0.000 seconds.
+--------------------------------------------------------------------
+Time to set            4000 keys by    1 threads:     0.374 seconds.
+--------------------------------------------------------------------
+Time total:                                           0.394 seconds.
+./cmi_eval/eval-memaslap.sh: line 76: 3917221 Killed                  "$@"
+Time to generate       4000 test keys:                0.021 seconds.
+Time to set            4000 keys:                     0.402 seconds.
+Time to start             2 threads:                  0.000 seconds.
+--------------------------------------------------------------------
+Time to mget           8000 keys by    2 threads:     0.047 seconds.
+--------------------------------------------------------------------
+Time total:                                           0.470 seconds.
+./cmi_eval/eval-memaslap.sh: line 76: 3917236 Killed                  "$@"
+Time to generate       4000 test keys:                0.022 seconds.
+Time to set            4000 keys:                     0.410 seconds.
+Time to start             2 threads:                  0.000 seconds.
+--------------------------------------------------------------------
+Time to get            8000 keys by    2 threads:     0.171 seconds.
+--------------------------------------------------------------------
+Time total:                                           0.603 seconds.
+./cmi_eval/eval-memaslap.sh: line 76: 3917251 Killed                  "$@"
+Time to generate       4000 test keys:                0.021 seconds.
+Time to start             2 threads:                  0.000 seconds.
+--------------------------------------------------------------------
+Time to set            8000 keys by    2 threads:     0.239 seconds.
+--------------------------------------------------------------------
+Time total:                                           0.260 seconds.
+./cmi_eval/eval-memaslap.sh: line 76: 3917268 Killed                  "$@"
+Time to generate       4000 test keys:                0.023 seconds.
+Time to set            4000 keys:                     0.339 seconds.
+Time to start             4 threads:                  0.001 seconds.
+--------------------------------------------------------------------
+Time to mget          16000 keys by    4 threads:     0.068 seconds.
+--------------------------------------------------------------------
+Time total:                                           0.430 seconds.
+./cmi_eval/eval-memaslap.sh: line 76: 3917284 Killed                  "$@"
+Time to generate       4000 test keys:                0.023 seconds.
+Time to set            4000 keys:                     0.387 seconds.
+Time to start             4 threads:                  0.001 seconds.
+--------------------------------------------------------------------
+Time to get           16000 keys by    4 threads:     0.286 seconds.
+--------------------------------------------------------------------
+Time total:                                           0.696 seconds.
+./cmi_eval/eval-memaslap.sh: line 76: 3917302 Killed                  "$@"
+Time to generate       4000 test keys:                0.020 seconds.
+Time to start             4 threads:                  0.000 seconds.
+Fatal error for key 'jsoWaMaIogWBTsfiOO0S13Lr2PMqtF9akFSsmIDs': (0x55c4820922e0) A TIMEOUT OCCURRED, time out,  host: 127.0.0.1:12345 -> /home/hjoll6/Workspace/CMI-project/apps/memcached/cmi_eval/libmemcached/src/libmemcached/io.cc:220
+Fatal error for key 'jpki9tehFxd2fAcXZ9Wo5qhScLBtNHuxGBHIYw01RY0ZD': (0x55c482092b60) A TIMEOUT OCCURRED, time out,  host: 127.0.0.1:12345 -> /home/hjoll6/Workspace/CMI-project/apps/memcached/cmi_eval/libmemcached/src/libmemcached/io.cc:220
+Fatal error for key 'ejrmShhBBaFqvmlsBcnoYo9lWMQK': (0x55c482092720) A TIMEOUT OCCURRED, time out,  host: 127.0.0.1:12345 -> /home/hjoll6/Workspace/CMI-project/apps/memcached/cmi_eval/libmemcached/src/libmemcached/io.cc:220
+Fatal error for key 'WyQi36RSYglRW3780eRmQh5HfoMnteGHB9N2C2IbLOT37kErk3s': (0x55c482091ea0) A TIMEOUT OCCURRED, time out,  host: 127.0.0.1:12345 -> /home/hjoll6/Workspace/CMI-project/apps/memcached/cmi_eval/libmemcached/src/libmemcached/io.cc:220
+--------------------------------------------------------------------
+Time to set             694 keys by    4 threads:     5.045 seconds.
+--------------------------------------------------------------------
+Time total:                                           5.065 seconds.
+./cmi_eval/eval-memaslap.sh: line 76: 3917320 Killed                  "$@"
+Time to generate       4000 test keys:                0.021 seconds.
+Time to set            4000 keys:                     0.374 seconds.
+Time to start             8 threads:                  0.001 seconds.
+--------------------------------------------------------------------
+Time to mget          32000 keys by    8 threads:     0.108 seconds.
+--------------------------------------------------------------------
+Time total:                                           0.504 seconds.
+./cmi_eval/eval-memaslap.sh: line 76: 3917339 Killed                  "$@"
+Time to generate       4000 test keys:                0.021 seconds.
+Time to set            4000 keys:                     0.390 seconds.
+Time to start             8 threads:                  0.001 seconds.
+--------------------------------------------------------------------
+Time to get           32000 keys by    8 threads:     0.578 seconds.
+--------------------------------------------------------------------
+Time total:                                           0.990 seconds.
+./cmi_eval/eval-memaslap.sh: line 76: 3917361 Killed                  "$@"
+Time to generate       4000 test keys:                0.021 seconds.
+Time to start             8 threads:                  0.001 seconds.
+Fatal error for key 'EQFaeyPrx4Oj1eSWaOMP7NgAL9RmaijCuPbfOxhZmli4TnnksTMDreOY': Fatal error for key 'oGCbLsRtSE6Z2t3f094w2XkRj5tu4nJ7QvQ0imT1DMDc22OIc7b7qg': Fatal error for key 'tJ4dpeQdwXLBikejQdSYmZHx5nNMKmcXLJPANKqrOFatal error for key 'Ziwxy20dRgYhc8BArXayrpFatal error for key 'Fatal error for key 'tJ4dpeQdwXLBikejQdSYmZHx5nNMKmcXLJPANKqrO': Fatal error for key 'DApDHGlKsdDN05OLcRI48DodpBMXXkfDGfHcYNaZ9gwo63': (0x556c57dca1e0) A TIMEOUT OCCURRED, time out,  host: 127.0.0.1:12345 -> /home/hjoll6/Workspace/CMI-project/apps/memcached/cmi_eval/libmemcached/src/libmemcached/io.cc:220
+': (0x556c57dc8ca0) A TIMEOUT OCCURRED, time out,  host: 127.0.0.1:12345 -> /home/hjoll6/Workspace/CMI-project/apps/memcached/cmi_eval/libmemcached/src/libmemcached/io.cc:220
+(0x556c57dc8860) A TIMEOUT OCCURRED, time out,  host: 127.0.0.1:12345 -> /home/hjoll6/Workspace/CMI-project/apps/memcached/cmi_eval/libmemcached/src/libmemcached/io.cc:220
+(0x556c57dc8420) A TIMEOUT OCCURRED, time out,  host: 127.0.0.1:12345 -> /home/hjoll6/Workspace/CMI-project/apps/memcached/cmi_eval/libmemcached/src/libmemcached/io.cc:220
+': (0x556c57dc90e0) A TIMEOUT OCCURRED, time out,  host: 127.0.0.1:12345 -> /home/hjoll6/Workspace/CMI-project/apps/memcached/cmi_eval/libmemcached/src/libmemcached/io.cc:220
+(0x556c57dc9da0) A TIMEOUT OCCURRED, time out,  host: 127.0.0.1:12345 -> /home/hjoll6/Workspace/CMI-project/apps/memcached/cmi_eval/libmemcached/src/libmemcached/io.cc:220
+Fatal error for key 'DApDHGlKsdDN05OLcRI48DodpBMXXkfDGfHcYNaZ9gwo63': (0x556c57dc9960) A TIMEOUT OCCURRED, time out,  host: 127.0.0.1:12345 -> /home/hjoll6/Workspace/CMI-project/apps/memcached/cmi_eval/libmemcached/src/libmemcached/io.cc:220
+lDtHxJBcKkChYM3uS3yn2wYqNyEDXOqhmAr': (0x556c57dc9520) A TIMEOUT OCCURRED, time out,  host: 127.0.0.1:12345 -> /home/hjoll6/Workspace/CMI-project/apps/memcached/cmi_eval/libmemcached/src/libmemcached/io.cc:220
+--------------------------------------------------------------------
+Time to set             415 keys by    8 threads:     5.037 seconds.
+--------------------------------------------------------------------
+Time total:                                           5.059 seconds.
+./cmi_eval/eval-memaslap.sh: line 76: 3917383 Killed                  "$@"
+Time to generate       8000 test keys:                0.035 seconds.
+Time to set            8000 keys:                     0.721 seconds.
+Time to start             1 threads:                  0.000 seconds.
+--------------------------------------------------------------------
+Time to mget           8000 keys by    1 threads:     0.058 seconds.
+--------------------------------------------------------------------
+Time total:                                           0.814 seconds.
+./cmi_eval/eval-memaslap.sh: line 76: 3917406 Killed                  "$@"
+Time to generate       8000 test keys:                0.019 seconds.
+Time to set            8000 keys:                     0.736 seconds.
+Time to start             1 threads:                  0.000 seconds.
+--------------------------------------------------------------------
+Time to get            8000 keys by    1 threads:     0.793 seconds.
+--------------------------------------------------------------------
+Time total:                                           1.549 seconds.
+./cmi_eval/eval-memaslap.sh: line 76: 3917421 Killed                  "$@"
+Time to generate       8000 test keys:                0.034 seconds.
+Time to start             1 threads:                  0.000 seconds.
+--------------------------------------------------------------------
+Time to set            8000 keys by    1 threads:     0.725 seconds.
+--------------------------------------------------------------------
+Time total:                                           0.759 seconds.
+./cmi_eval/eval-memaslap.sh: line 76: 3917436 Killed                  "$@"
+Time to generate       8000 test keys:                0.034 seconds.
+Time to set            8000 keys:                     0.729 seconds.
+Time to start             2 threads:                  0.000 seconds.
+--------------------------------------------------------------------
+Time to mget          16000 keys by    2 threads:     0.084 seconds.
+--------------------------------------------------------------------
+Time total:                                           0.847 seconds.
+./cmi_eval/eval-memaslap.sh: line 76: 3917451 Killed                  "$@"
+Time to generate       8000 test keys:                0.034 seconds.
+Time to set            8000 keys:                     0.737 seconds.
+Time to start             2 threads:                  0.000 seconds.
+--------------------------------------------------------------------
+Time to get           16000 keys by    2 threads:     0.339 seconds.
+--------------------------------------------------------------------
+Time total:                                           1.111 seconds.
+./cmi_eval/eval-memaslap.sh: line 76: 3917467 Killed                  "$@"
+Time to generate       8000 test keys:                0.035 seconds.
+Time to start             2 threads:                  0.000 seconds.
+Fatal error for key 'Fatal error for key 'AuuHIbnYnb3C04i9MWGMMmLwYj9q08HpirWrwOx81RE50obLXQhooX': DIZfxbtWyf8NMnpw895kCkD0oQOdGPYq': (0x564772cfde20) A TIMEOUT OCCURRED, time out,  host: 127.0.0.1:12345 -> /home/hjoll6/Workspace/CMI-project/apps/memcached/cmi_eval/libmemcached/src/libmemcached/io.cc:220
+(0x564772cfe260) A TIMEOUT OCCURRED, time out,  host: 127.0.0.1:12345 -> /home/hjoll6/Workspace/CMI-project/apps/memcached/cmi_eval/libmemcached/src/libmemcached/io.cc:220
+--------------------------------------------------------------------
+Time to set            8127 keys by    2 threads:     5.210 seconds.
+--------------------------------------------------------------------
+Time total:                                           5.245 seconds.
+./cmi_eval/eval-memaslap.sh: line 76: 3917483 Killed                  "$@"
+Time to generate       8000 test keys:                0.032 seconds.
+Time to set            8000 keys:                     0.694 seconds.
+Time to start             4 threads:                  0.000 seconds.
+--------------------------------------------------------------------
+Time to mget          32000 keys by    4 threads:     0.128 seconds.
+--------------------------------------------------------------------
+Time total:                                           0.854 seconds.
+./cmi_eval/eval-memaslap.sh: line 76: 3917524 Killed                  "$@"
+Time to generate       8000 test keys:                0.034 seconds.
+Time to set            8000 keys:                     0.702 seconds.
+Time to start             4 threads:                  0.001 seconds.
+--------------------------------------------------------------------
+Time to get           32000 keys by    4 threads:     0.549 seconds.
+--------------------------------------------------------------------
+Time total:                                           1.285 seconds.
+./cmi_eval/eval-memaslap.sh: line 76: 3917542 Killed                  "$@"
+Time to generate       8000 test keys:                0.033 seconds.
+Time to start             4 threads:                  0.000 seconds.
+Fatal error for key 'PZJSsAaSGqjlTRM13OGrm51vKSRQ6FqwQ': (0x557b7a2bf8f0) A TIMEOUT OCCURRED, time out,  host: 127.0.0.1:12345 -> /home/hjoll6/Workspace/CMI-project/apps/memcached/cmi_eval/libmemcached/src/libmemcached/io.cc:220
+Fatal error for key 'CZQ35MJ2qnJ498y4cmcxrpLK7ITwPcMSxIp4R9HyW8IfmG7qqm8vqpFFQd9': (0x557b7a2bf4b0) A TIMEOUT OCCURRED, time out,  host: 127.0.0.1:12345 -> /home/hjoll6/Workspace/CMI-project/apps/memcached/cmi_eval/libmemcached/src/libmemcached/io.cc:220
+Fatal error for key 'Fatal error for key 'SIXydyev8HnuGc54ND8yhig54g1paSJwXuFLOtm6jk08AYYYdqEYt8h': (0x557b7a2bec30) A TIMEOUT OCCURRED, time out,  host: 127.0.0.1:12345 -> /home/hjoll6/Workspace/CMI-project/apps/memcached/cmi_eval/libmemcached/src/libmemcached/io.cc:220
+3v1o6FgG4lqHueRirsnoT3rkM8xWcLWITxeKDIpMGcZ': (0x557b7a2bf070) A TIMEOUT OCCURRED, time out,  host: 127.0.0.1:12345 -> /home/hjoll6/Workspace/CMI-project/apps/memcached/cmi_eval/libmemcached/src/libmemcached/io.cc:220
+--------------------------------------------------------------------
+Time to set            3822 keys by    4 threads:     5.098 seconds.
+--------------------------------------------------------------------
+Time total:                                           5.131 seconds.
+./cmi_eval/eval-memaslap.sh: line 76: 3917560 Killed                  "$@"
+Time to generate       8000 test keys:                0.035 seconds.
+Time to set            8000 keys:                     0.706 seconds.
+Time to start             8 threads:                  0.001 seconds.
+--------------------------------------------------------------------
+Time to mget          64000 keys by    8 threads:     0.231 seconds.
+--------------------------------------------------------------------
+Time total:                                           0.974 seconds.
+./cmi_eval/eval-memaslap.sh: line 76: 3917579 Killed                  "$@"
+Time to generate       8000 test keys:                0.034 seconds.
+Time to set            8000 keys:                     0.705 seconds.
+Time to start             8 threads:                  0.001 seconds.
+--------------------------------------------------------------------
+Time to get           64000 keys by    8 threads:     1.222 seconds.
+--------------------------------------------------------------------
+Time total:                                           1.962 seconds.
+./cmi_eval/eval-memaslap.sh: line 76: 3917601 Killed                  "$@"
+Time to generate       8000 test keys:                0.032 seconds.
+Time to start             8 threads:                  0.001 seconds.
+Fatal error for key 'Fatal error for key 'RhklqcpesPjsY5KIQIK3YSTTSkAXAq79atM0CP6D5WuTHbZaKQEnDMAJI6': Fatal error for key 'Fatal error for key 'Fatal error for key 'T74nhN5AXyk69Ou11k1QQRxh9CJApW0b': (0x5594b04940a0) A TIMEOUT OCCURRED, time out,  host: 127.0.0.1:12345 -> /home/hjoll6/Workspace/CMI-project/apps/memcached/cmi_eval/libmemcached/src/libmemcached/io.cc:220
+AkQdvCCbA6u47EdvOhQ1ZujfJrdo4ACHI9QvrawvqNaDpODxygHR4v6dv': (0x5594b04933e0) A TIMEOUT OCCURRED, time out,  host: 127.0.0.1:12345 -> /home/hjoll6/Workspace/CMI-project/apps/memcached/cmi_eval/libmemcached/src/libmemcached/io.cc:220
+Fatal error for key 'Zxjq6oYp7LyjWQa5Rc9ZdFatal error for key 'Zxjq6oYp7LyjWQa5Rc9ZdXYecpHJHdrhHZMOLGBd6tiFPC7MJbBhF5NGwBCoX983(0x5594b0493820) A TIMEOUT OCCURRED, time out,  host: 127.0.0.1:12345 -> /home/hjoll6/Workspace/CMI-project/apps/memcached/cmi_eval/libmemcached/src/libmemcached/io.cc:220
+XYecpHJHdrhHZMOLGBd6tiFPC7MJbBhF5NGwBCoX983Fatal error for key 'AkQdvCCbA6u47EdvOhQ1ZujfJrdo4ACHI9QvrawvqNaDpODxygHR4v6dv': (0x5594b0494d60) A TIMEOUT OCCURRED, time out,  host: 127.0.0.1:12345 -> /home/hjoll6/Workspace/CMI-project/apps/memcached/cmi_eval/libmemcached/src/libmemcached/io.cc:220
+': (0x5594b0493c60) A TIMEOUT OCCURRED, time out,  host: 127.0.0.1:12345 -> /home/hjoll6/Workspace/CMI-project/apps/memcached/cmi_eval/libmemcached/src/libmemcached/io.cc:220
+': ': ': (0x5594b04944e0) A TIMEOUT OCCURRED, time out,  host: 127.0.0.1:12345 -> /home/hjoll6/Workspace/CMI-project/apps/memcached/cmi_eval/libmemcached/src/libmemcached/io.cc:220
+(0x5594b0494920) A TIMEOUT OCCURRED, time out,  host: 127.0.0.1:12345 -> /home/hjoll6/Workspace/CMI-project/apps/memcached/cmi_eval/libmemcached/src/libmemcached/io.cc:220
+(0x5594b04951a0) A TIMEOUT OCCURRED, time out,  host: 127.0.0.1:12345 -> /home/hjoll6/Workspace/CMI-project/apps/memcached/cmi_eval/libmemcached/src/libmemcached/io.cc:220
+--------------------------------------------------------------------
+Time to set            2419 keys by    8 threads:     5.073 seconds.
+--------------------------------------------------------------------
+Time total:                                           5.106 seconds.
+./cmi_eval/eval-memaslap.sh: line 76: 3917625 Killed                  "$@"

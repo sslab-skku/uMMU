@@ -1,0 +1,2 @@
+/usr/bin/ar qc libp9y.a CMakeFiles/p9y.dir/p9y.cpp.o
+/usr/bin/ranlib libp9y.a

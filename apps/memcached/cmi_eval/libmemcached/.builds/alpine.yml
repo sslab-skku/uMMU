@@ -1,0 +1,32 @@
+image: alpine/latest
+packages:
+  - bison
+  - cmake
+  - flex
+  - g++
+  - libatomic
+  - libevent-dev
+  - libstdc++
+  - memcached
+sources:
+  - https://github.com/awesomized/libmemcached
+secrets:
+  - a223d068-8d3f-4bab-a623-ed6e2887820a
+  - d7dfe587-b433-481b-8725-d7ccd82e59fb
+environment:
+  ENABLE_HASH_HSIEH:  "ON"
+  ENABLE_MEMASLAP:    "ON"
+  VERBOSE:            "ON"
+tasks:
+  - prepare: |
+      ./libmemcached/.builds/scripts/prepare
+  - configure: |
+      maybe cmake -DCMAKE_BUILD_TYPE=Debug -DBUILD_TESTING=ON -S libmemcached -B debug
+  - build: |
+      maybe cmake --build debug -j2
+  - test: |
+      maybe cmake --build debug -j2 --target test
+  - install: |
+      maybe cmake --install debug --prefix /tmp
+  - success: |
+      notify-gitter success

@@ -1,0 +1,41 @@
+name: docs-publish-pages
+
+on:
+  workflow_dispatch:
+  release:
+    types: [published]
+  push:
+    paths:
+      - 'docs/**'
+      - 'ChangeLog*'
+    branches:
+      - v1.x
+
+env:
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+jobs:
+  publish:
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v2
+      - name: Install dependencies
+        run: |
+          sudo apt-get update -y
+          sudo apt-get install -y \
+            python3-m2r \
+            python3-sphinx \
+            python3-sphinx-rtd-theme
+      - name: Configure
+        run: |
+          cmake -DBUILD_DOCSONLY=ON -DBUILD_DOCS_HTML=ON -DBUILD_DOCS_MAN=OFF -S . -B build
+      - name: Build
+        run: |
+          make -C build html
+      - uses: crazy-max/ghaction-github-pages@v2
+        if: success()
+        with:
+          jekyll: false
+          keep_history: true
+          allow_empty_commit: false
+          build_dir: build/docs/html

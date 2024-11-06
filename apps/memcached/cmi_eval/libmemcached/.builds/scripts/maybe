@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+"$@"
+ERROR=$?
+
+if test $ERROR -ne 0
+then
+	notify-gitter failure
+	exit $ERROR
+fi

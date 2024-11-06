@@ -1,0 +1,465 @@
+---------------------------
+__cmi_malloc: ret=0x40c2a0 size=3e8
+            1000 aes                     TEST          TICK       HASH
+            1000 aes     random_load_test_u64          6188   5a044427
+            1000 aes   random_load_test_u64x8         45254    cf15829
+            1000 aes     random_swap_test_u64         27010   1619f45e
+            1000 aes      random_swap_test_u8         37716   9ce13f6c
+            1000 aes      linear_swap_test_u8         37210   4db2e21a
+            1000 aes                qsort_u32      62653544    b5df40d
+---------------------------
+ 1000 page3_perm_aes[ERR] init_arr, h1!=h2
+ 1000 page3_perm_aes                     TEST          TICK       HASH
+ 1000 page3_perm_aes     random_load_test_u64          3580   de69d597
+ 1000 page3_perm_aes   random_load_test_u64x8         21288   1547ea9d
+ 1000 page3_perm_aes     random_swap_test_u64         14622   cbefaa56
+ 1000 page3_perm_aes      random_swap_test_u8         20086   27f721d3
+ 1000 page3_perm_aes      linear_swap_test_u8         14598   ae583f5b
+ 1000 page3_perm_aes                qsort_u32      72270512    4eec168
+---------------------------
+ 1000 page4_perm_aes                     TEST          TICK       HASH
+ 1000 page4_perm_aes     random_load_test_u64          3646   5a044427
+ 1000 page4_perm_aes   random_load_test_u64x8         21294    cf15829
+ 1000 page4_perm_aes     random_swap_test_u64         14560   1619f45e
+ 1000 page4_perm_aes      random_swap_test_u8         20530   9ce13f6c
+ 1000 page4_perm_aes      linear_swap_test_u8         14780   4db2e21a
+ 1000 page4_perm_aes                qsort_u32      26730752    b5df40d
+---------------------------
+ 1000 page5_perm_aes                     TEST          TICK       HASH
+ 1000 page5_perm_aes     random_load_test_u64          3588   5a044427
+ 1000 page5_perm_aes   random_load_test_u64x8         21308    cf15829
+ 1000 page5_perm_aes     random_swap_test_u64         14556   1619f45e
+ 1000 page5_perm_aes      random_swap_test_u8         20394   9ce13f6c
+ 1000 page5_perm_aes      linear_swap_test_u8         14684   4db2e21a
+ 1000 page5_perm_aes                qsort_u32      26330796    b5df40d
+---------------------------
+ 1000 page6_perm_aes                     TEST          TICK       HASH
+ 1000 page6_perm_aes     random_load_test_u64          3654   5a044427
+ 1000 page6_perm_aes   random_load_test_u64x8         21338    cf15829
+ 1000 page6_perm_aes     random_swap_test_u64         14600   1619f45e
+ 1000 page6_perm_aes      random_swap_test_u8         20616   9ce13f6c
+ 1000 page6_perm_aes      linear_swap_test_u8         14790   4db2e21a
+ 1000 page6_perm_aes                qsort_u32      26732580    b5df40d
+---------------------------
+ 1000 page7_perm_aes                     TEST          TICK       HASH
+ 1000 page7_perm_aes     random_load_test_u64          3568   5a044427
+ 1000 page7_perm_aes   random_load_test_u64x8         21316    cf15829
+ 1000 page7_perm_aes     random_swap_test_u64         14568   1619f45e
+ 1000 page7_perm_aes      random_swap_test_u8         20576   9ce13f6c
+ 1000 page7_perm_aes      linear_swap_test_u8         14706   4db2e21a
+ 1000 page7_perm_aes                qsort_u32      26720650    b5df40d
+---------------------------
+ 1000 page8_perm_aes                     TEST          TICK       HASH
+ 1000 page8_perm_aes     random_load_test_u64          3574   5a044427
+ 1000 page8_perm_aes   random_load_test_u64x8         21308    cf15829
+ 1000 page8_perm_aes     random_swap_test_u64         14628   1619f45e
+ 1000 page8_perm_aes      random_swap_test_u8         20442   9ce13f6c
+ 1000 page8_perm_aes      linear_swap_test_u8         14666   4db2e21a
+ 1000 page8_perm_aes                qsort_u32      26559782    b5df40d
+---------------------------
+__cmi_malloc: ret=0x40c2a0 size=7d0
+            2000 aes                     TEST          TICK       HASH
+            2000 aes     random_load_test_u64          6106   7657e705
+            2000 aes   random_load_test_u64x8         45118   ebf28203
+            2000 aes     random_swap_test_u64         26960   af4e387f
+            2000 aes      random_swap_test_u8         37804   83819a03
+            2000 aes      linear_swap_test_u8         37252   286e6317
+            2000 aes                qsort_u32     145562798   e744952b
+---------------------------
+ 2000 page3_perm_aes[ERR] init_arr, h1!=h2
+ 2000 page3_perm_aes                     TEST          TICK       HASH
+ 2000 page3_perm_aes     random_load_test_u64          6210   a3b0cce3
+ 2000 page3_perm_aes   random_load_test_u64x8         42658   985fdecd
+ 2000 page3_perm_aes     random_swap_test_u64         19940   ecbdd033
+ 2000 page3_perm_aes      random_swap_test_u8         23422   871c5af0
+ 2000 page3_perm_aes      linear_swap_test_u8         18640   636bec29
+ 2000 page3_perm_aes                qsort_u32      75789028   4fa5426d
+---------------------------
+ 2000 page4_perm_aes[ERR] init_arr, h1!=h2
+ 2000 page4_perm_aes                     TEST          TICK       HASH
+ 2000 page4_perm_aes     random_load_test_u64          8000   50fd7210
+ 2000 page4_perm_aes   random_load_test_u64x8         36544   1d564d56
+ 2000 page4_perm_aes     random_swap_test_u64         20390   4b55ff42
+ 2000 page4_perm_aes      random_swap_test_u8         26514   7d062f21
+ 2000 page4_perm_aes      linear_swap_test_u8         17776   d03e5311
+ 2000 page4_perm_aes                qsort_u32      78310824    1d79348
+---------------------------
+ 2000 page5_perm_aes                     TEST          TICK       HASH
+ 2000 page5_perm_aes     random_load_test_u64         10292   7657e705
+ 2000 page5_perm_aes   random_load_test_u64x8         32444   ebf28203
+ 2000 page5_perm_aes     random_swap_test_u64         32496   af4e387f
+ 2000 page5_perm_aes      random_swap_test_u8         36378   83819a03
+ 2000 page5_perm_aes      linear_swap_test_u8         17836   286e6317
+ 2000 page5_perm_aes                qsort_u32      74159908   e744952b
+---------------------------
+ 2000 page6_perm_aes                     TEST          TICK       HASH
+ 2000 page6_perm_aes     random_load_test_u64         28026   7657e705
+ 2000 page6_perm_aes   random_load_test_u64x8         37290   ebf28203
+ 2000 page6_perm_aes     random_swap_test_u64         37230   af4e387f
+ 2000 page6_perm_aes      random_swap_test_u8         64110   83819a03
+ 2000 page6_perm_aes      linear_swap_test_u8         17454   286e6317
+ 2000 page6_perm_aes                qsort_u32      71979022   e744952b
+---------------------------
+ 2000 page7_perm_aes                     TEST          TICK       HASH
+ 2000 page7_perm_aes     random_load_test_u64         57372   7657e705
+ 2000 page7_perm_aes   random_load_test_u64x8         80880   ebf28203
+ 2000 page7_perm_aes     random_swap_test_u64         87716   af4e387f
+ 2000 page7_perm_aes      random_swap_test_u8         83520   83819a03
+ 2000 page7_perm_aes      linear_swap_test_u8         17530   286e6317
+ 2000 page7_perm_aes                qsort_u32      71682280   e744952b
+---------------------------
+ 2000 page8_perm_aes                     TEST          TICK       HASH
+ 2000 page8_perm_aes     random_load_test_u64         87730   7657e705
+ 2000 page8_perm_aes   random_load_test_u64x8        111164   ebf28203
+ 2000 page8_perm_aes     random_swap_test_u64        176968   af4e387f
+ 2000 page8_perm_aes      random_swap_test_u8        205964   83819a03
+ 2000 page8_perm_aes      linear_swap_test_u8         20364   286e6317
+ 2000 page8_perm_aes                qsort_u32      71136712   e744952b
+---------------------------
+__cmi_malloc: ret=0x40c2a0 size=bb8
+            3000 aes                     TEST          TICK       HASH
+            3000 aes     random_load_test_u64          6190   e667ff88
+            3000 aes   random_load_test_u64x8         45420   74e0ef56
+            3000 aes     random_swap_test_u64         26952    bfdd08e
+            3000 aes      random_swap_test_u8         37772   970a926a
+            3000 aes      linear_swap_test_u8         37278   c952db20
+            3000 aes                qsort_u32     231225990   af2cd3a2
+---------------------------
+ 3000 page3_perm_aes[ERR] init_arr, h1!=h2
+ 3000 page3_perm_aes                     TEST          TICK       HASH
+ 3000 page3_perm_aes     random_load_test_u64          4842   f65e7b06
+ 3000 page3_perm_aes   random_load_test_u64x8         51778   3d6aa240
+ 3000 page3_perm_aes     random_swap_test_u64         21130   529b76e2
+ 3000 page3_perm_aes      random_swap_test_u8         23484   36cf6a6d
+ 3000 page3_perm_aes      linear_swap_test_u8         15358   f65bc8b0
+ 3000 page3_perm_aes                qsort_u32     125225764   5d7ac03b
+---------------------------
+ 3000 page4_perm_aes[ERR] init_arr, h1!=h2
+ 3000 page4_perm_aes                     TEST          TICK       HASH
+ 3000 page4_perm_aes     random_load_test_u64         21862   5d898e50
+ 3000 page4_perm_aes   random_load_test_u64x8         74496   76ef493e
+ 3000 page4_perm_aes     random_swap_test_u64         48152   682efd42
+ 3000 page4_perm_aes      random_swap_test_u8         51494   32b7c433
+ 3000 page4_perm_aes      linear_swap_test_u8         18028   ca918a54
+ 3000 page4_perm_aes                qsort_u32     128256196   26e3fb44
+---------------------------
+ 3000 page5_perm_aes                     TEST          TICK       HASH
+ 3000 page5_perm_aes     random_load_test_u64         30088   e667ff88
+ 3000 page5_perm_aes   random_load_test_u64x8         78976   74e0ef56
+ 3000 page5_perm_aes     random_swap_test_u64         79276    bfdd08e
+ 3000 page5_perm_aes      random_swap_test_u8         83332   970a926a
+ 3000 page5_perm_aes      linear_swap_test_u8         18088   c952db20
+ 3000 page5_perm_aes                qsort_u32     122465438   af2cd3a2
+---------------------------
+ 3000 page6_perm_aes                     TEST          TICK       HASH
+ 3000 page6_perm_aes     random_load_test_u64         66412   e667ff88
+ 3000 page6_perm_aes   random_load_test_u64x8         80586   74e0ef56
+ 3000 page6_perm_aes     random_swap_test_u64        146466    bfdd08e
+ 3000 page6_perm_aes      random_swap_test_u8        141576   970a926a
+ 3000 page6_perm_aes      linear_swap_test_u8         17620   c952db20
+ 3000 page6_perm_aes                qsort_u32     118860410   af2cd3a2
+---------------------------
+ 3000 page7_perm_aes                     TEST          TICK       HASH
+ 3000 page7_perm_aes     random_load_test_u64        133030   e667ff88
+ 3000 page7_perm_aes   random_load_test_u64x8        140896   74e0ef56
+ 3000 page7_perm_aes     random_swap_test_u64        265580    bfdd08e
+ 3000 page7_perm_aes      random_swap_test_u8        302366   970a926a
+ 3000 page7_perm_aes      linear_swap_test_u8         17914   c952db20
+ 3000 page7_perm_aes                qsort_u32     119492830   af2cd3a2
+---------------------------
+ 3000 page8_perm_aes                     TEST          TICK       HASH
+ 3000 page8_perm_aes     random_load_test_u64        261020   e667ff88
+ 3000 page8_perm_aes   random_load_test_u64x8        295956   74e0ef56
+ 3000 page8_perm_aes     random_swap_test_u64        457460    bfdd08e
+ 3000 page8_perm_aes      random_swap_test_u8        486726   970a926a
+ 3000 page8_perm_aes      linear_swap_test_u8         20280   c952db20
+ 3000 page8_perm_aes                qsort_u32     119054668   af2cd3a2
+---------------------------
+__cmi_malloc: ret=0x40c2a0 size=fa0
+            4000 aes                     TEST          TICK       HASH
+            4000 aes     random_load_test_u64          6186    c6f247f
+            4000 aes   random_load_test_u64x8         45222   656ad9c9
+            4000 aes     random_swap_test_u64         26956   24df195d
+            4000 aes      random_swap_test_u8         37860   245de7ef
+            4000 aes      linear_swap_test_u8         37280   a51e673b
+            4000 aes                qsort_u32     323794408   ec2c77f1
+---------------------------
+ 4000 page3_perm_aes[ERR] init_arr, h1!=h2
+ 4000 page3_perm_aes                     TEST          TICK       HASH
+ 4000 page3_perm_aes     random_load_test_u64          5054   7b6b5f65
+ 4000 page3_perm_aes   random_load_test_u64x8         44746   f8ec24be
+ 4000 page3_perm_aes     random_swap_test_u64         18514   24a039af
+ 4000 page3_perm_aes      random_swap_test_u8         26084   82142f48
+ 4000 page3_perm_aes      linear_swap_test_u8         18848   e6fb19d7
+ 4000 page3_perm_aes                qsort_u32     204360106   7e4a47f2
+---------------------------
+ 4000 page4_perm_aes[ERR] init_arr, h1!=h2
+ 4000 page4_perm_aes                     TEST          TICK       HASH
+ 4000 page4_perm_aes     random_load_test_u64         25042   e8e5a4cf
+ 4000 page4_perm_aes   random_load_test_u64x8        114348   a233078a
+ 4000 page4_perm_aes     random_swap_test_u64         54454   503c0099
+ 4000 page4_perm_aes      random_swap_test_u8         65314   c5f65b40
+ 4000 page4_perm_aes      linear_swap_test_u8         18042    93c0b93
+ 4000 page4_perm_aes                qsort_u32     184613262   dee4ffe2
+---------------------------
+ 4000 page5_perm_aes                     TEST          TICK       HASH
+ 4000 page5_perm_aes     random_load_test_u64         41814    c6f247f
+ 4000 page5_perm_aes   random_load_test_u64x8        106528   656ad9c9
+ 4000 page5_perm_aes     random_swap_test_u64         93342   24df195d
+ 4000 page5_perm_aes      random_swap_test_u8        111688   245de7ef
+ 4000 page5_perm_aes      linear_swap_test_u8         18160   a51e673b
+ 4000 page5_perm_aes                qsort_u32     175647152   ec2c77f1
+---------------------------
+ 4000 page6_perm_aes                     TEST          TICK       HASH
+ 4000 page6_perm_aes     random_load_test_u64         83638    c6f247f
+ 4000 page6_perm_aes   random_load_test_u64x8         92506   656ad9c9
+ 4000 page6_perm_aes     random_swap_test_u64        192016   24df195d
+ 4000 page6_perm_aes      random_swap_test_u8        160344   245de7ef
+ 4000 page6_perm_aes      linear_swap_test_u8         17548   a51e673b
+ 4000 page6_perm_aes                qsort_u32     170966154   ec2c77f1
+---------------------------
+ 4000 page7_perm_aes                     TEST          TICK       HASH
+ 4000 page7_perm_aes     random_load_test_u64        170008    c6f247f
+ 4000 page7_perm_aes   random_load_test_u64x8        178254   656ad9c9
+ 4000 page7_perm_aes     random_swap_test_u64        366404   24df195d
+ 4000 page7_perm_aes      random_swap_test_u8        351220   245de7ef
+ 4000 page7_perm_aes      linear_swap_test_u8         17558   a51e673b
+ 4000 page7_perm_aes                qsort_u32     171511660   ec2c77f1
+---------------------------
+ 4000 page8_perm_aes                     TEST          TICK       HASH
+ 4000 page8_perm_aes     random_load_test_u64        367064    c6f247f
+ 4000 page8_perm_aes   random_load_test_u64x8        357656   656ad9c9
+ 4000 page8_perm_aes     random_swap_test_u64        701674   24df195d
+ 4000 page8_perm_aes      random_swap_test_u8        656554   245de7ef
+ 4000 page8_perm_aes      linear_swap_test_u8         20298   a51e673b
+ 4000 page8_perm_aes                qsort_u32     172913460   ec2c77f1
+---------------------------
+__cmi_malloc: ret=0x40c2a0 size=1388
+            5000 aes                     TEST          TICK       HASH
+            5000 aes     random_load_test_u64          6164   72971613
+            5000 aes   random_load_test_u64x8         45210   d7fcfc3d
+            5000 aes     random_swap_test_u64         26976   e5d255af
+            5000 aes      random_swap_test_u8         37770   8bc24bfd
+            5000 aes      linear_swap_test_u8         37184   c1228bd9
+            5000 aes                qsort_u32     421703456   25f92f10
+---------------------------
+ 5000 page3_perm_aes[ERR] init_arr, h1!=h2
+ 5000 page3_perm_aes                     TEST          TICK       HASH
+ 5000 page3_perm_aes     random_load_test_u64          5720   d832828c
+ 5000 page3_perm_aes   random_load_test_u64x8         44992   444797b5
+ 5000 page3_perm_aes     random_swap_test_u64         30402   f66c7f15
+ 5000 page3_perm_aes      random_swap_test_u8         25476   28ace055
+ 5000 page3_perm_aes      linear_swap_test_u8         15270   154206ff
+ 5000 page3_perm_aes                qsort_u32     238794746   cbd46149
+---------------------------
+ 5000 page4_perm_aes[ERR] init_arr, h1!=h2
+ 5000 page4_perm_aes                     TEST          TICK       HASH
+ 5000 page4_perm_aes     random_load_test_u64         25574   d301ddf4
+ 5000 page4_perm_aes   random_load_test_u64x8        108052   ffbae2c8
+ 5000 page4_perm_aes     random_swap_test_u64         58222    c4eeeae
+ 5000 page4_perm_aes      random_swap_test_u8         64794   2a5e5bb2
+ 5000 page4_perm_aes      linear_swap_test_u8         14950    fc16f28
+ 5000 page4_perm_aes                qsort_u32     236393236   4a1edccf
+---------------------------
+ 5000 page5_perm_aes                     TEST          TICK       HASH
+ 5000 page5_perm_aes     random_load_test_u64         49460   72971613
+ 5000 page5_perm_aes   random_load_test_u64x8        118238   d7fcfc3d
+ 5000 page5_perm_aes     random_swap_test_u64        115866   e5d255af
+ 5000 page5_perm_aes      random_swap_test_u8        119438   8bc24bfd
+ 5000 page5_perm_aes      linear_swap_test_u8         17906   c1228bd9
+ 5000 page5_perm_aes                qsort_u32     233449270   25f92f10
+---------------------------
+ 5000 page6_perm_aes                     TEST          TICK       HASH
+ 5000 page6_perm_aes     random_load_test_u64        102416   72971613
+ 5000 page6_perm_aes   random_load_test_u64x8        104748   d7fcfc3d
+ 5000 page6_perm_aes     random_swap_test_u64        193956   e5d255af
+ 5000 page6_perm_aes      random_swap_test_u8        214858   8bc24bfd
+ 5000 page6_perm_aes      linear_swap_test_u8         18150   c1228bd9
+ 5000 page6_perm_aes                qsort_u32     230456514   25f92f10
+---------------------------
+ 5000 page7_perm_aes                     TEST          TICK       HASH
+ 5000 page7_perm_aes     random_load_test_u64        183820   72971613
+ 5000 page7_perm_aes   random_load_test_u64x8        213718   d7fcfc3d
+ 5000 page7_perm_aes     random_swap_test_u64        367532   e5d255af
+ 5000 page7_perm_aes      random_swap_test_u8        386200   8bc24bfd
+ 5000 page7_perm_aes      linear_swap_test_u8         17664   c1228bd9
+ 5000 page7_perm_aes                qsort_u32     227436182   25f92f10
+---------------------------
+ 5000 page8_perm_aes                     TEST          TICK       HASH
+ 5000 page8_perm_aes     random_load_test_u64        407360   72971613
+ 5000 page8_perm_aes   random_load_test_u64x8        413410   d7fcfc3d
+ 5000 page8_perm_aes     random_swap_test_u64        793136   e5d255af
+ 5000 page8_perm_aes      random_swap_test_u8        798314   8bc24bfd
+ 5000 page8_perm_aes      linear_swap_test_u8         20206   c1228bd9
+ 5000 page8_perm_aes                qsort_u32     230775998   25f92f10
+---------------------------
+__cmi_malloc: ret=0x40c2a0 size=1770
+            6000 aes                     TEST          TICK       HASH
+            6000 aes     random_load_test_u64          6194   6e3fa4a6
+            6000 aes   random_load_test_u64x8         45238   6006c681
+            6000 aes     random_swap_test_u64         26926   73e8d574
+            6000 aes      random_swap_test_u8         37826   5bf3bf90
+            6000 aes      linear_swap_test_u8         37306   b59f5230
+            6000 aes                qsort_u32     523973996    ae1a56b
+---------------------------
+ 6000 page3_perm_aes[ERR] init_arr, h1!=h2
+ 6000 page3_perm_aes                     TEST          TICK       HASH
+ 6000 page3_perm_aes     random_load_test_u64          6404   f020d7a2
+ 6000 page3_perm_aes   random_load_test_u64x8         40536   a8d497fb
+ 6000 page3_perm_aes     random_swap_test_u64         19856   49b78291
+ 6000 page3_perm_aes      random_swap_test_u8         26212    8e2c494
+ 6000 page3_perm_aes      linear_swap_test_u8         18784   d7c3da19
+ 6000 page3_perm_aes                qsort_u32     313541248   a17f00c8
+---------------------------
+ 6000 page4_perm_aes[ERR] init_arr, h1!=h2
+ 6000 page4_perm_aes                     TEST          TICK       HASH
+ 6000 page4_perm_aes     random_load_test_u64         25676   5da40378
+ 6000 page4_perm_aes   random_load_test_u64x8        106684   48972dae
+ 6000 page4_perm_aes     random_swap_test_u64         55534   bca4170c
+ 6000 page4_perm_aes      random_swap_test_u8         64304   dc41559a
+ 6000 page4_perm_aes      linear_swap_test_u8         18056   63d70772
+ 6000 page4_perm_aes                qsort_u32     305075026   b36b7591
+---------------------------
+ 6000 page5_perm_aes                     TEST          TICK       HASH
+ 6000 page5_perm_aes     random_load_test_u64         54434   6e3fa4a6
+ 6000 page5_perm_aes   random_load_test_u64x8        126028   6006c681
+ 6000 page5_perm_aes     random_swap_test_u64        122300   73e8d574
+ 6000 page5_perm_aes      random_swap_test_u8        135528   5bf3bf90
+ 6000 page5_perm_aes      linear_swap_test_u8         17922   b59f5230
+ 6000 page5_perm_aes                qsort_u32     293792828    ae1a56b
+---------------------------
+ 6000 page6_perm_aes                     TEST          TICK       HASH
+ 6000 page6_perm_aes     random_load_test_u64        103788   6e3fa4a6
+ 6000 page6_perm_aes   random_load_test_u64x8        119784   6006c681
+ 6000 page6_perm_aes     random_swap_test_u64        217156   73e8d574
+ 6000 page6_perm_aes      random_swap_test_u8        238874   5bf3bf90
+ 6000 page6_perm_aes      linear_swap_test_u8         17744   b59f5230
+ 6000 page6_perm_aes                qsort_u32     284671882    ae1a56b
+---------------------------
+ 6000 page7_perm_aes                     TEST          TICK       HASH
+ 6000 page7_perm_aes     random_load_test_u64        196222   6e3fa4a6
+ 6000 page7_perm_aes   random_load_test_u64x8        214794   6006c681
+ 6000 page7_perm_aes     random_swap_test_u64        428786   73e8d574
+ 6000 page7_perm_aes      random_swap_test_u8        452928   5bf3bf90
+ 6000 page7_perm_aes      linear_swap_test_u8         17512   b59f5230
+ 6000 page7_perm_aes                qsort_u32     285812418    ae1a56b
+---------------------------
+ 6000 page8_perm_aes                     TEST          TICK       HASH
+ 6000 page8_perm_aes     random_load_test_u64        391230   6e3fa4a6
+ 6000 page8_perm_aes   random_load_test_u64x8        415240   6006c681
+ 6000 page8_perm_aes     random_swap_test_u64        899730   73e8d574
+ 6000 page8_perm_aes      random_swap_test_u8        882932   5bf3bf90
+ 6000 page8_perm_aes      linear_swap_test_u8         20302   b59f5230
+ 6000 page8_perm_aes                qsort_u32     290584694    ae1a56b
+---------------------------
+__cmi_malloc: ret=0x40c2a0 size=1b58
+            7000 aes                     TEST          TICK       HASH
+            7000 aes     random_load_test_u64          6236   613b10e5
+            7000 aes   random_load_test_u64x8         45220   9c1ab6fa
+            7000 aes     random_swap_test_u64         26990   a53a5305
+            7000 aes      random_swap_test_u8         37846    e8ea357
+            7000 aes      linear_swap_test_u8         37228   3658f09f
+            7000 aes                qsort_u32     612201754   62acb696
+---------------------------
+ 7000 page3_perm_aes[ERR] init_arr, h1!=h2
+ 7000 page3_perm_aes                     TEST          TICK       HASH
+ 7000 page3_perm_aes     random_load_test_u64          8468   3744aeb3
+ 7000 page3_perm_aes   random_load_test_u64x8         46270   3a17a972
+ 7000 page3_perm_aes     random_swap_test_u64         18774   8a7902b0
+ 7000 page3_perm_aes      random_swap_test_u8         26552   3e43eb97
+ 7000 page3_perm_aes      linear_swap_test_u8         15220   14b908e0
+ 7000 page3_perm_aes                qsort_u32     378534496   fcbbfb59
+---------------------------
+ 7000 page4_perm_aes[ERR] init_arr, h1!=h2
+ 7000 page4_perm_aes                     TEST          TICK       HASH
+ 7000 page4_perm_aes     random_load_test_u64         23752   1e94fccb
+ 7000 page4_perm_aes   random_load_test_u64x8        111358    ab2e072
+ 7000 page4_perm_aes     random_swap_test_u64         57452   d0560bb3
+ 7000 page4_perm_aes      random_swap_test_u8         60702   315b4dc4
+ 7000 page4_perm_aes      linear_swap_test_u8         17864   d3a1c0e1
+ 7000 page4_perm_aes                qsort_u32     367830174   2fbef56f
+---------------------------
+ 7000 page5_perm_aes                     TEST          TICK       HASH
+ 7000 page5_perm_aes     random_load_test_u64         59288   613b10e5
+ 7000 page5_perm_aes   random_load_test_u64x8        133774   9c1ab6fa
+ 7000 page5_perm_aes     random_swap_test_u64        130914   a53a5305
+ 7000 page5_perm_aes      random_swap_test_u8        135414    e8ea357
+ 7000 page5_perm_aes      linear_swap_test_u8         17850   3658f09f
+ 7000 page5_perm_aes                qsort_u32     349222774   62acb696
+---------------------------
+ 7000 page6_perm_aes                     TEST          TICK       HASH
+ 7000 page6_perm_aes     random_load_test_u64        113258   613b10e5
+ 7000 page6_perm_aes   random_load_test_u64x8        137668   9c1ab6fa
+ 7000 page6_perm_aes     random_swap_test_u64        248342   a53a5305
+ 7000 page6_perm_aes      random_swap_test_u8        250148    e8ea357
+ 7000 page6_perm_aes      linear_swap_test_u8         18260   3658f09f
+ 7000 page6_perm_aes                qsort_u32     342698154   62acb696
+---------------------------
+ 7000 page7_perm_aes                     TEST          TICK       HASH
+ 7000 page7_perm_aes     random_load_test_u64        215858   613b10e5
+ 7000 page7_perm_aes   random_load_test_u64x8        240314   9c1ab6fa
+ 7000 page7_perm_aes     random_swap_test_u64        463666   a53a5305
+ 7000 page7_perm_aes      random_swap_test_u8        451790    e8ea357
+ 7000 page7_perm_aes      linear_swap_test_u8         17530   3658f09f
+ 7000 page7_perm_aes                qsort_u32     339815554   62acb696
+---------------------------
+ 7000 page8_perm_aes                     TEST          TICK       HASH
+ 7000 page8_perm_aes     random_load_test_u64        458492   613b10e5
+ 7000 page8_perm_aes   random_load_test_u64x8        487918   9c1ab6fa
+ 7000 page8_perm_aes     random_swap_test_u64        936856   a53a5305
+ 7000 page8_perm_aes      random_swap_test_u8        850602    e8ea357
+ 7000 page8_perm_aes      linear_swap_test_u8         20542   3658f09f
+ 7000 page8_perm_aes                qsort_u32     346427548   62acb696
+---------------------------
+__cmi_malloc: ret=0x40c2a0 size=1f40
+            8000 aes                     TEST          TICK       HASH
+            8000 aes     random_load_test_u64          6184   dfbdc81d
+            8000 aes   random_load_test_u64x8         45248   4477bd6d
+            8000 aes     random_swap_test_u64         26946   f5f3287e
+            8000 aes      random_swap_test_u8         38060   c720d5ec
+            8000 aes      linear_swap_test_u8         37316   8da00dc6
+            8000 aes                qsort_u32     697526860   72871fd4
+---------------------------
+ 8000 page3_perm_aes[ERR] init_arr, h1!=h2
+ 8000 page3_perm_aes                     TEST          TICK       HASH
+ 8000 page3_perm_aes     random_load_test_u64          7564   638fc335
+ 8000 page3_perm_aes   random_load_test_u64x8         47448   d28a5240
+ 8000 page3_perm_aes     random_swap_test_u64         42770   17aaa707
+ 8000 page3_perm_aes      random_swap_test_u8         26868   3fe5ff25
+ 8000 page3_perm_aes      linear_swap_test_u8         18888   9cee25d9
+ 8000 page3_perm_aes                qsort_u32     461025046   6dcf6656
+---------------------------
+ 8000 page4_perm_aes[ERR] init_arr, h1!=h2
+ 8000 page4_perm_aes                     TEST          TICK       HASH
+ 8000 page4_perm_aes     random_load_test_u64         34610   6081927f
+ 8000 page4_perm_aes   random_load_test_u64x8        123878    426dd7a
+ 8000 page4_perm_aes     random_swap_test_u64         68134   1a99afe8
+ 8000 page4_perm_aes      random_swap_test_u8         64556   78853904
+ 8000 page4_perm_aes      linear_swap_test_u8         17920    4ae93ea
+ 8000 page4_perm_aes                qsort_u32     424279858   7aec1388
+---------------------------
+ 8000 page5_perm_aes                     TEST          TICK       HASH
+ 8000 page5_perm_aes     random_load_test_u64         68300   dfbdc81d
+ 8000 page5_perm_aes   random_load_test_u64x8        135024   4477bd6d
+ 8000 page5_perm_aes     random_swap_test_u64        136270   f5f3287e
+ 8000 page5_perm_aes      random_swap_test_u8        139504   c720d5ec
+ 8000 page5_perm_aes      linear_swap_test_u8         17946   8da00dc6
+ 8000 page5_perm_aes                qsort_u32     400571190   72871fd4
+---------------------------
+ 8000 page6_perm_aes                     TEST          TICK       HASH
+ 8000 page6_perm_aes     random_load_test_u64        128310   dfbdc81d
+ 8000 page6_perm_aes   random_load_test_u64x8        137788   4477bd6d
+ 8000 page6_perm_aes     random_swap_test_u64        253626   f5f3287e
+ 8000 page6_perm_aes      random_swap_test_u8        258504   c720d5ec
+ 8000 page6_perm_aes      linear_swap_test_u8         17776   8da00dc6
+ 8000 page6_perm_aes                qsort_u32     387917296   72871fd4
+---------------------------
+ 8000 page7_perm_aes                     TEST          TICK       HASH
+ 8000 page7_perm_aes     random_load_test_u64        236648   dfbdc81d
+ 8000 page7_perm_aes   random_load_test_u64x8        256038   4477bd6d
+ 8000 page7_perm_aes     random_swap_test_u64        497542   f5f3287e
+ 8000 page7_perm_aes      random_swap_test_u8        508416   c720d5ec
+ 8000 page7_perm_aes      linear_swap_test_u8         17572   8da00dc6
+ 8000 page7_perm_aes                qsort_u32     391077636   72871fd4
+---------------------------
+ 8000 page8_perm_aes                     TEST          TICK       HASH

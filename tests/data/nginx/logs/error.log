@@ -1,0 +1,214 @@
+2024/01/02 13:01:42 [emerg] 3886176#0: invalid number of arguments in "default_type" directive in /home/hjoll6/Workspace/CMI-project/tests/data/nginx.conf:32
+2024/01/02 13:02:03 [emerg] 3886190#0: bind() to 0.0.0.0:80 failed (13: Permission denied)
+2024/01/02 13:19:57 [emerg] 3887159#0: bind() to 0.0.0.0:10080 failed (98: Address in use)
+2024/01/02 13:19:57 [emerg] 3887159#0: bind() to 0.0.0.0:10080 failed (98: Address in use)
+2024/01/02 13:19:57 [emerg] 3887159#0: bind() to 0.0.0.0:10080 failed (98: Address in use)
+2024/01/02 13:19:57 [emerg] 3887159#0: bind() to 0.0.0.0:10080 failed (98: Address in use)
+2024/01/02 13:19:57 [emerg] 3887159#0: bind() to 0.0.0.0:10080 failed (98: Address in use)
+2024/01/02 13:19:57 [emerg] 3887159#0: still could not bind()
+__cmi_malloc: ret=0x5c10e0 size=400
+2024/01/02 17:02:39 [alert] 3917663#0: *1 recv() failed (14: Bad address) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:10080
+__cmi_malloc: ret=0x5c1520 size=400
+2024/01/02 17:02:40 [alert] 3917663#0: *2 recv() failed (14: Bad address) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:10080
+__cmi_malloc: ret=0x5c1960 size=400
+2024/01/02 17:02:42 [alert] 3917663#0: *3 recv() failed (14: Bad address) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:10080
+__cmi_malloc: ret=0x5c1da0 size=400
+2024/01/02 17:02:43 [alert] 3917663#0: *4 recv() failed (14: Bad address) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:10080
+__cmi_malloc: ret=0x5c21e0 size=400
+2024/01/02 17:02:47 [alert] 3917663#0: *5 recv() failed (14: Bad address) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:10080
+__cmi_malloc: ret=0x5c2620 size=400
+2024/01/02 17:02:51 [alert] 3917663#0: *6 recv() failed (14: Bad address) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:10080
+__cmi_malloc: ret=0x5c2a60 size=400
+2024/01/02 17:02:53 [alert] 3917663#0: *7 recv() failed (14: Bad address) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:10080
+__cmi_malloc: ret=0x5c10e0 size=400
+2024/01/02 17:03:09 [alert] 3917697#0: *1 recv() failed (14: Bad address) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:10080
+__cmi_malloc: ret=0x5c1520 size=400
+2024/01/02 17:03:10 [alert] 3917697#0: *2 recv() failed (14: Bad address) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:10080
+__cmi_malloc: ret=0x5c1960 size=400
+2024/01/02 17:03:12 [alert] 3917697#0: *3 recv() failed (14: Bad address) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:10080
+__cmi_malloc: ret=0x5c1da0 size=400
+2024/01/02 17:03:15 [alert] 3917697#0: *4 recv() failed (14: Bad address) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:10080
+__cmi_malloc: ret=0x5c21e0 size=400
+2024/01/02 17:03:19 [alert] 3917697#0: *5 recv() failed (14: Bad address) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:10080
+__cmi_malloc: ret=0x5c2620 size=400
+2024/01/02 17:03:19 [alert] 3917697#0: *6 recv() failed (14: Bad address) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:10080
+__cmi_malloc: ret=0x5c2a60 size=400
+2024/01/02 17:03:20 [alert] 3917697#0: *7 recv() failed (14: Bad address) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:10080
+__cmi_malloc: ret=0x5c2ea0 size=400
+2024/01/02 17:03:20 [alert] 3917697#0: *8 recv() failed (14: Bad address) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:10080
+__cmi_malloc: ret=0x5c32e0 size=400
+2024/01/02 17:03:28 [alert] 3917697#0: *9 recv() failed (14: Bad address) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:10080
+__cmi_malloc: ret=0x5c3720 size=400
+2024/01/02 17:03:37 [alert] 3917697#0: *10 recv() failed (14: Bad address) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:10080
+__cmi_malloc: ret=0x5c3b60 size=400
+2024/01/02 17:03:47 [alert] 3917697#0: *11 recv() failed (14: Bad address) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:10080
+__cmi_malloc: ret=0x5c3fa0 size=400
+2024/01/02 17:03:57 [alert] 3917697#0: *12 recv() failed (14: Bad address) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:10080
+__cmi_malloc: ret=0x5c43e0 size=400
+2024/01/02 17:04:03 [alert] 3917697#0: *13 recv() failed (14: Bad address) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:10080
+__cmi_malloc: ret=0x5c4820 size=400
+2024/01/02 17:04:05 [alert] 3917697#0: *14 recv() failed (14: Bad address) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:10080
+__cmi_malloc: ret=0x5c4c60 size=400
+2024/01/02 17:04:15 [alert] 3917697#0: *15 recv() failed (14: Bad address) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:10080
+__cmi_malloc: ret=0x5c50a0 size=400
+2024/01/02 17:04:25 [alert] 3917697#0: *16 recv() failed (14: Bad address) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:10080
+__cmi_malloc: ret=0x5c54e0 size=400
+2024/01/02 17:04:35 [alert] 3917697#0: *17 recv() failed (14: Bad address) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:10080
+__cmi_malloc: ret=0x5c5920 size=400
+2024/01/02 17:04:45 [alert] 3917697#0: *18 recv() failed (14: Bad address) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:10080
+__cmi_malloc: ret=0x5c5d60 size=400
+2024/01/02 17:04:55 [alert] 3917697#0: *19 recv() failed (14: Bad address) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:10080
+__cmi_malloc: ret=0x5c61a0 size=400
+2024/01/02 17:05:05 [alert] 3917697#0: *20 recv() failed (14: Bad address) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:10080
+__cmi_malloc: ret=0x5c10e0 size=400
+2024/01/02 17:19:02 [alert] 3918518#0: *1 recv() failed (14: Bad address) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:10080
+__cmi_malloc: ret=0x5c1520 size=400
+2024/01/02 17:19:03 [alert] 3918518#0: *2 recv() failed (14: Bad address) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:10080
+__cmi_malloc: ret=0x5c1960 size=400
+2024/01/02 17:19:05 [alert] 3918518#0: *3 recv() failed (14: Bad address) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:10080
+__cmi_malloc: ret=0x5c1da0 size=400
+2024/01/02 17:19:08 [alert] 3918518#0: *4 recv() failed (14: Bad address) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:10080
+__cmi_malloc: ret=0x5c21e0 size=400
+2024/01/02 17:19:10 [alert] 3918518#0: *5 recv() failed (14: Bad address) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:10080
+__cmi_malloc: ret=0x5c2620 size=400
+2024/01/02 17:19:15 [alert] 3918518#0: *6 recv() failed (14: Bad address) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:10080
+__cmi_malloc: ret=0x5c2a60 size=400
+2024/01/02 17:19:21 [alert] 3918518#0: *7 recv() failed (14: Bad address) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:10080
+__cmi_malloc: ret=0x5c2ea0 size=400
+2024/01/02 17:19:28 [alert] 3918518#0: *8 recv() failed (14: Bad address) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:10080
+__cmi_malloc: ret=0x5c32e0 size=400
+2024/01/02 17:19:36 [alert] 3918518#0: *9 recv() failed (14: Bad address) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:10080
+__cmi_malloc: ret=0x5c3720 size=400
+2024/01/02 17:19:43 [alert] 3918518#0: *10 recv() failed (14: Bad address) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:10080
+__cmi_malloc: ret=0x5c3b60 size=400
+2024/01/02 17:19:53 [alert] 3918518#0: *11 recv() failed (14: Bad address) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:10080
+__cmi_malloc: ret=0x5c3fa0 size=400
+2024/01/02 17:20:03 [alert] 3918518#0: *12 recv() failed (14: Bad address) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:10080
+__cmi_malloc: ret=0x5c43e0 size=400
+2024/01/02 17:20:13 [alert] 3918518#0: *13 recv() failed (14: Bad address) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:10080
+__cmi_malloc: ret=0x5c4820 size=400
+2024/01/02 17:20:23 [alert] 3918518#0: *14 recv() failed (14: Bad address) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:10080
+__cmi_malloc: ret=0x5c4c60 size=400
+2024/01/02 17:20:33 [alert] 3918518#0: *15 recv() failed (14: Bad address) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:10080
+__cmi_malloc: ret=0x5c50a0 size=400
+2024/01/02 17:20:43 [alert] 3918518#0: *16 recv() failed (14: Bad address) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:10080
+__cmi_malloc: ret=0x5c10e0 size=400
+2024/01/02 17:21:02 [alert] 3918635#0: *1 recv() failed (14: Bad address) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:10080
+__cmi_malloc: ret=0x5c1520 size=400
+2024/01/02 17:21:04 [alert] 3918635#0: *2 recv() failed (14: Bad address) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:10080
+__cmi_malloc: ret=0x5c1960 size=400
+2024/01/02 17:21:06 [alert] 3918635#0: *3 recv() failed (14: Bad address) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:10080
+__cmi_malloc: ret=0x5c1da0 size=400
+2024/01/02 17:21:09 [alert] 3918635#0: *4 recv() failed (14: Bad address) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:10080
+__cmi_malloc: ret=0x5c21e0 size=400
+2024/01/02 17:21:12 [alert] 3918635#0: *5 recv() failed (14: Bad address) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:10080
+__cmi_malloc: ret=0x5c2620 size=400
+2024/01/02 17:21:17 [alert] 3918635#0: *6 recv() failed (14: Bad address) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:10080
+__cmi_malloc: ret=0x5c2a60 size=400
+2024/01/02 17:21:21 [alert] 3918635#0: *7 recv() failed (14: Bad address) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:10080
+__cmi_malloc: ret=0x5c2ea0 size=400
+2024/01/02 17:21:24 [alert] 3918635#0: *8 recv() failed (14: Bad address) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:10080
+__cmi_malloc: ret=0x5c32e0 size=400
+2024/01/02 17:21:25 [alert] 3918635#0: *9 recv() failed (14: Bad address) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:10080
+__cmi_malloc: ret=0x5c3720 size=400
+2024/01/02 17:21:27 [alert] 3918635#0: *10 recv() failed (14: Bad address) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:10080
+__cmi_malloc: ret=0x5c3b60 size=400
+2024/01/02 17:21:37 [alert] 3918635#0: *11 recv() failed (14: Bad address) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:10080
+__cmi_malloc: ret=0x5c3fa0 size=400
+2024/01/02 17:21:47 [alert] 3918635#0: *12 recv() failed (14: Bad address) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:10080
+__cmi_malloc: ret=0x5c43e0 size=400
+2024/01/02 17:21:57 [alert] 3918635#0: *13 recv() failed (14: Bad address) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:10080
+__cmi_malloc: ret=0x5c4820 size=400
+2024/01/02 17:22:07 [alert] 3918635#0: *14 recv() failed (14: Bad address) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:10080
+__cmi_malloc: ret=0x5c4c60 size=400
+2024/01/02 17:22:17 [alert] 3918635#0: *15 recv() failed (14: Bad address) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:10080
+__cmi_malloc: ret=0x5c50a0 size=400
+2024/01/02 17:22:27 [alert] 3918635#0: *16 recv() failed (14: Bad address) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:10080
+__cmi_malloc: ret=0x5c54e0 size=400
+2024/01/02 17:22:37 [alert] 3918635#0: *17 recv() failed (14: Bad address) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:10080
+__cmi_malloc: ret=0x5c5920 size=400
+2024/01/02 17:22:47 [alert] 3918635#0: *18 recv() failed (14: Bad address) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:10080
+__cmi_malloc: ret=0x5c5d60 size=400
+2024/01/02 17:22:57 [alert] 3918635#0: *19 recv() failed (14: Bad address) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:10080
+__cmi_malloc: ret=0x5c61a0 size=400
+2024/01/02 17:23:07 [alert] 3918635#0: *20 recv() failed (14: Bad address) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:10080
+__cmi_malloc: ret=0x5c10e0 size=400
+2024/01/02 17:25:42 [alert] 3918831#0: worker process 3918832 exited on signal 11 (core dumped)
+__cmi_malloc: ret=0x5c10e0 size=400
+2024/01/02 17:25:43 [alert] 3918831#0: worker process 3918835 exited on signal 11 (core dumped)
+__cmi_malloc: ret=0x5c10e0 size=400
+2024/01/02 17:25:46 [alert] 3918831#0: worker process 3918837 exited on signal 11 (core dumped)
+__cmi_malloc: ret=0x5c10e0 size=400
+2024/01/02 17:25:49 [alert] 3918831#0: worker process 3918839 exited on signal 11 (core dumped)
+__cmi_malloc: ret=0x5c10e0 size=400
+2024/01/02 17:25:53 [alert] 3918831#0: worker process 3918865 exited on signal 11 (core dumped)
+__cmi_malloc: ret=0x5c10e0 size=400
+2024/01/02 17:25:58 [alert] 3918831#0: worker process 3918868 exited on signal 11 (core dumped)
+__cmi_malloc: ret=0x5c10e0 size=400
+2024/01/02 17:25:59 [alert] 3918831#0: worker process 3918872 exited on signal 11 (core dumped)
+__cmi_malloc: ret=0x5c10e0 size=400
+2024/01/02 17:26:06 [alert] 3918831#0: worker process 3918886 exited on signal 11 (core dumped)
+__cmi_malloc: ret=0x5c10e0 size=400
+2024/01/02 17:26:14 [alert] 3918831#0: worker process 3918888 exited on signal 11 (core dumped)
+__cmi_malloc: ret=0x5c10e0 size=400
+2024/01/02 17:26:22 [alert] 3918831#0: worker process 3918902 exited on signal 11 (core dumped)
+__cmi_malloc: ret=0x5c10e0 size=400
+2024/01/02 17:26:32 [alert] 3918831#0: worker process 3918904 exited on signal 11 (core dumped)
+__cmi_malloc: ret=0x5c10e0 size=400
+2024/01/02 17:26:42 [alert] 3918831#0: worker process 3918918 exited on signal 11 (core dumped)
+__cmi_malloc: ret=0x5c10e0 size=400
+2024/01/02 17:26:52 [alert] 3918831#0: worker process 3918922 exited on signal 11 (core dumped)
+__cmi_malloc: ret=0x5c10e0 size=400
+2024/01/02 17:27:02 [alert] 3918831#0: worker process 3918952 exited on signal 11 (core dumped)
+__cmi_malloc: ret=0x5c10e0 size=400
+2024/01/02 17:27:12 [alert] 3918831#0: worker process 3918955 exited on signal 11 (core dumped)
+__cmi_malloc: ret=0x5c10e0 size=400
+2024/01/02 17:27:22 [alert] 3918831#0: worker process 3918970 exited on signal 11 (core dumped)
+__cmi_malloc: ret=0x5c10e0 size=400
+2024/01/02 17:27:33 [alert] 3918831#0: worker process 3918973 exited on signal 11 (core dumped)
+__cmi_malloc: ret=0x5c10e0 size=400
+2024/01/02 17:27:43 [alert] 3918831#0: worker process 3918977 exited on signal 11 (core dumped)
+__cmi_malloc: ret=0x5c10e0 size=400
+2024/01/02 17:27:53 [alert] 3918831#0: worker process 3918981 exited on signal 11 (core dumped)
+__cmi_malloc: ret=0x5c10e0 size=400
+2024/01/02 17:28:03 [alert] 3918831#0: worker process 3919011 exited on signal 11 (core dumped)
+__cmi_malloc: ret=0x5c10e0 size=400
+2024/01/02 18:08:33 [alert] 3919128#0: worker process 3919129 exited on signal 9
+__cmi_malloc: ret=0x5c10e0 size=400
+2024/01/02 18:08:33 [alert] 3919128#0: worker process 3920034 exited on signal 11 (core dumped)
+__cmi_malloc: ret=0x5c10e0 size=400
+2024/01/02 18:08:37 [alert] 3919128#0: worker process 3920036 exited on signal 11 (core dumped)
+__cmi_malloc: ret=0x5c10e0 size=400
+2024/01/02 18:08:41 [alert] 3919128#0: worker process 3920052 exited on signal 11 (core dumped)
+__cmi_malloc: ret=0x5c10e0 size=400
+2024/01/02 18:08:46 [alert] 3919128#0: worker process 3920060 exited on signal 11 (core dumped)
+__cmi_malloc: ret=0x5c10e0 size=400
+2024/01/02 18:08:52 [alert] 3919128#0: worker process 3920182 exited on signal 11 (core dumped)
+__cmi_malloc: ret=0x5c10e0 size=400
+2024/01/02 18:08:59 [alert] 3919128#0: worker process 3920518 exited on signal 11 (core dumped)
+__cmi_malloc: ret=0x5c10e0 size=400
+2024/01/02 18:09:07 [alert] 3919128#0: worker process 3920625 exited on signal 11 (core dumped)
+__cmi_malloc: ret=0x5c10e0 size=400
+2024/01/02 18:09:16 [alert] 3919128#0: worker process 3920632 exited on signal 11 (core dumped)
+__cmi_malloc: ret=0x5c10e0 size=400
+2024/01/02 18:09:27 [alert] 3919128#0: worker process 3920634 exited on signal 11 (core dumped)
+__cmi_malloc: ret=0x5c10e0 size=400
+2024/01/02 18:09:37 [alert] 3919128#0: worker process 3920638 exited on signal 11 (core dumped)
+__cmi_malloc: ret=0x5c10e0 size=400
+2024/01/02 18:09:47 [alert] 3919128#0: worker process 3920640 exited on signal 11 (core dumped)
+__cmi_malloc: ret=0x5c10e0 size=400
+2024/01/02 18:09:57 [alert] 3919128#0: worker process 3920656 exited on signal 11 (core dumped)
+__cmi_malloc: ret=0x5c10e0 size=400
+2024/01/02 18:10:07 [alert] 3919128#0: worker process 3920691 exited on signal 11 (core dumped)
+__cmi_malloc: ret=0x5c10e0 size=400
+2024/01/02 18:10:17 [alert] 3919128#0: worker process 3920707 exited on signal 11 (core dumped)
+__cmi_malloc: ret=0x5c10e0 size=400
+2024/01/02 18:10:27 [alert] 3919128#0: worker process 3920718 exited on signal 11 (core dumped)
+__cmi_malloc: ret=0x5c10e0 size=400
+2024/01/02 18:10:38 [alert] 3919128#0: worker process 3920720 exited on signal 11 (core dumped)
+__cmi_malloc: ret=0x5c10e0 size=400
+2024/01/02 18:10:48 [alert] 3919128#0: worker process 3920722 exited on signal 11 (core dumped)
+__cmi_malloc: ret=0x5c10e0 size=400
+2024/01/02 18:10:58 [alert] 3919128#0: worker process 3920724 exited on signal 11 (core dumped)
+__cmi_malloc: ret=0x5c50e0 size=400
+__cmi_malloc: ret=0x5c50e0 size=400

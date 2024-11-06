@@ -1,0 +1,112 @@
+# default options
+
+set(CPACK_ARCHIVE_COMPONENT_INSTALL ${CPACK_COMPONENT_INSTALL})
+set(CPACK_SOURCE_IGNORE_FILES "/[.]git/;/[.](idea|settings|c?project);~$;[.]log$;[.]bak$")
+
+macro(cpack_include_if GENERATOR)
+    message(STATUS "Checking ${GENERATOR} package configuration ...")
+    if(EXISTS ${CMAKE_SOURCE_DIR}/CPack/${GENERATOR}.txt)
+        include(${CMAKE_SOURCE_DIR}/CPack/${GENERATOR}.txt)
+    endif()
+endmacro()
+
+# shell installer
+set(CPACK_BINARY_STGZ ${UNIX})
+
+# binary archive
+set(CPACK_BINARY_TBZ2 0)
+set(CPACK_BINARY_TGZ ${UNIX})
+set(CPACK_BINARY_TXZ 0)
+set(CPACK_BINARY_TZ 0)
+set(CPACK_BINARY_ZIP ${WIN32})
+set(CPACK_BINARY_NSIS ${WIN32})
+set(CPACK_BINARY_NUGET 0)
+
+# source archive
+set(CPACK_SOURCE_TBZ2 0)
+set(CPACK_SOURCE_TGZ ${UNIX})
+set(CPACK_SOURCE_TXZ 0)
+set(CPACK_SOURCE_TZ 0)
+set(CPACK_SOURCE_ZIP ${WIN32})
+
+# project internals
+set(CPACK_PACKAGE_LICENSE "BSD-3-Clause")
+set(CPACK_PACKAGE_CONTACT "${PROJECT_CONTACT}")
+set(CPACK_PACKAGE_VENDOR "${PROJECT_CONTACT}")
+set(CPACK_PACKAGE_DESCRIPTION
+	"libmemcached-awesome is an open source C/C++ client library and tools
+for the memcached server (http://memcached.org/). It has been designed
+to be light on memory usage, thread safe, and provide full access to
+server side methods.")
+if(CMAKE_VERSION VERSION_LESS 3.12)
+    string(REPLACE ";" "-" CPACK_PACKAGE_DIRECTORY "${CMAKE_BINARY_DIR}/${PROJECT_CONFIG}")
+else()
+    list(JOIN PROJECT_CONFIG "-" CPACK_PACKAGE_DIRECTORY)
+endif()
+set(CPACK_PROJECT_CONFIG_FILE "${CMAKE_SOURCE_DIR}/CPack/ProjectConfig.txt")
+set(CPACK_PACKAGE_DESCRIPTION_FILE "${CMAKE_SOURCE_DIR}/README.md")
+set(CPACK_PACKAGE_INSTALL_DIRECTORY "${PROJECT_NAME}/${PROJECT_VERSION}")
+set(CPACK_PACKAGE_CHECKSUM SHA1)
+set(CPACK_RESOURCE_FILE_LICENSE "${CMAKE_SOURCE_DIR}/LICENSE")
+set(CPACK_RESOURCE_FILE_README "${CMAKE_SOURCE_DIR}/README.md")
+set(CPACK_CHANGELOG_FILE "${CMAKE_SOURCE_DIR}/ChangeLog-1.1.md")
+
+execute_process(
+        COMMAND git describe --tags --match [0-9]*.*
+        WORKING_DIRECTORY ${CMAKE_SOURCE_DIR}
+        OUTPUT_VARIABLE PROJECT_TAG
+        ERROR_VARIABLE GIT_ERROR_OUTPUT
+)
+if(GIT_ERROR_OUTPUT)
+    message(NOTICE "git describe: ${GIT_ERROR_OUTPUT}")
+endif()
+string(STRIP "${PROJECT_TAG}" PROJECT_TAG)
+if(PROJECT_TAG)
+    set(CPACK_PACKAGE_FILE_NAME ${PROJECT_NAME}-${PROJECT_TAG})
+else()
+    set(CPACK_PACKAGE_FILE_NAME ${PROJECT_NAME}-${PROJECT_VERSION})
+endif()
+
+# dependencies
+if(HAVE_LIBSASL)
+    string(APPEND CPACK_PACKAGE_DEPENDS " libsasl2")
+endif()
+if(HAVE_TBB)
+    string(APPEND CPACK_PACKAGE_DEPENDS " tbb")
+endif()
+if(HAVE_LIBEVENT)
+    string(APPEND CPACK_PACKAGE_DEPENDS " libevent")
+endif()
+
+# DEBs
+find_program(DPKG dpkg)
+if(DPKG)
+    cpack_include_if(DEB)
+endif()
+
+# WIN
+if(WIN32)
+    cpack_include_if(NSIS)
+endif()
+
+# RPMs
+find_program(RPMBUILD rpmbuild)
+if(RPMBUILD)
+    cpack_include_if(RPM)
+endif()
+
+# keep last
+include(CPack)
+
+set(PUSH_ARTIFACTS_SH "${CMAKE_SOURCE_DIR}/scripts/push-artifacts.sh")
+if(WIN32)
+    set(PUSH_ARTIFACTS_CMD msys2 -c '${PUSH_ARTIFACTS_SH} ${CPACK_PACKAGE_DIRECTORY}/')
+else()
+    set(PUSH_ARTIFACTS_CMD ${PUSH_ARTIFACTS_SH} ${CPACK_PACKAGE_DIRECTORY}/)
+endif()
+
+add_custom_target(push-artifacts
+        COMMAND ${PUSH_ARTIFACTS_CMD}
+        WORKING_DIRECTORY ${CPACK_BINARY_DIR}
+        )
+

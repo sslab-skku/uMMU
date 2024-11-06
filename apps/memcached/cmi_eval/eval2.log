@@ -1,0 +1,110 @@
+memcached.wpa.anno-cmi.inst.oramB64Z4L12, Time to generate        500 test keys:                0.004 seconds.
+memcached.wpa.anno-cmi.inst.oramB64Z4L12, Time to set             500 keys:                     0.393 seconds.
+memcached.wpa.anno-cmi.inst.oramB64Z4L12, Time to start             1 threads:                  0.000 seconds.
+memcached.wpa.anno-cmi.inst.oramB64Z4L12, --------------------------------------------------------------------
+memcached.wpa.anno-cmi.inst.oramB64Z4L12, Time to get             500 keys by    1 threads:     0.161 seconds.
+memcached.wpa.anno-cmi.inst.oramB64Z4L12, --------------------------------------------------------------------
+memcached.wpa.anno-cmi.inst.oramB64Z4L12, Time total:                                           0.559 seconds.
+./cmi_eval/eval-memaslap.sh: line 97: 3951374 Killed                  "$@"
+memcached.wpa.anno-cmi.inst.oramB64Z4L12, Time to generate       1000 test keys:                0.007 seconds.
+memcached.wpa.anno-cmi.inst.oramB64Z4L12, Time to set            1000 keys:                     0.766 seconds.
+memcached.wpa.anno-cmi.inst.oramB64Z4L12, Time to start             1 threads:                  0.000 seconds.
+memcached.wpa.anno-cmi.inst.oramB64Z4L12, --------------------------------------------------------------------
+memcached.wpa.anno-cmi.inst.oramB64Z4L12, Time to get            1000 keys by    1 threads:     0.339 seconds.
+memcached.wpa.anno-cmi.inst.oramB64Z4L12, --------------------------------------------------------------------
+memcached.wpa.anno-cmi.inst.oramB64Z4L12, Time total:                                           1.113 seconds.
+./cmi_eval/eval-memaslap.sh: line 97: 3951444 Killed                  "$@"
+memcached.wpa.anno-cmi.inst.oramB64Z4L12, Time to generate       2000 test keys:                0.014 seconds.
+memcached.wpa.anno-cmi.inst.oramB64Z4L12, Time to set            2000 keys:                     1.528 seconds.
+memcached.wpa.anno-cmi.inst.oramB64Z4L12, Time to start             1 threads:                  0.000 seconds.
+memcached.wpa.anno-cmi.inst.oramB64Z4L12, --------------------------------------------------------------------
+memcached.wpa.anno-cmi.inst.oramB64Z4L12, Time to get            2000 keys by    1 threads:     0.771 seconds.
+memcached.wpa.anno-cmi.inst.oramB64Z4L12, --------------------------------------------------------------------
+memcached.wpa.anno-cmi.inst.oramB64Z4L12, Time total:                                           2.313 seconds.
+./cmi_eval/eval-memaslap.sh: line 97: 3951519 Killed                  "$@"
+memcached.wpa.anno-cmi.inst.oramB64Z4L12, Time to generate       4000 test keys:                0.021 seconds.
+memcached.wpa.anno-cmi.inst.oramB64Z4L12, Time to set            4000 keys:                     3.053 seconds.
+memcached.wpa.anno-cmi.inst.oramB64Z4L12, Time to start             1 threads:                  0.000 seconds.
+memcached.wpa.anno-cmi.inst.oramB64Z4L12, --------------------------------------------------------------------
+memcached.wpa.anno-cmi.inst.oramB64Z4L12, Time to get            4000 keys by    1 threads:     1.555 seconds.
+memcached.wpa.anno-cmi.inst.oramB64Z4L12, --------------------------------------------------------------------
+memcached.wpa.anno-cmi.inst.oramB64Z4L12, Time total:                                           4.630 seconds.
+./cmi_eval/eval-memaslap.sh: line 97: 3951611 Killed                  "$@"
+memcached.wpa.anno-cmi.inst.oramB64Z4L12, Time to generate       8000 test keys:                0.034 seconds.
+memcached.wpa.anno-cmi.inst.oramB64Z4L12, Time to set            8000 keys:                     6.152 seconds.
+memcached.wpa.anno-cmi.inst.oramB64Z4L12, Time to start             1 threads:                  0.000 seconds.
+memcached.wpa.anno-cmi.inst.oramB64Z4L12, --------------------------------------------------------------------
+memcached.wpa.anno-cmi.inst.oramB64Z4L12, Time to get            8000 keys by    1 threads:     3.151 seconds.
+memcached.wpa.anno-cmi.inst.oramB64Z4L12, --------------------------------------------------------------------
+memcached.wpa.anno-cmi.inst.oramB64Z4L12, Time total:                                           9.337 seconds.
+./cmi_eval/eval-memaslap.sh: line 97: 3951682 Killed                  "$@"
+memcached.wpa.anno-cmi.inst.oramB64Z4L12, Time to generate      16000 test keys:                0.050 seconds.
+memcached.wpa.anno-cmi.inst.oramB64Z4L12, Time to set           16000 keys:                    12.206 seconds.
+memcached.wpa.anno-cmi.inst.oramB64Z4L12, Time to start             1 threads:                  0.000 seconds.
+memcached.wpa.anno-cmi.inst.oramB64Z4L12, --------------------------------------------------------------------
+memcached.wpa.anno-cmi.inst.oramB64Z4L12, Time to get           16000 keys by    1 threads:     6.482 seconds.
+memcached.wpa.anno-cmi.inst.oramB64Z4L12, --------------------------------------------------------------------
+memcached.wpa.anno-cmi.inst.oramB64Z4L12, Time total:                                          18.738 seconds.
+./cmi_eval/eval-memaslap.sh: line 97: 3951751 Killed                  "$@"
+memcached.wpa.anno-cmi.inst.oramB64Z4L12, Time to generate      32000 test keys:                0.091 seconds.
+memcached.wpa.anno-cmi.inst.oramB64Z4L12, Time to set           32000 keys:                    24.450 seconds.
+memcached.wpa.anno-cmi.inst.oramB64Z4L12, Time to start             1 threads:                  0.000 seconds.
+memcached.wpa.anno-cmi.inst.oramB64Z4L12, --------------------------------------------------------------------
+memcached.wpa.anno-cmi.inst.oramB64Z4L12, Time to get           22371 keys by    1 threads:    13.018 seconds.
+memcached.wpa.anno-cmi.inst.oramB64Z4L12, --------------------------------------------------------------------
+memcached.wpa.anno-cmi.inst.oramB64Z4L12, Time total:                                          37.559 seconds.
+./cmi_eval/eval-memaslap.sh: line 97: 3951821 Killed                  "$@"
+memcached.wpa.anno-cmi.inst.oramB64Z4L12, Time to generate        500 test keys:                0.004 seconds.
+memcached.wpa.anno-cmi.inst.oramB64Z4L12, Time to set             500 keys:                     0.411 seconds.
+memcached.wpa.anno-cmi.inst.oramB64Z4L12, Time to start             2 threads:                  0.000 seconds.
+memcached.wpa.anno-cmi.inst.oramB64Z4L12, --------------------------------------------------------------------
+memcached.wpa.anno-cmi.inst.oramB64Z4L12, Time to get            1000 keys by    2 threads:     0.304 seconds.
+memcached.wpa.anno-cmi.inst.oramB64Z4L12, --------------------------------------------------------------------
+memcached.wpa.anno-cmi.inst.oramB64Z4L12, Time total:                                           0.719 seconds.
+./cmi_eval/eval-memaslap.sh: line 97: 3951914 Killed                  "$@"
+memcached.wpa.anno-cmi.inst.oramB64Z4L12, Time to generate       1000 test keys:                0.007 seconds.
+memcached.wpa.anno-cmi.inst.oramB64Z4L12, Time to set            1000 keys:                     0.766 seconds.
+memcached.wpa.anno-cmi.inst.oramB64Z4L12, Time to start             2 threads:                  0.000 seconds.
+memcached.wpa.anno-cmi.inst.oramB64Z4L12, --------------------------------------------------------------------
+memcached.wpa.anno-cmi.inst.oramB64Z4L12, Time to get            2000 keys by    2 threads:     0.607 seconds.
+memcached.wpa.anno-cmi.inst.oramB64Z4L12, --------------------------------------------------------------------
+memcached.wpa.anno-cmi.inst.oramB64Z4L12, Time total:                                           1.380 seconds.
+./cmi_eval/eval-memaslap.sh: line 97: 3951985 Killed                  "$@"
+memcached.wpa.anno-cmi.inst.oramB64Z4L12, Time to generate       2000 test keys:                0.014 seconds.
+memcached.wpa.anno-cmi.inst.oramB64Z4L12, Time to set            2000 keys:                     1.561 seconds.
+memcached.wpa.anno-cmi.inst.oramB64Z4L12, Time to start             2 threads:                  0.000 seconds.
+memcached.wpa.anno-cmi.inst.oramB64Z4L12, --------------------------------------------------------------------
+memcached.wpa.anno-cmi.inst.oramB64Z4L12, Time to get            4000 keys by    2 threads:     1.293 seconds.
+memcached.wpa.anno-cmi.inst.oramB64Z4L12, --------------------------------------------------------------------
+memcached.wpa.anno-cmi.inst.oramB64Z4L12, Time total:                                           2.868 seconds.
+./cmi_eval/eval-memaslap.sh: line 97: 3952054 Killed                  "$@"
+memcached.wpa.anno-cmi.inst.oramB64Z4L12, Time to generate       4000 test keys:                0.023 seconds.
+memcached.wpa.anno-cmi.inst.oramB64Z4L12, Time to set            4000 keys:                     3.056 seconds.
+memcached.wpa.anno-cmi.inst.oramB64Z4L12, Time to start             2 threads:                  0.000 seconds.
+memcached.wpa.anno-cmi.inst.oramB64Z4L12, --------------------------------------------------------------------
+memcached.wpa.anno-cmi.inst.oramB64Z4L12, Time to get            8000 keys by    2 threads:     2.713 seconds.
+memcached.wpa.anno-cmi.inst.oramB64Z4L12, --------------------------------------------------------------------
+memcached.wpa.anno-cmi.inst.oramB64Z4L12, Time total:                                           5.792 seconds.
+./cmi_eval/eval-memaslap.sh: line 97: 3952126 Killed                  "$@"
+memcached.wpa.anno-cmi.inst.oramB64Z4L12, Time to generate       8000 test keys:                0.031 seconds.
+memcached.wpa.anno-cmi.inst.oramB64Z4L12, Time to set            8000 keys:                     6.110 seconds.
+memcached.wpa.anno-cmi.inst.oramB64Z4L12, Time to start             2 threads:                  0.000 seconds.
+memcached.wpa.anno-cmi.inst.oramB64Z4L12, --------------------------------------------------------------------
+memcached.wpa.anno-cmi.inst.oramB64Z4L12, Time to get           16000 keys by    2 threads:     5.579 seconds.
+memcached.wpa.anno-cmi.inst.oramB64Z4L12, --------------------------------------------------------------------
+memcached.wpa.anno-cmi.inst.oramB64Z4L12, Time total:                                          11.719 seconds.
+./cmi_eval/eval-memaslap.sh: line 97: 3952195 Killed                  "$@"
+memcached.wpa.anno-cmi.inst.oramB64Z4L12, Time to generate      16000 test keys:                0.051 seconds.
+memcached.wpa.anno-cmi.inst.oramB64Z4L12, Time to set           16000 keys:                    12.273 seconds.
+memcached.wpa.anno-cmi.inst.oramB64Z4L12, Time to start             2 threads:                  0.000 seconds.
+memcached.wpa.anno-cmi.inst.oramB64Z4L12, --------------------------------------------------------------------
+memcached.wpa.anno-cmi.inst.oramB64Z4L12, Time to get           32000 keys by    2 threads:    11.334 seconds.
+memcached.wpa.anno-cmi.inst.oramB64Z4L12, --------------------------------------------------------------------
+memcached.wpa.anno-cmi.inst.oramB64Z4L12, Time total:                                          23.657 seconds.
+./cmi_eval/eval-memaslap.sh: line 97: 3952265 Killed                  "$@"
+Fatal error for key 'E8HePQrRrKJLg5myYgPrQnq0L1LwCKCc58oN84p': (0x55b04e561d50) A TIMEOUT OCCURRED, time out,  host: 127.0.0.1:12345 -> /home/hjoll6/Workspace/CMI-project/apps/memcached/cmi_eval/libmemcached/src/libmemcached/io.cc:220
+memcached.wpa.anno-cmi.inst.oramB64Z4L12, Time to generate      32000 test keys:                0.093 seconds.
+memcached.wpa.anno-cmi.inst.oramB64Z4L12, Time to set           32000 keys:                    24.446 seconds.
+memcached.wpa.anno-cmi.inst.oramB64Z4L12, Time to start             2 threads:                  0.000 seconds.
+Fatal error for key 'aWFLeFny7DGsqgePwrnus9rdtR6BIBudFEKjTXHWSvN4KCwSBl': (0x55b04e561910) A TIMEOUT OCCURRED, time out,  host: 127.0.0.1:12345 -> /home/hjoll6/Workspace/CMI-project/apps/memcached/cmi_eval/libmemcached/src/libmemcached/io.cc:220
+  C-c C-c

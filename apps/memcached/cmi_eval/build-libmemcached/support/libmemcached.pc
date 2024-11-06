@@ -1,0 +1,11 @@
+prefix=/usr/local
+exec_prefix=/usr/local/bin
+libdir=/usr/local/lib
+includedir=/usr/local/include
+
+Name: libmemcached
+URL: https://awesomized.github.io/libmemcached/
+Description: libmemcached C/C++ library
+Version: 1.1.0
+Libs: -L/usr/local/lib -lmemcached -lmemcachedutil
+Cflags: -I/usr/local/include

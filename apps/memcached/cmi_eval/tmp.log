@@ -1,0 +1,52 @@
+50 matches for "mget" in buffer: *Async Shell Command*
+      5:Time to mget            500 keys by    1 threads:     0.168 seconds.
+     28:Time to mget           1000 keys by    2 threads:     0.292 seconds.
+     51:Time to mget           2000 keys by    4 threads:     0.583 seconds.
+     78:Time to mget           4000 keys by    8 threads:     1.194 seconds.
+    101:Time to mget           1000 keys by    1 threads:     0.306 seconds.
+    124:Time to mget           2000 keys by    2 threads:     0.623 seconds.
+    147:Time to mget           4000 keys by    4 threads:     1.257 seconds.
+    174:Time to mget           8000 keys by    8 threads:     2.527 seconds.
+    205:Time to mget           2000 keys by    1 threads:     0.639 seconds.
+    228:Time to mget           4000 keys by    2 threads:     1.298 seconds.
+    251:Time to mget           8000 keys by    4 threads:     2.700 seconds.
+    278:Time to mget          14000 keys by    8 threads:     5.007 seconds.
+    309:Time to mget           4000 keys by    1 threads:     1.324 seconds.
+    332:Time to mget           8000 keys by    2 threads:     2.704 seconds.
+    355:Time to mget          12000 keys by    4 threads:     5.007 seconds.
+    382:Time to mget          12000 keys by    8 threads:     5.007 seconds.
+    413:Time to mget           8000 keys by    1 threads:     2.707 seconds.
+    436:Time to mget           8000 keys by    2 threads:     5.436 seconds.
+    460:Failed mget: A TIMEOUT OCCURRED: (0x5609bbbebd20) A TIMEOUT OCCURRED, time out,  host: 127.0.0.1:12345 -> /home/hjoll6/Workspace/CMI-project/apps/memcached/cmi_eval/libmemcached/src/libmemcached/io.cc:220--------------------------------------------------------------------
+    461:Time to mget           5450 keys by    4 threads:     7.735 seconds.
+    487:Failed mget: A TIMEOUT OCCURRED: (0x564e9360cfa0) A TIMEOUT OCCURRED, time out,  host: 127.0.0.1:12345 -> /home/hjoll6/Workspace/CMI-project/apps/memcached/cmi_eval/libmemcached/src/libmemcached/io.cc:220--------------------------------------------------------------------
+    488:Time to mget           6248 keys by    8 threads:     7.726 seconds.
+    519:Time to mget              0 keys by    1 threads:     5.011 seconds.
+    542:Time to mget              0 keys by    2 threads:     5.012 seconds.
+    567:Time to mget              0 keys by    4 threads:     5.012 seconds.
+    594:Time to mget              0 keys by    8 threads:     5.011 seconds.
+    625:Time to mget            500 keys by    1 threads:     0.018 seconds.
+    648:Time to mget           1000 keys by    2 threads:     0.031 seconds.
+    671:Time to mget           2000 keys by    4 threads:     0.057 seconds.
+    698:Time to mget           4000 keys by    8 threads:     0.120 seconds.
+    729:Time to mget           1000 keys by    1 threads:     0.044 seconds.
+    752:Time to mget           2000 keys by    2 threads:     0.058 seconds.
+    775:Time to mget           4000 keys by    4 threads:     0.122 seconds.
+    802:Time to mget           8000 keys by    8 threads:     0.213 seconds.
+    833:Time to mget           2000 keys by    1 threads:     0.116 seconds.
+    856:Time to mget           4000 keys by    2 threads:     0.114 seconds.
+    879:Time to mget           8000 keys by    4 threads:     0.217 seconds.
+    906:Time to mget          16000 keys by    8 threads:     0.434 seconds.
+    937:Time to mget           4000 keys by    1 threads:     0.121 seconds.
+    960:Time to mget           8000 keys by    2 threads:     0.224 seconds.
+    985:Time to mget          16000 keys by    4 threads:     0.432 seconds.
+   1012:Time to mget          32000 keys by    8 threads:     0.852 seconds.
+   1043:Time to mget           8000 keys by    1 threads:     0.237 seconds.
+   1066:Time to mget          16000 keys by    2 threads:     0.449 seconds.
+   1091:Time to mget          32000 keys by    4 threads:     0.896 seconds.
+   1118:Time to mget          64000 keys by    8 threads:     1.755 seconds.
+   1149:Time to mget          16000 keys by    1 threads:     0.492 seconds.
+   1172:Time to mget          32000 keys by    2 threads:     0.930 seconds.
+   1197:Time to mget          64000 keys by    4 threads:     1.835 seconds.
+   1224:Time to mget         128000 keys by    8 threads:     3.766 seconds.
+x

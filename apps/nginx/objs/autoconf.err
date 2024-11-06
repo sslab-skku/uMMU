@@ -1,0 +1,971 @@
+
+
+----------------------------------------
+checking for C compiler
+
+clang: warning: argument unused during compilation: '-fuse-ld=musl-clang' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-static-libgcc' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-L-user-start' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-L/home/hjoll6/.local/musl/lib' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-L-user-end' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-fuse-ld=musl-clang' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-static-libgcc' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-L-user-start' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-L/home/hjoll6/.local/musl/lib' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-L-user-end' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nostdinc' [-Wunused-command-line-argument]
+
+----------------------------------------
+checking for -Wl,-E switch
+
+clang: warning: argument unused during compilation: '-nostdinc' [-Wunused-command-line-argument]
+
+----------------------------------------
+checking for gcc builtin atomic operations
+
+clang: warning: argument unused during compilation: '-nostdinc' [-Wunused-command-line-argument]
+
+----------------------------------------
+checking for C99 variadic macros
+
+clang: warning: argument unused during compilation: '-nostdinc' [-Wunused-command-line-argument]
+
+----------------------------------------
+checking for gcc variadic macros
+
+clang: warning: argument unused during compilation: '-nostdinc' [-Wunused-command-line-argument]
+
+----------------------------------------
+checking for gcc builtin 64 bit byteswap
+
+clang: warning: argument unused during compilation: '-nostdinc' [-Wunused-command-line-argument]
+
+----------------------------------------
+checking for unistd.h
+
+clang: warning: argument unused during compilation: '-fuse-ld=musl-clang' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-static-libgcc' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-L-user-start' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-L/home/hjoll6/.local/musl/lib' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-L-user-end' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-fuse-ld=musl-clang' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-static-libgcc' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-L-user-start' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-L/home/hjoll6/.local/musl/lib' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-L-user-end' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nostdinc' [-Wunused-command-line-argument]
+
+----------------------------------------
+checking for inttypes.h
+
+clang: warning: argument unused during compilation: '-fuse-ld=musl-clang' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-static-libgcc' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-L-user-start' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-L/home/hjoll6/.local/musl/lib' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-L-user-end' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-fuse-ld=musl-clang' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-static-libgcc' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-L-user-start' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-L/home/hjoll6/.local/musl/lib' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-L-user-end' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nostdinc' [-Wunused-command-line-argument]
+
+----------------------------------------
+checking for limits.h
+
+clang: warning: argument unused during compilation: '-fuse-ld=musl-clang' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-static-libgcc' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-L-user-start' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-L/home/hjoll6/.local/musl/lib' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-L-user-end' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-fuse-ld=musl-clang' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-static-libgcc' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-L-user-start' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-L/home/hjoll6/.local/musl/lib' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-L-user-end' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nostdinc' [-Wunused-command-line-argument]
+
+----------------------------------------
+checking for sys/filio.h
+
+objs/autotest.c:3:10: fatal error: 'sys/filio.h' file not found
+#include <sys/filio.h>
+         ^~~~~~~~~~~~~
+1 error generated.
+ERROR:Failed to compile using given arguments: [-o objs/autotest objs/autotest.c]
+----------
+
+
+#include <sys/filio.h>
+
+int main(void) {
+    return 0;
+}
+
+----------
+wllvm -o objs/autotest objs/autotest.c
+----------
+
+----------------------------------------
+checking for sys/param.h
+
+clang: warning: argument unused during compilation: '-fuse-ld=musl-clang' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-static-libgcc' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-L-user-start' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-L/home/hjoll6/.local/musl/lib' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-L-user-end' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-fuse-ld=musl-clang' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-static-libgcc' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-L-user-start' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-L/home/hjoll6/.local/musl/lib' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-L-user-end' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nostdinc' [-Wunused-command-line-argument]
+
+----------------------------------------
+checking for sys/mount.h
+
+clang: warning: argument unused during compilation: '-fuse-ld=musl-clang' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-static-libgcc' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-L-user-start' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-L/home/hjoll6/.local/musl/lib' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-L-user-end' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-fuse-ld=musl-clang' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-static-libgcc' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-L-user-start' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-L/home/hjoll6/.local/musl/lib' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-L-user-end' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nostdinc' [-Wunused-command-line-argument]
+
+----------------------------------------
+checking for sys/statvfs.h
+
+clang: warning: argument unused during compilation: '-fuse-ld=musl-clang' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-static-libgcc' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-L-user-start' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-L/home/hjoll6/.local/musl/lib' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-L-user-end' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-fuse-ld=musl-clang' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-static-libgcc' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-L-user-start' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-L/home/hjoll6/.local/musl/lib' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-L-user-end' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nostdinc' [-Wunused-command-line-argument]
+
+----------------------------------------
+checking for crypt.h
+
+clang: warning: argument unused during compilation: '-fuse-ld=musl-clang' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-static-libgcc' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-L-user-start' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-L/home/hjoll6/.local/musl/lib' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-L-user-end' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-fuse-ld=musl-clang' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-static-libgcc' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-L-user-start' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-L/home/hjoll6/.local/musl/lib' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-L-user-end' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nostdinc' [-Wunused-command-line-argument]
+
+----------------------------------------
+checking for epoll
+
+clang: warning: argument unused during compilation: '-nostdinc' [-Wunused-command-line-argument]
+
+----------------------------------------
+checking for EPOLLRDHUP
+
+clang: warning: argument unused during compilation: '-nostdinc' [-Wunused-command-line-argument]
+
+----------------------------------------
+checking for EPOLLEXCLUSIVE
+
+clang: warning: argument unused during compilation: '-nostdinc' [-Wunused-command-line-argument]
+
+----------------------------------------
+checking for O_PATH
+
+clang: warning: argument unused during compilation: '-nostdinc' [-Wunused-command-line-argument]
+
+----------------------------------------
+checking for sendfile()
+
+clang: warning: argument unused during compilation: '-nostdinc' [-Wunused-command-line-argument]
+
+----------------------------------------
+checking for sendfile64()
+
+clang: warning: argument unused during compilation: '-nostdinc' [-Wunused-command-line-argument]
+
+----------------------------------------
+checking for sys/prctl.h
+
+clang: warning: argument unused during compilation: '-fuse-ld=musl-clang' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-static-libgcc' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-L-user-start' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-L/home/hjoll6/.local/musl/lib' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-L-user-end' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-fuse-ld=musl-clang' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-static-libgcc' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-L-user-start' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-L/home/hjoll6/.local/musl/lib' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-L-user-end' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nostdinc' [-Wunused-command-line-argument]
+
+----------------------------------------
+checking for prctl(PR_SET_DUMPABLE)
+
+clang: warning: argument unused during compilation: '-nostdinc' [-Wunused-command-line-argument]
+
+----------------------------------------
+checking for prctl(PR_SET_KEEPCAPS)
+
+clang: warning: argument unused during compilation: '-nostdinc' [-Wunused-command-line-argument]
+
+----------------------------------------
+checking for capabilities
+
+objs/autotest.c:4:10: fatal error: 'linux/capability.h' file not found
+#include <linux/capability.h>
+         ^~~~~~~~~~~~~~~~~~~~
+1 error generated.
+ERROR:Failed to compile using given arguments: [-pipe -O0 -I/home/hjoll6/Workspace/CMI-project/cmi/include -fno-stack-protector -mno-avx -mno-sse -Wno-sign-compare -Wno-unused-function -Wno-unused-command-line-argument -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -o objs/autotest objs/autotest.c]
+----------
+
+#include <sys/types.h>
+#include <unistd.h>
+#include <linux/capability.h>
+                  #include <sys/syscall.h>
+
+int main(void) {
+    struct __user_cap_data_struct    data;
+                  struct __user_cap_header_struct  header;
+
+                  header.version = _LINUX_CAPABILITY_VERSION_1;
+                  data.effective = CAP_TO_MASK(CAP_NET_RAW);
+                  data.permitted = 0;
+
+                  (void) header;
+                  (void) data;
+                  (void) SYS_capset;
+    return 0;
+}
+
+----------
+wllvm -pipe -O0 -I/home/hjoll6/Workspace/CMI-project/cmi/include -fno-stack-protector -mno-avx -mno-sse -Wno-sign-compare -Wno-unused-function -Wno-unused-command-line-argument -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -o objs/autotest objs/autotest.c
+----------
+
+----------------------------------------
+checking for crypt_r()
+
+clang: warning: argument unused during compilation: '-nostdinc' [-Wunused-command-line-argument]
+
+----------------------------------------
+checking for sys/vfs.h
+
+clang: warning: argument unused during compilation: '-fuse-ld=musl-clang' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-static-libgcc' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-L-user-start' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-L/home/hjoll6/.local/musl/lib' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-L-user-end' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-fuse-ld=musl-clang' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-static-libgcc' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-L-user-start' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-L/home/hjoll6/.local/musl/lib' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-L-user-end' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nostdinc' [-Wunused-command-line-argument]
+
+----------------------------------------
+checking for poll()
+
+clang: warning: argument unused during compilation: '-nostdinc' [-Wunused-command-line-argument]
+
+----------------------------------------
+checking for /dev/poll
+
+objs/autotest.c:4:10: fatal error: 'sys/devpoll.h' file not found
+#include <sys/devpoll.h>
+         ^~~~~~~~~~~~~~~
+1 error generated.
+ERROR:Failed to compile using given arguments: [-pipe -O0 -I/home/hjoll6/Workspace/CMI-project/cmi/include -fno-stack-protector -mno-avx -mno-sse -Wno-sign-compare -Wno-unused-function -Wno-unused-command-line-argument -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -o objs/autotest objs/autotest.c]
+----------
+
+#include <sys/types.h>
+#include <unistd.h>
+#include <sys/devpoll.h>
+
+int main(void) {
+    int  n, dp; struct dvpoll  dvp;
+                  dp = 0;
+                  dvp.dp_fds = NULL;
+                  dvp.dp_nfds = 0;
+                  dvp.dp_timeout = 0;
+                  n = ioctl(dp, DP_POLL, &dvp);
+                  if (n == -1) return 1;
+    return 0;
+}
+
+----------
+wllvm -pipe -O0 -I/home/hjoll6/Workspace/CMI-project/cmi/include -fno-stack-protector -mno-avx -mno-sse -Wno-sign-compare -Wno-unused-function -Wno-unused-command-line-argument -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -o objs/autotest objs/autotest.c
+----------
+
+----------------------------------------
+checking for kqueue
+
+objs/autotest.c:4:10: fatal error: 'sys/event.h' file not found
+#include <sys/event.h>
+         ^~~~~~~~~~~~~
+1 error generated.
+ERROR:Failed to compile using given arguments: [-pipe -O0 -I/home/hjoll6/Workspace/CMI-project/cmi/include -fno-stack-protector -mno-avx -mno-sse -Wno-sign-compare -Wno-unused-function -Wno-unused-command-line-argument -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -o objs/autotest objs/autotest.c]
+----------
+
+#include <sys/types.h>
+#include <unistd.h>
+#include <sys/event.h>
+
+int main(void) {
+    (void) kqueue();
+    return 0;
+}
+
+----------
+wllvm -pipe -O0 -I/home/hjoll6/Workspace/CMI-project/cmi/include -fno-stack-protector -mno-avx -mno-sse -Wno-sign-compare -Wno-unused-function -Wno-unused-command-line-argument -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -o objs/autotest objs/autotest.c
+----------
+
+----------------------------------------
+checking for crypt()
+
+clang: warning: argument unused during compilation: '-nostdinc' [-Wunused-command-line-argument]
+
+----------------------------------------
+checking for F_READAHEAD
+
+objs/autotest.c:7:14: error: use of undeclared identifier 'F_READAHEAD'
+    fcntl(0, F_READAHEAD, 1);;
+             ^
+1 error generated.
+ERROR:Failed to compile using given arguments: [-pipe -O0 -I/home/hjoll6/Workspace/CMI-project/cmi/include -fno-stack-protector -mno-avx -mno-sse -Wno-sign-compare -Wno-unused-function -Wno-unused-command-line-argument -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -o objs/autotest objs/autotest.c]
+----------
+
+#include <sys/types.h>
+#include <unistd.h>
+#include <fcntl.h>
+
+int main(void) {
+    fcntl(0, F_READAHEAD, 1);;
+    return 0;
+}
+
+----------
+wllvm -pipe -O0 -I/home/hjoll6/Workspace/CMI-project/cmi/include -fno-stack-protector -mno-avx -mno-sse -Wno-sign-compare -Wno-unused-function -Wno-unused-command-line-argument -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -o objs/autotest objs/autotest.c
+----------
+
+----------------------------------------
+checking for posix_fadvise()
+
+clang: warning: argument unused during compilation: '-nostdinc' [-Wunused-command-line-argument]
+
+----------------------------------------
+checking for O_DIRECT
+
+clang: warning: argument unused during compilation: '-nostdinc' [-Wunused-command-line-argument]
+
+----------------------------------------
+checking for F_NOCACHE
+
+objs/autotest.c:7:14: error: use of undeclared identifier 'F_NOCACHE'
+    fcntl(0, F_NOCACHE, 1);;
+             ^
+1 error generated.
+ERROR:Failed to compile using given arguments: [-pipe -O0 -I/home/hjoll6/Workspace/CMI-project/cmi/include -fno-stack-protector -mno-avx -mno-sse -Wno-sign-compare -Wno-unused-function -Wno-unused-command-line-argument -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -o objs/autotest objs/autotest.c]
+----------
+
+#include <sys/types.h>
+#include <unistd.h>
+#include <fcntl.h>
+
+int main(void) {
+    fcntl(0, F_NOCACHE, 1);;
+    return 0;
+}
+
+----------
+wllvm -pipe -O0 -I/home/hjoll6/Workspace/CMI-project/cmi/include -fno-stack-protector -mno-avx -mno-sse -Wno-sign-compare -Wno-unused-function -Wno-unused-command-line-argument -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -o objs/autotest objs/autotest.c
+----------
+
+----------------------------------------
+checking for directio()
+
+In file included from objs/autotest.c:5:
+/home/hjoll6/.local/musl/include/sys/fcntl.h:1:2: warning: redirecting incorrect #include <sys/fcntl.h> to <fcntl.h> [-W#warnings]
+#warning redirecting incorrect #include <sys/fcntl.h> to <fcntl.h>
+ ^
+objs/autotest.c:8:5: warning: implicit declaration of function 'directio' is invalid in C99 [-Wimplicit-function-declaration]
+    directio(0, DIRECTIO_ON);;
+    ^
+objs/autotest.c:8:17: error: use of undeclared identifier 'DIRECTIO_ON'
+    directio(0, DIRECTIO_ON);;
+                ^
+2 warnings and 1 error generated.
+ERROR:Failed to compile using given arguments: [-pipe -O0 -I/home/hjoll6/Workspace/CMI-project/cmi/include -fno-stack-protector -mno-avx -mno-sse -Wno-sign-compare -Wno-unused-function -Wno-unused-command-line-argument -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -o objs/autotest objs/autotest.c]
+----------
+
+#include <sys/types.h>
+#include <unistd.h>
+#include <sys/types.h>
+                  #include <sys/fcntl.h>
+
+int main(void) {
+    directio(0, DIRECTIO_ON);;
+    return 0;
+}
+
+----------
+wllvm -pipe -O0 -I/home/hjoll6/Workspace/CMI-project/cmi/include -fno-stack-protector -mno-avx -mno-sse -Wno-sign-compare -Wno-unused-function -Wno-unused-command-line-argument -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -o objs/autotest objs/autotest.c
+----------
+
+----------------------------------------
+checking for statfs()
+
+clang: warning: argument unused during compilation: '-nostdinc' [-Wunused-command-line-argument]
+
+----------------------------------------
+checking for statvfs()
+
+clang: warning: argument unused during compilation: '-nostdinc' [-Wunused-command-line-argument]
+
+----------------------------------------
+checking for dlopen()
+
+clang: warning: argument unused during compilation: '-nostdinc' [-Wunused-command-line-argument]
+
+----------------------------------------
+checking for sched_yield()
+
+clang: warning: argument unused during compilation: '-nostdinc' [-Wunused-command-line-argument]
+
+----------------------------------------
+checking for sched_setaffinity()
+
+clang: warning: argument unused during compilation: '-nostdinc' [-Wunused-command-line-argument]
+
+----------------------------------------
+checking for SO_SETFIB
+
+objs/autotest.c:7:31: error: use of undeclared identifier 'SO_SETFIB'
+    setsockopt(0, SOL_SOCKET, SO_SETFIB, NULL, 0);
+                              ^
+1 error generated.
+ERROR:Failed to compile using given arguments: [-pipe -O0 -I/home/hjoll6/Workspace/CMI-project/cmi/include -fno-stack-protector -mno-avx -mno-sse -Wno-sign-compare -Wno-unused-function -Wno-unused-command-line-argument -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -o objs/autotest objs/autotest.c]
+----------
+
+#include <sys/types.h>
+#include <unistd.h>
+#include <sys/socket.h>
+
+int main(void) {
+    setsockopt(0, SOL_SOCKET, SO_SETFIB, NULL, 0);
+    return 0;
+}
+
+----------
+wllvm -pipe -O0 -I/home/hjoll6/Workspace/CMI-project/cmi/include -fno-stack-protector -mno-avx -mno-sse -Wno-sign-compare -Wno-unused-function -Wno-unused-command-line-argument -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -o objs/autotest objs/autotest.c
+----------
+
+----------------------------------------
+checking for SO_REUSEPORT
+
+clang: warning: argument unused during compilation: '-nostdinc' [-Wunused-command-line-argument]
+
+----------------------------------------
+checking for SO_ACCEPTFILTER
+
+objs/autotest.c:7:31: error: use of undeclared identifier 'SO_ACCEPTFILTER'
+    setsockopt(0, SOL_SOCKET, SO_ACCEPTFILTER, NULL, 0);
+                              ^
+1 error generated.
+ERROR:Failed to compile using given arguments: [-pipe -O0 -I/home/hjoll6/Workspace/CMI-project/cmi/include -fno-stack-protector -mno-avx -mno-sse -Wno-sign-compare -Wno-unused-function -Wno-unused-command-line-argument -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -o objs/autotest objs/autotest.c]
+----------
+
+#include <sys/types.h>
+#include <unistd.h>
+#include <sys/socket.h>
+
+int main(void) {
+    setsockopt(0, SOL_SOCKET, SO_ACCEPTFILTER, NULL, 0);
+    return 0;
+}
+
+----------
+wllvm -pipe -O0 -I/home/hjoll6/Workspace/CMI-project/cmi/include -fno-stack-protector -mno-avx -mno-sse -Wno-sign-compare -Wno-unused-function -Wno-unused-command-line-argument -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -o objs/autotest objs/autotest.c
+----------
+
+----------------------------------------
+checking for SO_BINDANY
+
+objs/autotest.c:7:31: error: use of undeclared identifier 'SO_BINDANY'
+    setsockopt(0, SOL_SOCKET, SO_BINDANY, NULL, 0);
+                              ^
+1 error generated.
+ERROR:Failed to compile using given arguments: [-pipe -O0 -I/home/hjoll6/Workspace/CMI-project/cmi/include -fno-stack-protector -mno-avx -mno-sse -Wno-sign-compare -Wno-unused-function -Wno-unused-command-line-argument -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -o objs/autotest objs/autotest.c]
+----------
+
+#include <sys/types.h>
+#include <unistd.h>
+#include <sys/socket.h>
+
+int main(void) {
+    setsockopt(0, SOL_SOCKET, SO_BINDANY, NULL, 0);
+    return 0;
+}
+
+----------
+wllvm -pipe -O0 -I/home/hjoll6/Workspace/CMI-project/cmi/include -fno-stack-protector -mno-avx -mno-sse -Wno-sign-compare -Wno-unused-function -Wno-unused-command-line-argument -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -o objs/autotest objs/autotest.c
+----------
+
+----------------------------------------
+checking for IP_TRANSPARENT
+
+clang: warning: argument unused during compilation: '-nostdinc' [-Wunused-command-line-argument]
+
+----------------------------------------
+checking for IP_BINDANY
+
+objs/autotest.c:8:31: error: use of undeclared identifier 'IP_BINDANY'
+    setsockopt(0, IPPROTO_IP, IP_BINDANY, NULL, 0);
+                              ^
+1 error generated.
+ERROR:Failed to compile using given arguments: [-pipe -O0 -I/home/hjoll6/Workspace/CMI-project/cmi/include -fno-stack-protector -mno-avx -mno-sse -Wno-sign-compare -Wno-unused-function -Wno-unused-command-line-argument -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -o objs/autotest objs/autotest.c]
+----------
+
+#include <sys/types.h>
+#include <unistd.h>
+#include <sys/socket.h>
+                  #include <netinet/in.h>
+
+int main(void) {
+    setsockopt(0, IPPROTO_IP, IP_BINDANY, NULL, 0);
+    return 0;
+}
+
+----------
+wllvm -pipe -O0 -I/home/hjoll6/Workspace/CMI-project/cmi/include -fno-stack-protector -mno-avx -mno-sse -Wno-sign-compare -Wno-unused-function -Wno-unused-command-line-argument -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -o objs/autotest objs/autotest.c
+----------
+
+----------------------------------------
+checking for IP_BIND_ADDRESS_NO_PORT
+
+clang: warning: argument unused during compilation: '-nostdinc' [-Wunused-command-line-argument]
+
+----------------------------------------
+checking for IP_RECVDSTADDR
+
+objs/autotest.c:8:31: error: use of undeclared identifier 'IP_RECVDSTADDR'
+    setsockopt(0, IPPROTO_IP, IP_RECVDSTADDR, NULL, 0);
+                              ^
+1 error generated.
+ERROR:Failed to compile using given arguments: [-pipe -O0 -I/home/hjoll6/Workspace/CMI-project/cmi/include -fno-stack-protector -mno-avx -mno-sse -Wno-sign-compare -Wno-unused-function -Wno-unused-command-line-argument -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -o objs/autotest objs/autotest.c]
+----------
+
+#include <sys/types.h>
+#include <unistd.h>
+#include <sys/socket.h>
+                  #include <netinet/in.h>
+
+int main(void) {
+    setsockopt(0, IPPROTO_IP, IP_RECVDSTADDR, NULL, 0);
+    return 0;
+}
+
+----------
+wllvm -pipe -O0 -I/home/hjoll6/Workspace/CMI-project/cmi/include -fno-stack-protector -mno-avx -mno-sse -Wno-sign-compare -Wno-unused-function -Wno-unused-command-line-argument -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -o objs/autotest objs/autotest.c
+----------
+
+----------------------------------------
+checking for IP_SENDSRCADDR
+
+objs/autotest.c:8:31: error: use of undeclared identifier 'IP_SENDSRCADDR'
+    setsockopt(0, IPPROTO_IP, IP_SENDSRCADDR, NULL, 0);
+                              ^
+1 error generated.
+ERROR:Failed to compile using given arguments: [-pipe -O0 -I/home/hjoll6/Workspace/CMI-project/cmi/include -fno-stack-protector -mno-avx -mno-sse -Wno-sign-compare -Wno-unused-function -Wno-unused-command-line-argument -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -o objs/autotest objs/autotest.c]
+----------
+
+#include <sys/types.h>
+#include <unistd.h>
+#include <sys/socket.h>
+                  #include <netinet/in.h>
+
+int main(void) {
+    setsockopt(0, IPPROTO_IP, IP_SENDSRCADDR, NULL, 0);
+    return 0;
+}
+
+----------
+wllvm -pipe -O0 -I/home/hjoll6/Workspace/CMI-project/cmi/include -fno-stack-protector -mno-avx -mno-sse -Wno-sign-compare -Wno-unused-function -Wno-unused-command-line-argument -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -o objs/autotest objs/autotest.c
+----------
+
+----------------------------------------
+checking for IP_PKTINFO
+
+clang: warning: argument unused during compilation: '-nostdinc' [-Wunused-command-line-argument]
+
+----------------------------------------
+checking for IPV6_RECVPKTINFO
+
+clang: warning: argument unused during compilation: '-nostdinc' [-Wunused-command-line-argument]
+
+----------------------------------------
+checking for TCP_DEFER_ACCEPT
+
+clang: warning: argument unused during compilation: '-nostdinc' [-Wunused-command-line-argument]
+
+----------------------------------------
+checking for TCP_KEEPIDLE
+
+clang: warning: argument unused during compilation: '-nostdinc' [-Wunused-command-line-argument]
+
+----------------------------------------
+checking for TCP_FASTOPEN
+
+clang: warning: argument unused during compilation: '-nostdinc' [-Wunused-command-line-argument]
+
+----------------------------------------
+checking for TCP_INFO
+
+clang: warning: argument unused during compilation: '-nostdinc' [-Wunused-command-line-argument]
+
+----------------------------------------
+checking for accept4()
+
+clang: warning: argument unused during compilation: '-nostdinc' [-Wunused-command-line-argument]
+
+----------------------------------------
+checking for eventfd()
+
+clang: warning: argument unused during compilation: '-nostdinc' [-Wunused-command-line-argument]
+
+----------------------------------------
+checking for int size
+
+clang: warning: argument unused during compilation: '-nostdinc' [-Wunused-command-line-argument]
+
+----------------------------------------
+checking for long size
+
+clang: warning: argument unused during compilation: '-nostdinc' [-Wunused-command-line-argument]
+
+----------------------------------------
+checking for long long size
+
+clang: warning: argument unused during compilation: '-nostdinc' [-Wunused-command-line-argument]
+
+----------------------------------------
+checking for void * size
+
+clang: warning: argument unused during compilation: '-nostdinc' [-Wunused-command-line-argument]
+
+----------------------------------------
+checking for uint32_t
+
+clang: warning: argument unused during compilation: '-nostdinc' [-Wunused-command-line-argument]
+
+----------------------------------------
+checking for uint64_t
+
+clang: warning: argument unused during compilation: '-nostdinc' [-Wunused-command-line-argument]
+
+----------------------------------------
+checking for sig_atomic_t
+
+clang: warning: argument unused during compilation: '-nostdinc' [-Wunused-command-line-argument]
+
+----------------------------------------
+checking for sig_atomic_t size
+
+clang: warning: argument unused during compilation: '-nostdinc' [-Wunused-command-line-argument]
+
+----------------------------------------
+checking for socklen_t
+
+clang: warning: argument unused during compilation: '-nostdinc' [-Wunused-command-line-argument]
+
+----------------------------------------
+checking for in_addr_t
+
+clang: warning: argument unused during compilation: '-nostdinc' [-Wunused-command-line-argument]
+
+----------------------------------------
+checking for in_port_t
+
+clang: warning: argument unused during compilation: '-nostdinc' [-Wunused-command-line-argument]
+
+----------------------------------------
+checking for rlim_t
+
+clang: warning: argument unused during compilation: '-nostdinc' [-Wunused-command-line-argument]
+
+----------------------------------------
+checking for uintptr_t
+
+clang: warning: argument unused during compilation: '-nostdinc' [-Wunused-command-line-argument]
+
+----------------------------------------
+checking for system byte ordering
+
+clang: warning: argument unused during compilation: '-nostdinc' [-Wunused-command-line-argument]
+
+----------------------------------------
+checking for size_t size
+
+clang: warning: argument unused during compilation: '-nostdinc' [-Wunused-command-line-argument]
+
+----------------------------------------
+checking for off_t size
+
+clang: warning: argument unused during compilation: '-nostdinc' [-Wunused-command-line-argument]
+
+----------------------------------------
+checking for time_t size
+
+clang: warning: argument unused during compilation: '-nostdinc' [-Wunused-command-line-argument]
+
+----------------------------------------
+checking for AF_INET6
+
+clang: warning: argument unused during compilation: '-nostdinc' [-Wunused-command-line-argument]
+
+----------------------------------------
+checking for setproctitle()
+
+objs/autotest.c:7:5: warning: implicit declaration of function 'setproctitle' is invalid in C99 [-Wimplicit-function-declaration]
+    setproctitle("test");;
+    ^
+1 warning generated.
+/usr/bin/ld: /tmp/autotest-445322.o: in function `main':
+autotest.c:(.text+0x19): undefined reference to `setproctitle'
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+ERROR:Failed to compile using given arguments: [-pipe -O0 -I/home/hjoll6/Workspace/CMI-project/cmi/include -fno-stack-protector -mno-avx -mno-sse -Wno-sign-compare -Wno-unused-function -Wno-unused-command-line-argument -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -o objs/autotest objs/autotest.c]
+----------
+
+#include <sys/types.h>
+#include <unistd.h>
+#include <stdlib.h>
+
+int main(void) {
+    setproctitle("test");;
+    return 0;
+}
+
+----------
+wllvm -pipe -O0 -I/home/hjoll6/Workspace/CMI-project/cmi/include -fno-stack-protector -mno-avx -mno-sse -Wno-sign-compare -Wno-unused-function -Wno-unused-command-line-argument -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -o objs/autotest objs/autotest.c
+----------
+
+----------------------------------------
+checking for pread()
+
+clang: warning: argument unused during compilation: '-nostdinc' [-Wunused-command-line-argument]
+
+----------------------------------------
+checking for pwrite()
+
+clang: warning: argument unused during compilation: '-nostdinc' [-Wunused-command-line-argument]
+
+----------------------------------------
+checking for pwritev()
+
+clang: warning: argument unused during compilation: '-nostdinc' [-Wunused-command-line-argument]
+
+----------------------------------------
+checking for sys_nerr
+
+objs/autotest.c:8:18: error: use of undeclared identifier 'sys_nerr'
+    printf("%d", sys_nerr);;
+                 ^
+1 error generated.
+ERROR:Failed to compile using given arguments: [-pipe -O0 -I/home/hjoll6/Workspace/CMI-project/cmi/include -fno-stack-protector -mno-avx -mno-sse -Wno-sign-compare -Wno-unused-function -Wno-unused-command-line-argument -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -o objs/autotest objs/autotest.c]
+----------
+
+#include <sys/types.h>
+#include <unistd.h>
+#include <errno.h>
+                  #include <stdio.h>
+
+int main(void) {
+    printf("%d", sys_nerr);;
+    return 0;
+}
+
+----------
+wllvm -pipe -O0 -I/home/hjoll6/Workspace/CMI-project/cmi/include -fno-stack-protector -mno-avx -mno-sse -Wno-sign-compare -Wno-unused-function -Wno-unused-command-line-argument -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -o objs/autotest objs/autotest.c
+----------
+
+----------------------------------------
+checking for _sys_nerr
+
+objs/autotest.c:8:18: error: use of undeclared identifier '_sys_nerr'
+    printf("%d", _sys_nerr);;
+                 ^
+1 error generated.
+ERROR:Failed to compile using given arguments: [-pipe -O0 -I/home/hjoll6/Workspace/CMI-project/cmi/include -fno-stack-protector -mno-avx -mno-sse -Wno-sign-compare -Wno-unused-function -Wno-unused-command-line-argument -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -o objs/autotest objs/autotest.c]
+----------
+
+#include <sys/types.h>
+#include <unistd.h>
+#include <errno.h>
+                      #include <stdio.h>
+
+int main(void) {
+    printf("%d", _sys_nerr);;
+    return 0;
+}
+
+----------
+wllvm -pipe -O0 -I/home/hjoll6/Workspace/CMI-project/cmi/include -fno-stack-protector -mno-avx -mno-sse -Wno-sign-compare -Wno-unused-function -Wno-unused-command-line-argument -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -o objs/autotest objs/autotest.c
+----------
+
+----------------------------------------
+checking for maximum errno
+
+clang: warning: argument unused during compilation: '-nostdinc' [-Wunused-command-line-argument]
+1000
+----------------------------------------
+checking for localtime_r()
+
+clang: warning: argument unused during compilation: '-nostdinc' [-Wunused-command-line-argument]
+
+----------------------------------------
+checking for clock_gettime(CLOCK_MONOTONIC)
+
+clang: warning: argument unused during compilation: '-nostdinc' [-Wunused-command-line-argument]
+
+----------------------------------------
+checking for posix_memalign()
+
+clang: warning: argument unused during compilation: '-nostdinc' [-Wunused-command-line-argument]
+
+----------------------------------------
+checking for memalign()
+
+clang: warning: argument unused during compilation: '-nostdinc' [-Wunused-command-line-argument]
+
+----------------------------------------
+checking for mmap(MAP_ANON|MAP_SHARED)
+
+clang: warning: argument unused during compilation: '-nostdinc' [-Wunused-command-line-argument]
+
+----------------------------------------
+checking for mmap("/dev/zero", MAP_SHARED)
+
+clang: warning: argument unused during compilation: '-nostdinc' [-Wunused-command-line-argument]
+
+----------------------------------------
+checking for System V shared memory
+
+clang: warning: argument unused during compilation: '-nostdinc' [-Wunused-command-line-argument]
+
+----------------------------------------
+checking for POSIX semaphores
+
+clang: warning: argument unused during compilation: '-nostdinc' [-Wunused-command-line-argument]
+
+----------------------------------------
+checking for struct msghdr.msg_control
+
+clang: warning: argument unused during compilation: '-nostdinc' [-Wunused-command-line-argument]
+
+----------------------------------------
+checking for ioctl(FIONBIO)
+
+clang: warning: argument unused during compilation: '-nostdinc' [-Wunused-command-line-argument]
+
+----------------------------------------
+checking for ioctl(FIONREAD)
+
+clang: warning: argument unused during compilation: '-nostdinc' [-Wunused-command-line-argument]
+
+----------------------------------------
+checking for struct tm.tm_gmtoff
+
+clang: warning: argument unused during compilation: '-nostdinc' [-Wunused-command-line-argument]
+
+----------------------------------------
+checking for struct dirent.d_namlen
+
+objs/autotest.c:8:29: error: no member named 'd_namlen' in 'struct dirent'; did you mean 'd_reclen'?
+    struct dirent  dir; dir.d_namlen = 0;
+                            ^~~~~~~~
+                            d_reclen
+/home/hjoll6/.local/musl/include/bits/dirent.h:8:17: note: 'd_reclen' declared here
+        unsigned short d_reclen;
+                       ^
+objs/autotest.c:9:42: error: no member named 'd_namlen' in 'struct dirent'; did you mean 'd_name'?
+                  printf("%d", (int) dir.d_namlen);
+                                         ^~~~~~~~
+                                         d_name
+/home/hjoll6/.local/musl/include/bits/dirent.h:10:7: note: 'd_name' declared here
+        char d_name[256];
+             ^
+objs/autotest.c:9:32: warning: cast to smaller integer type 'int' from 'char *' [-Wpointer-to-int-cast]
+                  printf("%d", (int) dir.d_namlen);
+                               ^~~~~~~~~~~~~~~~~~
+1 warning and 2 errors generated.
+ERROR:Failed to compile using given arguments: [-pipe -O0 -I/home/hjoll6/Workspace/CMI-project/cmi/include -fno-stack-protector -mno-avx -mno-sse -Wno-sign-compare -Wno-unused-function -Wno-unused-command-line-argument -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -o objs/autotest objs/autotest.c]
+----------
+
+#include <sys/types.h>
+#include <unistd.h>
+#include <dirent.h>
+                  #include <stdio.h>
+
+int main(void) {
+    struct dirent  dir; dir.d_namlen = 0;
+                  printf("%d", (int) dir.d_namlen);
+    return 0;
+}
+
+----------
+wllvm -pipe -O0 -I/home/hjoll6/Workspace/CMI-project/cmi/include -fno-stack-protector -mno-avx -mno-sse -Wno-sign-compare -Wno-unused-function -Wno-unused-command-line-argument -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -o objs/autotest objs/autotest.c
+----------
+
+----------------------------------------
+checking for struct dirent.d_type
+
+clang: warning: argument unused during compilation: '-nostdinc' [-Wunused-command-line-argument]
+
+----------------------------------------
+checking for sysconf(_SC_NPROCESSORS_ONLN)
+
+clang: warning: argument unused during compilation: '-nostdinc' [-Wunused-command-line-argument]
+
+----------------------------------------
+checking for sysconf(_SC_LEVEL1_DCACHE_LINESIZE)
+
+objs/autotest.c:7:13: error: use of undeclared identifier '_SC_LEVEL1_DCACHE_LINESIZE'
+    sysconf(_SC_LEVEL1_DCACHE_LINESIZE);
+            ^
+1 error generated.
+ERROR:Failed to compile using given arguments: [-pipe -O0 -I/home/hjoll6/Workspace/CMI-project/cmi/include -fno-stack-protector -mno-avx -mno-sse -Wno-sign-compare -Wno-unused-function -Wno-unused-command-line-argument -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -o objs/autotest objs/autotest.c]
+----------
+
+#include <sys/types.h>
+#include <unistd.h>
+
+
+int main(void) {
+    sysconf(_SC_LEVEL1_DCACHE_LINESIZE);
+    return 0;
+}
+
+----------
+wllvm -pipe -O0 -I/home/hjoll6/Workspace/CMI-project/cmi/include -fno-stack-protector -mno-avx -mno-sse -Wno-sign-compare -Wno-unused-function -Wno-unused-command-line-argument -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -o objs/autotest objs/autotest.c
+----------
+
+----------------------------------------
+checking for openat(), fstatat()
+
+clang: warning: argument unused during compilation: '-nostdinc' [-Wunused-command-line-argument]
+
+----------------------------------------
+checking for getaddrinfo()
+
+clang: warning: argument unused during compilation: '-nostdinc' [-Wunused-command-line-argument]

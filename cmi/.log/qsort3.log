@@ -1,0 +1,45 @@
+           1000 aes                qsort_u32      62651156    b5df40d
+1000 page6_perm_aes                qsort_u32      26739170    b5df40d
+           2000 aes                qsort_u32     145535422   e744952b
+2000 page6_perm_aes                qsort_u32      72239018   e744952b
+           3000 aes                qsort_u32     231294464   af2cd3a2
+3000 page6_perm_aes                qsort_u32     119036652   af2cd3a2
+           4000 aes                qsort_u32     323810566   ec2c77f1
+4000 page6_perm_aes                qsort_u32     170746252   ec2c77f1
+           5000 aes                qsort_u32     419692556   25f92f10
+5000 page6_perm_aes                qsort_u32     226323814   25f92f10
+           6000 aes                qsort_u32     522818756    ae1a56b
+6000 page6_perm_aes                qsort_u32     284715374    ae1a56b
+           7000 aes                qsort_u32     612120242   62acb696
+7000 page6_perm_aes                qsort_u32     338708894   62acb696
+           8000 aes                qsort_u32     694806000   72871fd4
+8000 page6_perm_aes                qsort_u32     388094376   72871fd4
+           9000 aes                qsort_u32     826439720   384d2651
+9000 page6_perm_aes                qsort_u32     467883410   384d2651
+          10000 aes                qsort_u32     923825330   a4c712b2
+0000 page6_perm_aes                qsort_u32     528311818   a4c712b2
+          11000 aes                qsort_u32    1027403036   67855462
+1000 page6_perm_aes                qsort_u32     590914374   67855462
+          12000 aes                qsort_u32    1129485224   57ea9d93
+2000 page6_perm_aes                qsort_u32     654716254   57ea9d93
+          13000 aes                qsort_u32    1239567282   7366edde
+3000 page6_perm_aes                qsort_u32     725134302   7366edde
+          14000 aes                qsort_u32    1368506354   ee749277
+4000 page6_perm_aes                qsort_u32     800963774   ee749277
+          15000 aes                qsort_u32    1466458990   93fed1ec
+5000 page6_perm_aes                qsort_u32     868076812   93fed1ec
+          16000 aes                qsort_u32    1569584244   5ad691e5
+6000 page6_perm_aes                qsort_u32     932057746   5ad691e5
+          17000 aes                qsort_u32    1679924446   82732370
+7000 page6_perm_aes                qsort_u32    1212063402   f373a9c6
+          18000 aes                qsort_u32    1813718224   7c39ef78
+8000 page6_perm_aes                qsort_u32    2856537582    4c60625
+          19000 aes                qsort_u32    1916461596   2442a74e
+9000 page6_perm_aes                qsort_u32    6579677124   c5487260
+          20000 aes                qsort_u32    2024075098   9e9712a4
+0000 page6_perm_aes                qsort_u32   12182079524   a4e30856
+          21000 aes                qsort_u32    2143966378   7365041e
+1000 page6_perm_aes                qsort_u32   18922586204   1e1a24db
+          22000 aes                qsort_u32    2261135314   be69cebd
+2000 page6_perm_aes                qsort_u32   27080740016    44bd0fb
+          23000 aes                qsort_u32    2357206154   2529ecf0

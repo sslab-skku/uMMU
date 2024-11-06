@@ -1,0 +1,9 @@
+/.log/
+.htpasswd
+.vscode
+.tmp
+**/build
+**/builds
+**/out
+**/*.bc
+**/*.o
