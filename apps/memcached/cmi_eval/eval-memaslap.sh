@@ -59,8 +59,8 @@ main(){
     )
     TARGETS=(
         # memcached
-        # $BIN_PREFIX.base.out
-        #$BIN_PREFIX.oramB64Z4L12.out
+        $BIN_PREFIX.base.out
+        $BIN_PREFIX.oramB64Z4L12.out
         $BIN_PREFIX.page6_oramB64Z4L12.out
     )
     LEN_MIN=500

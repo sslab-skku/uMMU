@@ -7,18 +7,24 @@ TARGET=${1:-base}
 MSG=$(openssl rand -hex 1000 |head -c 64)
 echo $MSG
 
-main(){
-    echo ""
-}
 
 # apps/mbedtls/
 
 APP=apps/mbedtls/out/eval
 llvm-pass/run-passes.sh $APP.bc
 # ./run-cmi.sh base apps/mbedtls/out/eval.inst.bc
-#./run-cmi.sh zmm apps/mbedtls/out/eval.inst.bc
+# ./run-cmi.sh zmm apps/mbedtls/out/eval.inst.bc
 # ./run-cmi.sh aes $APP.inst.bc
-./run-cmi.sh page6_rasm_indjmp_aes $APP.inst.bc
+
+echo ""
+echo ">>>> BASELINE <<<<"
+./run-cmi.sh base $APP.inst.bc 2> /tmp/cmi.log
+
+echo ""
+echo ">>>> uMMU <<<<"
+./run-cmi.sh page6_rasm_indjmp_aes $APP.inst.bc 2> /tmp/cmi.log
+
+# ./run-cmi.sh page6_rasm_indjmp_aes $APP.inst.bc
 
 # APP=apps/mbedtls/out/eval_rsa
 # APP=apps/mbedtls/out/eval_rsa
