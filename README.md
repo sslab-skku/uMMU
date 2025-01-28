@@ -117,4 +117,20 @@ cd apps/memcached/cmi_eval/
 ```
 
 # Bibtex
-TODO
+```
+@inproceedings{10.1145/3658644.3690340,
+author = {Lim, Hajeong and Kim, Jaeyoon and Lee, Hojoon},
+title = {uMMU: Securing Data Confidentiality with Unobservable Memory Subsystem},
+year = {2024},
+isbn = {9798400706363},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3658644.3690340},
+doi = {10.1145/3658644.3690340},
+pages = {2993–3007},
+numpages = {15},
+keywords = {memory protection, secure computation, side-channel defense},
+location = {Salt Lake City, UT, USA},
+series = {CCS '24}
+}
+```
